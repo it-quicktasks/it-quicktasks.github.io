@@ -8,7 +8,7 @@ env:
   - REPO="it-quicktasks.github.io"
   - BUILD_DIR="public"
   - GH_REPO="github.com/${USER}/${REPO}.git"
-  - HUGO_INSTALLER_URL="https://github.com/gohugoio/hugo/releases/download/v0.68.0/hugo_0.68.0_Linux-64bit.deb"
+  - HUGO_INSTALLER_URL="https://github.com/gohugoio/hugo/releases/download/v0.68.1/hugo_0.68.1_Linux-64bit.deb"
   - GH_PUBLISH_BRANCH='gh-pages'
 
 ## Force commit to 'gh-pages' the built hugo site
