@@ -1,0 +1,43 @@
+language: python
+
+env:
+  global:
+  - USER="it-quicktasks"
+  - EMAIL="deploy@travis-ci.com"
+  - DEPLOYMENT_USER="traviscibot"
+  - REPO="it-quicktasks.github.io"
+  - BUILD_DIR="public"
+  - GH_REPO="github.com/${USER}/${REPO}.git"
+  - HUGO_INSTALLER_URL="https://github.com/gohugoio/hugo/releases/download/v0.68.0/hugo_0.68.0_Linux-64bit.deb"
+  - GH_PUBLISH_BRANCH='gh-pages'
+
+## Force commit to 'gh-pages' the built hugo site
+after_success:
+  - if [ -z $GITHUB_TOKEN ]; then echo "GITHUB_TOKEN var undefined, aborting."; exit 1; fi
+  - MESSAGE='Auto-built and commit via Travis CI.'
+  - ls -l
+  - raw_post_count=$(ls -1 content/post/*.md | wc -l)
+  - echo "raw_post_count $raw_post_count"
+  - mv ${BUILD_DIR} ~/ || exit 1
+  - cd ~/${BUILD_DIR}
+  ## generated post has two extra files that distorts count:
+  ## (1) post/index.html and (2) post/index.xml so those have to be removed.
+  ##
+  - gen_post_count=$(ls -1d post/* | grep -v index | wc -l)
+  - echo "gen_post_count $gen_post_count"
+  - if [ $raw_post_count -ne $gen_post_count ]; then echo 'Mismatch between generated post vs expected seen. Aborting.'; exit 1; fi
+  - git init
+  - git add .
+  - git config user.email ${EMAIL}
+  - git config user.name ${DEPLOYMENT_USER}
+  - git commit -m "${MESSAGE}"
+  - git checkout -b ${GH_PUBLISH_BRANCH}
+  - git push "https://${GITHUB_TOKEN}@${GH_REPO}" ${GH_PUBLISH_BRANCH} -f
+
+install:
+    - wget ${HUGO_INSTALLER_URL}
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+
+script:
+    - hugo -s ./
