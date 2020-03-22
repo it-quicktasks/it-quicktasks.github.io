@@ -23,9 +23,10 @@ after_success:
   ## generated post has two extra files that distorts count:
   ## (1) post/index.html and (2) post/index.xml so those have to be removed.
   ##
-  - gen_post_count=$(ls -1d post/* | grep -v index | wc -l)
-  - echo "gen_post_count $gen_post_count"
-  - if [ $raw_post_count -ne $gen_post_count ]; then echo 'Mismatch between generated post vs expected seen. Aborting.'; exit 1; fi
+#~ NOTE: Removed validation for now since this changed after theme change. - icasimpan Mar 22, 2020
+#~  - gen_post_count=$(ls -1d post/* | grep -v index | wc -l)
+#~  - echo "gen_post_count $gen_post_count"
+#~  - if [ $raw_post_count -ne $gen_post_count ]; then echo 'Mismatch between generated post vs expected seen. Aborting.'; exit 1; fi
   - git init
   - git add .
   - git config user.email ${EMAIL}
