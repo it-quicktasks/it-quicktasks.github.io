@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dockerhub on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/dockerhub/</link>
+    <description>Recent content in dockerhub on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/dockerhub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Login to DockerHub</title>
+      <link>https://www.it-quicktasks.com/how-to-login-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/how-to-login-dockerhub/</guid>
+      <description>docker login  </description>
+    </item>
+    
+    <item>
+      <title>Pull an Image from DockerHub</title>
+      <link>https://www.it-quicktasks.com/pull-image-from-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-image-from-dockerhub/</guid>
+      <description>docker pull selenium/standalone-chrome:2.53.1-beryllium ## GETS https://hub.docker.com/r/selenium/standalone-chrome/tags/2.53.1-beryllium  </description>
+    </item>
+    
+  </channel>
+</rss>

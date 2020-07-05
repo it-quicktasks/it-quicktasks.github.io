@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>status on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/status/</link>
+    <description>Recent content in status on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Checking current status of fail2ban</title>
+      <link>https://www.it-quicktasks.com/check-current-fail2ban-status/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-current-fail2ban-status/</guid>
+      <description>root@example:/var/log# fail2ban-client status Status |- Number of jail: 1 `- Jail list: sshd  </description>
+    </item>
+    
+    <item>
+      <title>Checking status of specific jail</title>
+      <link>https://www.it-quicktasks.com/check-status-specific-jail/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-status-specific-jail/</guid>
+      <description>root@example:/var/log# fail2ban-client status sshd Status for the jail: sshd |- Filter | |- Currently failed: 6 | |- Total failed: 91801 | `- File list: /var/log/auth.log `- Actions |- Currently banned: 1 |- Total banned: 9971 `- Banned IP list: 51.15.255.133  </description>
+    </item>
+    
+  </channel>
+</rss>

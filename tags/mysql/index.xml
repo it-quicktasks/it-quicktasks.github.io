@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/mysql/</link>
+    <description>Recent content in mysql on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jun 2020 23:11:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MySQLDump Except Locked Tables</title>
+      <link>https://www.it-quicktasks.com/mysqldump-except-locked-tables/</link>
+      <pubDate>Wed, 17 Jun 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysqldump-except-locked-tables/</guid>
+      <description>MySQL will go down if locked tables are touched during dump. Use the following mysqldump syntax instead:
+mysqldump --single-transaction --skip-lock-tables  </description>
+    </item>
+    
+    <item>
+      <title>Truncate Table</title>
+      <link>https://www.it-quicktasks.com/truncate-mysql-table/</link>
+      <pubDate>Wed, 10 Jun 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/truncate-mysql-table/</guid>
+      <description>To delete the entries BUT not the table, use:
+TRUNCATE TABLE &amp;lt;table_name&amp;gt;;  See details in https://www.mysqltutorial.org/mysql-truncate-table/</description>
+    </item>
+    
+    <item>
+      <title>MySQL/MariaDB with Credentials File</title>
+      <link>https://www.it-quicktasks.com/mysql-with-credentials-file/</link>
+      <pubDate>Tue, 12 May 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-with-credentials-file/</guid>
+      <description>Using a configuration file for mysql is a good practice as you don&amp;rsquo;t immediately expose credentials. Below, you are going to mysql cli and immediately using the db named dbName.
+mysql --defaults-file=/path/to/credentials.ini dbName  where credentials.ini has this format:
+[client] host=&amp;lt;replace_with_servername_or_ip&amp;gt; user=&amp;lt;replace_with_db_user&amp;gt; password=&amp;lt;replace_with_db_password&amp;gt;  Of course, there are other security precautions you could take, not just the above but it&amp;rsquo;s a good start. See further info on securing mysql in https://dev.</description>
+    </item>
+    
+    <item>
+      <title>Cannot write pid file</title>
+      <link>https://www.it-quicktasks.com/cannot-create-pid-file/</link>
+      <pubDate>Wed, 19 Feb 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cannot-create-pid-file/</guid>
+      <description>MariaDB seems to have this issue and can&amp;rsquo;t start as shown in /var/log/mariadb/mariadb.log
+2020-02-19 15:18:49 0 [ERROR] mysqld: Can&#39;t create/write to file &#39;/var/run/mariadb/mariadb.pid&#39; (Errcode: 2 &amp;quot;No such file or directory&amp;quot;)  I was able to fix one instance of this issue by doing:
+sudo mkdir /var/run/mariadb sudo chown mysql.mysql /var/run/mariadb  Then afterwards, starting the mariadb service went fine.
+Some possible solutions in case my solution doesn&amp;rsquo;t work https://stackoverflow.com/questions/15408643/cant-connect-to-mysql-server-cant-create-write-the-pid-file</description>
+    </item>
+    
+    <item>
+      <title>Show Table Sizes</title>
+      <link>https://www.it-quicktasks.com/table-sizes/</link>
+      <pubDate>Tue, 21 Jan 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/table-sizes/</guid>
+      <description>Use the query below and replace &amp;ldquo;database_name&amp;rdquo; with the correct db name.
+SELECT table_name AS &amp;quot;Table&amp;quot;, ROUND(((data_length + index_length) / 1024 / 1024), 2) AS &amp;quot;Size (MB)&amp;quot; FROM information_schema.TABLES WHERE table_schema = &amp;quot;database_name&amp;quot; ORDER BY (data_length + index_length) DESC;  </description>
+    </item>
+    
+    <item>
+      <title>Shrink Huge ibdata1</title>
+      <link>https://www.it-quicktasks.com/shrink-huge-ibdata1/</link>
+      <pubDate>Sun, 24 Nov 2019 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/shrink-huge-ibdata1/</guid>
+      <description>Best way is to make one file per table and not use default which baloons to a huge file and never shrinks when some tables are removed and unused. See https://www.thegeekstuff.com/2016/02/mysql-innodb-file-per-table</description>
+    </item>
+    
+    <item>
+      <title>Dump MySQL Database but Skip Some Table(s)</title>
+      <link>https://www.it-quicktasks.com/dump-database-skip-some-table/</link>
+      <pubDate>Sun, 24 Nov 2019 12:38:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-database-skip-some-table/</guid>
+      <description>mysqldump -u&amp;lt;username&amp;gt; -p&amp;lt;password&amp;gt; --no-create-db myDB --ignore-table=myDB.table1 --ignore-table=myDB.table3-h localhost &amp;gt; mysql.backup  See https://tecadmin.net/tutorial/mysql/skip-tables-in-mysqldump/</description>
+    </item>
+    
+    <item>
+      <title>Slow Query Logs</title>
+      <link>https://www.it-quicktasks.com/slow-query-logs/</link>
+      <pubDate>Tue, 12 Feb 2019 22:47:36 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/slow-query-logs/</guid>
+      <description>slow_query_log = 1 long_query_time = 1 slow_query_log_file = /var/log/mariadb/slow-query.log log_queries_not_using_indexes  See details in https://www.cyberciti.biz/faq/how-to-set-and-enable-mariadb-slow-query-log-linux-unix/</description>
+    </item>
+    
+    <item>
+      <title>[InnoDB] Fatal error: cannot allocate memory for the buffer pool</title>
+      <link>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</link>
+      <pubDate>Sat, 29 Dec 2018 09:47:00 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</guid>
+      <description>From /var/log/mariadb/mariadb.log, something like
+ 150515 12:10:45 InnoDB: Completed initialization of buffer pool 150515 12:10:45 InnoDB: Fatal error: cannot allocate memory for the buffer pool 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; init function returned error. 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; registration as a STORAGE ENGINE failed. 150515 12:10:45 [ERROR] Unknown/unsupported storage engine: InnoDB 150515 12:10:45 [ERROR] Aborting  Ensure to allocate 50% of max machine RAM. Assuming you have 2GB in the machine, you&amp;rsquo;ll need</description>
+    </item>
+    
+    <item>
+      <title>MariaDB Table Join Limit</title>
+      <link>https://www.it-quicktasks.com/mariadb-tablejoin-limit/</link>
+      <pubDate>Tue, 23 Oct 2018 22:30:18 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mariadb-tablejoin-limit/</guid>
+      <description>Maximum number of table joins is 61 as per https://stackoverflow.com/questions/23389820/what-is-the-maximum-number-of-table-joins-in-mariadb Tested out as follows:
+CREATE TABLE t (i INT(10) NOT NULL); select * from t a01 join t a02 join t a03 join t a04 join t a05 join t a06 join t a07 join t a08 join t a09 join t a10 join t a11 join t a12 join t a13 join t a14 join t a15 join t a16 join t a17 join t a18 join t a19 join t a20 join t a21 join t a22 join t a23 join t a24 join t a25 join t a26 join t a27 join t a28 join t a29 join t a30 join t a31 join t a32 join t a33 join t a34 join t a35 join t a36 join t a37 join t a38 join t a39 join t a40 join t a41 join t a42 join t a43 join t a44 join t a45 join t a46 join t a47 join t a48 join t a49 join t a50 join t a51 join t a52 join t a53 join t a54 join t a55 join t a56 join t a57 join t a58 join t a59 join t a60 join t a61 join t a62;  Results in error for more than 61 table used (tested on MariaDB 10.</description>
+    </item>
+    
+    <item>
+      <title>Get Number of Seconds Slave Is Behind Master</title>
+      <link>https://www.it-quicktasks.com/get-number-of-seconds-slave-is-behind-master/</link>
+      <pubDate>Mon, 15 Oct 2018 12:45:19 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-number-of-seconds-slave-is-behind-master/</guid>
+      <description>Get replication status, and look for &amp;ldquo;Seconds_Behind_Master&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Get Replication Status in Slave</title>
+      <link>https://www.it-quicktasks.com/get-replication-status-in-slave/</link>
+      <pubDate>Mon, 15 Oct 2018 12:44:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-replication-status-in-slave/</guid>
+      <description>mysql&amp;gt; show slave status\G;  </description>
+    </item>
+    
+    <item>
+      <title>Count Number of Tables in a MySQL Database</title>
+      <link>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</link>
+      <pubDate>Mon, 15 Oct 2018 12:43:31 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</guid>
+      <description>mysql&amp;gt; select distinct(TABLE_SCHEMA) from information_schema.tables; +--------------------+ | TABLE_SCHEMA | +--------------------+ | information_schema | | drcongo | | mysql | | performance_schema | | pseademo | | pseairaq | | sys | +--------------------+ mysql&amp;gt; select count(*) from information_schema.tables where TABLE_SCHEMA=&#39;drcongo&#39;; +----------+ | count(*) | +----------+ | 333 | +----------+ 1 row in set (0.00 sec)  </description>
+    </item>
+    
+    <item>
+      <title>List Table Names Only for Shell Scripting Purposes</title>
+      <link>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</link>
+      <pubDate>Mon, 15 Oct 2018 12:42:34 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</guid>
+      <description>mysql -s --skip-column-names -ne &amp;quot;use DB_to_Use; show tables;&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Some MySQL Tweaking Tips</title>
+      <link>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</link>
+      <pubDate>Mon, 15 Oct 2018 12:39:54 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</guid>
+      <description>See https://serverfault.com/questions/42789/how-to-increase-memory-usage-in-mysql-server-to-improve-speed</description>
+    </item>
+    
+    <item>
+      <title>Dump MySQL Database</title>
+      <link>https://www.it-quicktasks.com/dump-mysql-database/</link>
+      <pubDate>Mon, 15 Oct 2018 12:38:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-mysql-database/</guid>
+      <description>mysqldump -u&amp;lt;username&amp;gt; -p&amp;lt;password&amp;gt; --no-create-db myDB -h localhost &amp;gt; mysql.backup  That way, it would strip the original database name and NOT become a problem when importing to another database name. See https://stackoverflow.com/questions/30835874/how-to-avoid-use-database-statement-on-mysqldump-backups</description>
+    </item>
+    
+    <item>
+      <title>AUTOMySQLBackup: Looking for .my.cnf in your $HOME instead of in /root</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-looking-for-.my.cnf-on-your-home-instead-of-in-root/</link>
+      <pubDate>Mon, 15 Oct 2018 12:32:03 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-looking-for-.my.cnf-on-your-home-instead-of-in-root/</guid>
+      <description>root@rh:~# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; grep: /home/icasimpan/.my.cnf: No such file or directory grep: /home/icasimpan/.my.cnf: No such file or directory # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/fullschema&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>Automysqlbackup Fails Due to Issues in Information_schema</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</link>
+      <pubDate>Mon, 15 Oct 2018 12:11:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</guid>
+      <description>In a machine &amp;lsquo;rh&amp;rsquo;, tested automysqlbackup cron job if it would work and got the issue below:
+[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>Automysqlbackup: Cannot Use Root Credentials From MySQL CLI</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-cannot-use-root-credentials-from-mysql-cli/</link>
+      <pubDate>Mon, 15 Oct 2018 12:00:13 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-cannot-use-root-credentials-from-mysql-cli/</guid>
+      <description>[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/fullschema&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/status&amp;quot; ... exists. # Testing for installed programs mysql .</description>
+    </item>
+    
+    <item>
+      <title>Check Current Character Set Settings in MySQL</title>
+      <link>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</link>
+      <pubDate>Mon, 15 Oct 2018 07:46:36 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</guid>
+      <description>mysql&amp;gt; SHOW VARIABLES WHERE Variable_name LIKE &#39;character\_set\_%&#39; OR Variable_name LIKE &#39;collation%&#39;;  Sample output as follows: </description>
+    </item>
+    
+    <item>
+      <title>Checking Supported Character Set</title>
+      <link>https://www.it-quicktasks.com/checking-supported-character-set/</link>
+      <pubDate>Mon, 15 Oct 2018 07:41:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-supported-character-set/</guid>
+      <description>mysql&amp;gt; SHOW CHARACTER SET;  </description>
+    </item>
+    
+    <item>
+      <title>Undefined Class Constant MYSQL_ATTR_SSL_CA</title>
+      <link>https://www.it-quicktasks.com/undefined-class-constant-mysql_attr_ssl_ca/</link>
+      <pubDate>Mon, 15 Oct 2018 07:27:21 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/undefined-class-constant-mysql_attr_ssl_ca/</guid>
+      <description>drupal@ubuntu:/var/www/sites/openedu.localhost/docroot$ drush si site-name=&#39;OpenEDU Testing&#39; --db-url=&#39;mysql://openedu_DBA:openedu_PASS@127.0.0.1/openedu_DB&#39; openedu PHP Fatal error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php:56 Stack trace: #0 /usr/local/share/drush/lib/Drush/Sql/SqlBase.php(164): Drush\Sql\Sqlmysql-&amp;gt;creds() #1 /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php(107): Drush\Sql\SqlBase-&amp;gt;query(&#39;SELECT 1;&#39;, &#39;/tmp/drush_uX7T...&#39;, &#39;/dev/null&#39;) #2 /usr/local/share/drush/commands/core/site_install.drush.inc(146): Drush\Sql\Sqlmysql-&amp;gt;db_exists() #3 /usr/local/share/drush/includes/command.inc(422): drush_core_pre_site_install(&#39;site-name=OpenE...&#39;) #4 /usr/local/share/drush/includes/command.inc(231): _drush_invoke_hooks(Array, Array) #5 /usr/local/share/drush/includes/command.inc(199): drush_command(&#39;site-name=OpenE...&#39;) #6 /usr/local/share/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch(Array) #7 /usr/local/share/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot-&amp;gt;bootstrap_and_dispatch() #8 /usr/local/share/drush/drush.php(12): drush_main() #9 {main} thrown in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php on line 56 Drush command terminated abnormally due to an unrecoverable error. [error] Error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.</description>
+    </item>
+    
+    <item>
+      <title>Drush: Drop Mysql Tables Without Deleting Database</title>
+      <link>https://www.it-quicktasks.com/drush-drop-mysql-tables-without-deleting-database/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-drop-mysql-tables-without-deleting-database/</guid>
+      <description>In drupal root:
+drush sql-drop  </description>
+    </item>
+    
+    <item>
+      <title>Hardening Mysql</title>
+      <link>https://www.it-quicktasks.com/hardening-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:31:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hardening-mysql/</guid>
+      <description>icasimpan@am2018:~$ sudo mysql_secure_installation Securing the MySQL server deployment. Connecting to MySQL using a blank password. VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin? Press y|Y for Yes, any other key for No: Y There are three levels of password validation policy: LOW Length &amp;gt;= 8 MEDIUM Length &amp;gt;= 8, numeric, mixed case, and special characters STRONG Length &amp;gt;= 8, numeric, mixed case, special characters and dictionary file Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 8 Invalid option provided.</description>
+    </item>
+    
+    <item>
+      <title>Error 1273 (HY000): Unknown collation &#39;utf8mb4_unicode_520_ci</title>
+      <link>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</link>
+      <pubDate>Sun, 08 Apr 2018 23:28:33 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</guid>
+      <description>Caused by difference in database versions where the latest version you&amp;rsquo;re running does not support &amp;lsquo;utf8mb4unicode520_ci&amp;rsquo;.
+Search and replace it from within the dump file with &amp;lsquo;utf8mb4_unicode_ci&amp;rsquo;.
+See details in https://www.digitalocean.com/community/questions/error-1273-hy000-at-line-25-unknown-collation-utf8mb4_unicode_520_ci</description>
+    </item>
+    
+    <item>
+      <title>Mysql Not Restarting Nothing in Logs</title>
+      <link>https://www.it-quicktasks.com/mysql-not-restarting-nothing-in-logs/</link>
+      <pubDate>Sun, 08 Apr 2018 23:24:04 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-not-restarting-nothing-in-logs/</guid>
+      <description>Check /etc/mysql/my.cnf and examine &amp;ldquo;datadir&amp;rdquo; value. If it isn&amp;rsquo;t valid or you know the disk is bad, change it. Restart service and all will be well.</description>
+    </item>
+    
+    <item>
+      <title>Restore One Table</title>
+      <link>https://www.it-quicktasks.com/restore-one-table/</link>
+      <pubDate>Sun, 08 Apr 2018 23:22:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/restore-one-table/</guid>
+      <description>mysql -u root -p your_DB &amp;lt; ./your_system.sql  More details in https://stackoverflow.com/questions/9696249/restoring-a-mysql-table-back-to-the-database</description>
+    </item>
+    
+    <item>
+      <title>Dump One or More Table</title>
+      <link>https://www.it-quicktasks.com/dump-one-or-more-table/</link>
+      <pubDate>Sun, 08 Apr 2018 23:21:30 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-one-or-more-table/</guid>
+      <description>mysqldump -u root -p yourDB system &amp;gt; yourDB_system.sql  More details in https://dba.stackexchange.com/questions/9306/how-do-you-mysqldump-specific-tables</description>
+    </item>
+    
+    <item>
+      <title>Change MySQL User Credentials</title>
+      <link>https://www.it-quicktasks.com/change-mysql-user-credentials/</link>
+      <pubDate>Sun, 08 Apr 2018 23:20:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-mysql-user-credentials/</guid>
+      <description>For as long as you have root access to MySQL, this would work:
+UPDATE mysql.user SET Password=PASSWORD(&#39;new-password-here&#39;) WHERE USER=&#39;user-name-here&#39; AND Host=&#39;host-name-here&#39;;  more details from https://www.cyberciti.biz/faq/mysql-change-user-password/</description>
+    </item>
+    
+    <item>
+      <title>Delete User</title>
+      <link>https://www.it-quicktasks.com/delete-user/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-user/</guid>
+      <description>DROP USER &#39;yourDBA&#39;@&#39;localhost&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+    <item>
+      <title>Allow Remote Connections to MySQL/MariaDB</title>
+      <link>https://www.it-quicktasks.com/allow-remote-connections-to-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/allow-remote-connections-to-mysql/</guid>
+      <description>Use format below:
+GRANT ALL ON yourDB.* TO yourDBA@&#39;23.216.39.44&#39; IDENTIFIED BY &#39;yourPASS&#39;;  and make sure that &amp;lsquo;bind-address&amp;rsquo; in /etc/my.cnf is either 0.0.0.0 or commented out for this to take effect. Turn-off as well any firewall, SELinux, etc.
+Further details in https://www.digitalocean.com/community/questions/how-to-allow-remote-mysql-database-connection</description>
+    </item>
+    
+    <item>
+      <title>Mysql Server Has Gone Away Fix</title>
+      <link>https://www.it-quicktasks.com/mysql-server-has-gone-away-fix/</link>
+      <pubDate>Sun, 08 Apr 2018 22:33:18 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-server-has-gone-away-fix/</guid>
+      <description>If you see an error like the following:
+ERROR 2006 (HY000): MySQL server has gone away No connection. Trying to reconnect... Connection id: 990 Current database: yourDB  Add the the following to /etc/my.cnf, increasing the value if error persists.
+&#39;max_allowed_packet=64M&#39;  See https://stackoverflow.com/questions/7942154/mysql-error-2006-mysql-server-has-gone-away for reference.</description>
+    </item>
+    
+  </channel>
+</rss>

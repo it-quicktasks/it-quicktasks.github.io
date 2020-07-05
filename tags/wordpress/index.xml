@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/wordpress/</link>
+    <description>Recent content in wordpress on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Wordpress Setup</title>
+      <link>https://www.it-quicktasks.com/basic-wordpress-setup/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/basic-wordpress-setup/</guid>
+      <description>cd /path/to/wordpress/docroot wp-cli db export ../backups/example.org_prodDB-icasimpan-2019.02.07.sql ## On new SITE (example.net) cd /path/to/new-wordpress/docroot ## update &#39;wp-config.php&#39; if needed wp-cli db clean wp-cli db import /path/to/wordpress/docroot/backups/site_prodDB-icasimpan-2019.02.07.sql rsync -avz /path/to/wordpress/docroot/wp-content/ /path/to/new-wordpress/docroot/wp-content/ wp-cli search-replace example.org example.net ## PUT &#39;--dry-run&#39; to test first  </description>
+    </item>
+    
+    <item>
+      <title>DB Backup via wp_cli</title>
+      <link>https://www.it-quicktasks.com/db-backup-in-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/db-backup-in-wp_cli/</guid>
+      <description>cd /path/to/wordpress wp db export backups/name-of-db-backup.sql  </description>
+    </item>
+    
+    <item>
+      <title>Errors in Project NAMI (wordpress on mssql)</title>
+      <link>https://www.it-quicktasks.com/errors-in-project-nami-wp-on-mssql/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/errors-in-project-nami-wp-on-mssql/</guid>
+      <description>Warning: file_put_contents(C:/inetpub/sites/example-wimp13/wp-includes/fields_map.parsed_types.php): failed to open stream: Permission denied in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 202 Warning: include(C:\inetpub\sites\error_page.php): failed to open stream: No such file or directory in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 209 Warning: include(): Failed opening &#39;C:\inetpub\sites\error_page.php&#39; for inclusion (include_path=&#39;.;C:\php\pear&#39;) in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 209  Fix is to add the file &amp;ldquo;wp-includes\fields_map.parsed_types.php&amp;rdquo; with content
+&amp;lt;?php return array ( &#39;&#39; =&amp;gt; array ( ), ) ?&amp;gt;  and add write permission to IUSR. See details in https://github.</description>
+    </item>
+    
+    <item>
+      <title>Install wp_cli</title>
+      <link>https://www.it-quicktasks.com/install-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-wp_cli/</guid>
+      <description>curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar php wp-cli.phar --info ## check if it&#39;s working. chmod +x wp-cli.phar sudo mv wp-cli.phar /usr/local/bin/wp wp --info ## re-check if it&#39;s working as &#39;wp&#39;  Details in https://wp-cli.org/</description>
+    </item>
+    
+    <item>
+      <title>Plugin install without FTP Credentials</title>
+      <link>https://www.it-quicktasks.com/plugin-install-without-ftp-credentials/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/plugin-install-without-ftp-credentials/</guid>
+      <description>Normal behavior of Wordpress when installing plugin is to ask for FTP credentials. So to fix the problem, just add this line to wp-config.php (of course, make sure permission are fine).
+define(&#39;FS_METHOD&#39;,&#39;direct&#39;);  More troubleshooting details in https://www.digitalocean.com/community/questions/wordpress-asking-for-ftp-credentials</description>
+    </item>
+    
+    <item>
+      <title>Where is the database config </title>
+      <link>https://www.it-quicktasks.com/where-is-db-config/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/where-is-db-config/</guid>
+      <description>wp-config.php  </description>
+    </item>
+    
+    <item>
+      <title>Wordpress URL change</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change/</guid>
+      <description>in database/wp_options (&#39;siteurl&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>Wordpress URL change upon migration to another domain</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</guid>
+      <description>The easiest is to add it to &amp;ldquo;wp-config.php&amp;rdquo;. Something like:
+define(&#39;WP_HOME&#39;,&#39;http://NEW_DOMAIN.com/&#39;); define(&#39;WP_SITEURL&#39;,&#39;http://NEW_DOMAIN.com/&#39;);  You can test from &amp;lsquo;curl&amp;rsquo; it it works:
+curl -IL http://NEW_DOMAIN.com  </description>
+    </item>
+    
+  </channel>
+</rss>

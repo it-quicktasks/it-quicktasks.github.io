@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>url-change on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/url-change/</link>
+    <description>Recent content in url-change on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/url-change/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress URL change upon migration to another domain</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</guid>
+      <description>The easiest is to add it to &amp;ldquo;wp-config.php&amp;rdquo;. Something like:
+define(&#39;WP_HOME&#39;,&#39;http://NEW_DOMAIN.com/&#39;); define(&#39;WP_SITEURL&#39;,&#39;http://NEW_DOMAIN.com/&#39;);  You can test from &amp;lsquo;curl&amp;rsquo; it it works:
+curl -IL http://NEW_DOMAIN.com  </description>
+    </item>
+    
+  </channel>
+</rss>

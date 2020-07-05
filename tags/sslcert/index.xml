@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sslcert on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/sslcert/</link>
+    <description>Recent content in sslcert on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/sslcert/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cert Chain for a multi-domain Comondo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</guid>
+      <description>cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt &amp;gt;&amp;gt; cert-chain.pem  NOTE: This is the inverse of &amp;ldquo;Creating an SSL Bundle out of Comodo Positive SSL&amp;rdquo; which seems valid as well. Not sure if it&amp;rsquo;s valid in any order.</description>
+    </item>
+    
+    <item>
+      <title>Cert Chain for Positive wildcard multi-domain</title>
+      <link>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</guid>
+      <description>Given this list of files given by Comodo
+Root CA Certificate - AddTrustExternalCARoot.crt Intermediate CA Certificate - USERTrustRSAAddTrustCA.crt Intermediate CA Certificate - SectigoRSADomainValidationSecureServerCA.crt Your PositiveSSL Multi-Domain Certificate - 285695299.crt  Do the following:
+cat 285695299.crt SectigoRSADomainValidationSecureServerCA.crt USERTrustRSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; cert-chain.pem  </description>
+    </item>
+    
+    <item>
+      <title>Check Certificates Info</title>
+      <link>https://www.it-quicktasks.com/check-certificates-info/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-certificates-info/</guid>
+      <description>Check a Certificate Signing Request (CSR)  openssl req -text -noout -verify -in CSR.csr   Check a private key  openssl rsa -in privateKey.key -check   Check a certificate  openssl x509 -in certificate.crt -text -noout   Check a PKCS#12 file (.pfx or .p12)  openssl pkcs12 -info -in keyStore.p12  See https://www.sslshopper.com/csr-decoder.html or https://www.sslshopper.com/certificate-decoder.html</description>
+    </item>
+    
+    <item>
+      <title>Check SSL Connection</title>
+      <link>https://www.it-quicktasks.com/check-ssl-connection/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-ssl-connection/</guid>
+      <description>All the certificates (including Intermediates) should be displayed
+openssl s_client -connect www.google.com:443  Web UI checking possible in https://www.sslshopper.com/ssl-checker.html</description>
+    </item>
+    
+    <item>
+      <title>Converting Certs from Different Formats</title>
+      <link>https://www.it-quicktasks.com/converting-different-cert-formats/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/converting-different-cert-formats/</guid>
+      <description>Convert a DER file (.crt .cer .der) to PEM  openssl x509 -inform der -in certificate.cer -out certificate.pem   Convert a PEM file to DER  openssl x509 -outform der -in certificate.pem -out certificate.der   Convert a PKCS#12 file (.pfx .p12) containing a private key and certificates to PEM  openssl pkcs12 -in keyStore.pfx -out keyStore.pem -nodes   You can add -nocerts to only output the private key or add -nokeys to only output the certificates.</description>
+    </item>
+    
+    <item>
+      <title>Create SAN TLS/SSL Cert</title>
+      <link>https://www.it-quicktasks.com/create-san-sslcert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-san-sslcert/</guid>
+      <description>Create san.conf  [ req ] default_bits = 4096 prompt = no encrypt_key = no default_md = sha256 distinguished_name = dn req_extensions = req_ext [ dn ] CN = example.org emailAddress = webmaster@example.org O = Example Memorial Hospital OU = Example Memorial Hospital L = Chicago ST = Illinois C = US [ req_ext ] subjectAltName = DNS: example.org, DNS: www.example.org  NOTE: Do not leave out OU. Otherwise, you will see the error below.</description>
+    </item>
+    
+    <item>
+      <title>Creating an SSL Bundle out of Comodo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</guid>
+      <description>www.example.org.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; www.example.org-bundle.crt  See details in https://helpdesk.ssls.com/hc/en-us/articles/203427642-How-to-install-a-SSL-certificate-on-a-NGINX-server</description>
+    </item>
+    
+    <item>
+      <title>Cross-check Certificate with Private Key and CSR</title>
+      <link>https://www.it-quicktasks.com/cross-check-certificate-with-csr-and-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cross-check-certificate-with-csr-and-private-key/</guid>
+      <description>openssl x509 -noout -modulus -in certificate.crt | openssl md5 openssl rsa -noout -modulus -in privateKey.key | openssl md5 openssl req -noout -modulus -in CSR.csr | openssl md5  </description>
+    </item>
+    
+    <item>
+      <title>Formerly using nginx, Moving to Apache won&#39;t Renew Cert</title>
+      <link>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</guid>
+      <description>It&amp;rsquo;s quite expected that certificate won&amp;rsquo;t renew as the automation has been broken. What you can do is install the apache version of certbot
+yum install python-certbot-apache  and re-issue the certificate
+sudo certbot --apache -d www.example.org  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Existing Cert</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-existing-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-existing-cert/</guid>
+      <description>openssl x509 -x509toreq -in certificate.crt -out CSR.csr -signkey privateKey.key  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Existing Private Key</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-existing-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-existing-private-key/</guid>
+      <description>openssl req -out CSR.csr -key privateKey.key -new  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Private Key</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-private-key/</guid>
+      <description>openssl req -out CSR.csr -key privateKey.key -new  </description>
+    </item>
+    
+    <item>
+      <title>Generate Self-Signed Certificate</title>
+      <link>https://www.it-quicktasks.com/generate-selfsigned-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-selfsigned-cert/</guid>
+      <description>openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout privateKey.key -out certificate.crt  </description>
+    </item>
+    
+    <item>
+      <title>Getting CA-bundle for Comodo Certificates</title>
+      <link>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</guid>
+      <description>Get it via chat to Comodo, one would pop-up from https://support.comodo.com/index.php?/Knowledgebase/Article/View/1145/1/how-do-i-make-my-own-bundle-file-from-crt-files.
+Make sure you edit your profile where they could send the information.</description>
+    </item>
+    
+    <item>
+      <title>Hardened TLS / SSL Cert</title>
+      <link>https://www.it-quicktasks.com/hardened-ssl-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hardened-ssl-cert/</guid>
+      <description>Apache
+SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES128-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA128:DHE-RSA-AES128-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA128:ECDHE-RSA-AES128-SHA384:ECDHE-RSA-AES128-SHA128:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA384:AES128-GCM-SHA128:AES128-SHA128:AES128-SHA128:AES128-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4 SSLProtocol All -SSLv2 -SSLv3 SSLHonorCipherOrder On Header always set Strict-Transport-Security &amp;quot;max-age=63072000; includeSubdomains; preload&amp;quot; Header always set X-Frame-Options SAMEORIGIN Header always set X-Content-Type-Options nosniff # Requires Apache &amp;gt;= 2.4 SSLCompression off SSLSessionTickets Off SSLUseStapling on SSLStaplingCache &amp;quot;shmcb:logs/stapling-cache(150000)&amp;quot;  Nginx
+ssl_ciphers &amp;quot;EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES128-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA128:DHE-RSA-AES128-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA128:ECDHE-RSA-AES128-SHA384:ECDHE-RSA-AES128-SHA128:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA384:AES128-GCM-SHA128:AES128-SHA128:AES128-SHA128:AES128-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4&amp;quot;; ssl_protocols TLSv1 TLSv1.1 TLSv1.2; ssl_prefer_server_ciphers on; ssl_session_cache shared:SSL:10m; # &#39;always&#39; requires nginx &amp;gt;= 1.7.5, see http://nginx.org/en/docs/http/ngx_http_headers_module.html#add_header add_header Strict-Transport-Security &amp;quot;max-age=63072000; includeSubdomains; preload&amp;quot; always; add_header X-Frame-Options SAMEORIGIN always; add_header X-Content-Type-Options nosniff always; ssl_session_tickets off; ssl_stapling on; # Requires nginx &amp;gt;= 1.</description>
+    </item>
+    
+    <item>
+      <title>Install LetsEncrypt in Ubuntu</title>
+      <link>https://www.it-quicktasks.com/install-letsencrypt-ubuntu/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-letsencrypt-ubuntu/</guid>
+      <description>sudo add-apt-repository ppa:certbot/certbot sudo apt-get update sudo apt-get install python-certbot-apache sudo certbot --apache -d one.example.com -d two.example.com  If the above don&amp;rsquo;t work, try this:
+sudo apt-get update sudo apt-get install software-properties-common sudo add-apt-repository universe sudo add-apt-repository ppa:certbot/certbot sudo apt-get update sudo apt-get install certbot python-certbot-nginx  Put the following in root crontab (sudo crontab -e)
+30 2 * * * /usr/bin/certbot renew &amp;gt;&amp;gt; /var/log/letsencrypt-renew.log  Some details in https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>Manually generating LetsEncrypt certificate</title>
+      <link>https://www.it-quicktasks.com/manually-generate-letsencryp-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/manually-generate-letsencryp-cert/</guid>
+      <description>In cases where you don&amp;rsquo;t want to disrupt current production server, this is a good approach
+mkdir /opt/letsencrypt cd /opt/letsencrypt wget https://dl.eff.org/certbot-auto chmod a+x certbot-auto sudo ./certbot-auto --apache certonly  Sample run as follows:
+[root@687elmp01 letsencrypt]# sudo ./certbot-auto --apache certonly Saving debug log to /var/log/letsencrypt/letsencrypt.log Plugins selected: Authenticator apache, Installer apache Enter email address (used for urgent renewal and security notices) (Enter &#39;c&#39; to cancel): me@example.com ------------------------------------------------------------------------------- Please read the Terms of Service at https://letsencrypt.</description>
+    </item>
+    
+    <item>
+      <title>One Liner CSR Creation</title>
+      <link>https://www.it-quicktasks.com/one-liner-csr-creation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/one-liner-csr-creation/</guid>
+      <description>openssl req -new -newkey rsa:2048 -nodes -out this.example.com.csr -keyout this.example.com.key -subj &amp;quot;/C=PH/ST=Cebu/L=Cebu/O=Example Organization Cebu/OU=IT Department/CN=this.example.com&amp;quot;  What to use in the &amp;ldquo;-subj&amp;rsquo; as per https://www.endpoint.com/blog/2014/10/30/openssl-csr-with-alternative-names-one
+ C = Country ST = State/Province L = City O = Organization OU = Organizational Unit CN = Common Name (main domain the certificate would cover  </description>
+    </item>
+    
+    <item>
+      <title>Oneline Letsencrypt Cert Creation</title>
+      <link>https://www.it-quicktasks.com/oneline-letsencrypt-cert-creation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/oneline-letsencrypt-cert-creation/</guid>
+      <description>certbot --apache -d sub1.example.com -d sub2.example.com --agree-tos -m you@example.com --redirect  If you&amp;rsquo;re on nginx, use --nginx</description>
+    </item>
+    
+    <item>
+      <title>Perfect Forward Secrecy Fix</title>
+      <link>https://www.it-quicktasks.com/perfect-forward-secrecy-fix/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/perfect-forward-secrecy-fix/</guid>
+      <description>Generate dhparam.pem  openssl dhparam -out /etc/nginx/ssl/dhparam.pem 4096  Create /etc/nginx/conf.d/perfect-forward-secrecy.conf since all *.conf in /etc/nginx/conf.d:  ssl_protocols TLSv1.2; ssl_prefer_server_ciphers on; ssl_ciphers &amp;quot;EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !MEDIUM&amp;quot;; ssl_dhparam /etc/nginx/ssl/dhparam.pem;   Reload nginx
+  Test again using the SSLLabs Tool
+  https://www.howtoforge.com/ssl-perfect-forward-secrecy-in-nginx-webserver</description>
+    </item>
+    
+    <item>
+      <title>Remove Passphrase from Private Key</title>
+      <link>https://www.it-quicktasks.com/remove-passphrase-from-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/remove-passphrase-from-private-key/</guid>
+      <description>openssl rsa -in privateKey.pem -out newPrivateKey.pem  </description>
+    </item>
+    
+    <item>
+      <title>ssllabs.com test says that there&#39;s chain issues (Incorrect order, Extra certs)</title>
+      <link>https://www.it-quicktasks.com/chain-issues-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/chain-issues-ssllabs/</guid>
+      <description>This could be an incorrect use of certificates. Make sure to use the following (translate to nginx if you&amp;rsquo;re not using apache)
+SSLCertificateFile /etc/letsencrypt/live/example.com/cert.pem SSLCertificateKeyFile /etc/letsencrypt/live/example.com/privkey.pem Include /etc/letsencrypt/options-ssl-apache.conf SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem  In my case, the issue was on SSLCertificateChainFile. Instead of using &amp;ldquo;chain.pem&amp;rdquo;, I incorrectly used &amp;ldquo;fullchain.pem&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>TLS Best Practices</title>
+      <link>https://www.it-quicktasks.com/tls-best-practices/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/tls-best-practices/</guid>
+      <description>https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices</description>
+    </item>
+    
+    <item>
+      <title>Unencrypt Private Key</title>
+      <link>https://www.it-quicktasks.com/unencrypt-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/unencrypt-private-key/</guid>
+      <description>openssl rsa -in encrypted-private.key -out non-encrypted-private.key Enter pass phrase for encrypted-private.key: writing RSA key  See https://knowledge.digicert.com/solution/SO5292.html</description>
+    </item>
+    
+    <item>
+      <title>Weak Deffie-Hellman and a B rating in SSL Labs Test</title>
+      <link>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</guid>
+      <description>You can fix it by creating .a &amp;lsquo;dhparam&amp;rsquo; file as follows in nginx:
+cd /etc/ssl/certs openssl dhparam -dsaparam -out ./dhparam.pem 4096  NOTE: &amp;ldquo;-dsaparam&amp;rdquo; is significant. Otherwise, it would take creation of dhparam.pem almost 24hours or more. See https://security.stackexchange.com/questions/95178/diffie-hellman-parameters-still-calculating-after-24-hours
+then add this to nginx config
+ssl_dhparam /etc/ssl/certs/dhparam.pem;  </description>
+    </item>
+    
+    <item>
+      <title>Wildcard LetsEncrypt</title>
+      <link>https://www.it-quicktasks.com/wildcard-letsencrypt/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wildcard-letsencrypt/</guid>
+      <description>yum install certbot.noarch -y certbot -d *.example.com \ --manual \ --preferred-challenges \ dns certonly \ --server https://acme-v02.api.letsencrypt.org/directory ... ... create the TXT DNS record  NOTE: In creating the cert, make sure to wait for 5minutes or better check in another terminal session if the txt record is now visible. Otherwise, cert creation will fail.
+Some details in https://wicowen.github.io/2018-0315-1400-Enable-Lets-encrypt-wildcard-certificate-in-CentOS-7/
+In Ubuntu/Debian check https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7
+30 2 * * * /usr/bin/certbot renew &amp;gt;&amp;gt; /var/log/letsencrypt-renew.</description>
+    </item>
+    
+  </channel>
+</rss>

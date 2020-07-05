@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/php/</link>
+    <description>Recent content in php on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2020 23:50:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weird session issue in drupal</title>
+      <link>https://www.it-quicktasks.com/weird-session-issue/</link>
+      <pubDate>Tue, 11 Feb 2020 00:18:01 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/weird-session-issue/</guid>
+      <description>Was seeing some session issue as follows:
+[me@example default]$ cd /var/www/example.com/docroot [me@example docroot]$ drush st session_set_save_handler(): Cannot change save handler when headers already sent session.inc:242 [warning] session_id(): Cannot change session id when headers already sent session.inc:266 [warning] session_name(): Cannot change session name when headers already sent in drupal_settings_initialize() (line 831 of [warning] /var/www/example.com/docroot/includes/bootstrap.inc). Drupal version : 7.69 Site URI : http://default Database driver : mysql Database hostname : localhost Database username : &amp;lt;REDACTED&amp;gt; Database name : &amp;lt;REDACTED&amp;gt; Database : Connected Drupal bootstrap : Successful Drupal user : Default theme : bootstrap_examplesite Administration theme : seven PHP configuration : /etc/php.</description>
+    </item>
+    
+    <item>
+      <title>PHP Fatal Error: Maximum Execution time exceeded</title>
+      <link>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</link>
+      <pubDate>Fri, 07 Feb 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</guid>
+      <description>If you&amp;rsquo;re seeing an error in your log:
+PHP Fatal error: Maximum execution time of 240 seconds exceeded in &amp;lt;/path/to/any_file.php&amp;gt; on line xx  Then you may need to edit your php.ini and update the variable &amp;lsquo;maximum_execution_time&amp;rsquo;. Don&amp;rsquo;t forget to restart your web service.
+If issue persist, then overrides is being done in code. Search it as follows and fix accordingly:
+grep -Ri max_execution_time ./*  </description>
+    </item>
+    
+    <item>
+      <title>Checking for php memory exhaustion &#43; possible fix</title>
+      <link>https://www.it-quicktasks.com/check-php-memory-exhaustion-and-fix/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-php-memory-exhaustion-and-fix/</guid>
+      <description>me@web-13940:/var/log/sites/web.prod/logs/web-13940$ zgrep -c &#39;Allowed memory size of&#39; php-errors.log php-errors.log-201712* php-errors.log:11 php-errors.log-20171222.gz:4  me@web-13940:/var/log/sites/web.prod/logs/web-13940$ zgrep &#39;Allowed memory size of&#39; php-errors.log* | grep -o &#39;request_id=&amp;quot;[^&amp;quot;]*&#39; | awk -F&#39;&amp;quot;&#39; &#39;{print $2}&#39; | xargs -I{} zgrep {} access.log* | awk &#39;{print $6&amp;quot; &amp;quot;$7}&#39; | cut -c2- | sort | uniq -c | sort -nr 6 GET /admin/content 3 POST /system/ajax 3 POST /admin/content 1 POST /views/ajax 1 POST /admin/content?title=budget&amp;amp;type=resource&amp;amp;author=&amp;amp;status=All&amp;amp;vid=All 1 GET /agendas/items/all  Conditional fix in https://docs.</description>
+    </item>
+    
+    <item>
+      <title>Convert command not found</title>
+      <link>https://www.it-quicktasks.com/convert-command-not-found/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/convert-command-not-found/</guid>
+      <description>I was seeing this error from drupal logs:
+ User error: ImageMagick error 127: sh: convert: command not found in _imagemagick_convert_exec() (line 522 of /var/www/example.com/docroot/sites/all/modules/contrib/imagemagick/imagemagick.module).  Which indicates that package ImageMagick wasn&amp;rsquo;t installed. Since the machine in questions was CentOS7, I installed it as follows:
+~$ sudo yum install ImageMagick -y  Ref:
+ https://www.experts-exchange.com/questions/27962692/Drupal-7-error-ImageMagick-error-127.html https://www.drupal.org/node/153310 https://syslint.com/blog/tutorial/install-imagemagick-in-centos7/  </description>
+    </item>
+    
+    <item>
+      <title>Create separate php log file</title>
+      <link>https://www.it-quicktasks.com/create-separate-php-logfile/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-separate-php-logfile/</guid>
+      <description>Update php.ini, example
+error_log = /tmp/error_php  Then restart apache
+Details in https://www.redips.net/php/log-errors-separate-file/</description>
+    </item>
+    
+    <item>
+      <title>curl to php code</title>
+      <link>https://www.it-quicktasks.com/curl-to-php/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-to-php/</guid>
+      <description>See https://incarnate.github.io/curl-to-php/</description>
+    </item>
+    
+    <item>
+      <title>How do you know the php.ini used via CLI</title>
+      <link>https://www.it-quicktasks.com/php.ini-path-via-cli/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php.ini-path-via-cli/</guid>
+      <description>&amp;lt;?php $inipath = php_ini_loaded_file(); if ($inipath) { echo &#39;Loaded php.ini: &#39; . $inipath; } else { echo &#39;A php.ini file is not loaded&#39;; } ?&amp;gt;  or
+[icasimpan!@example.org ~]$ php -i |grep php.ini Configuration File (php.ini) Path =&amp;gt; /etc Loaded Configuration File =&amp;gt; /etc/php.ini  But not that server and CLI used php.ini could be different. Details in https://stackoverflow.com/questions/14558150/how-to-know-which-php-ini-is-used</description>
+    </item>
+    
+    <item>
+      <title>Install php-curl 5.6 (Ubuntu)</title>
+      <link>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</guid>
+      <description>sudo apt-get install php5.6-curl  More info in https://stackoverflow.com/questions/40567133/cannot-add-ppa-ppaondrej-php5-5-6</description>
+    </item>
+    
+    <item>
+      <title>Install PHP7.2 MongoDB</title>
+      <link>https://www.it-quicktasks.com/install-php-mongodb/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-php-mongodb/</guid>
+      <description>$ git clone https://github.com/mongodb/mongo-php-driver.git $ cd mongo-php-driver $ git submodule sync &amp;amp;&amp;amp; git submodule update --init $ phpize $ ./configure $ make all -j 5 $ sudo make install  Details in https://www.php.net/manual/en/mongodb.installation.manual.php or https://stackoverflow.com/questions/46276978/install-mongodb-driver-in-cent-os-7-with-php7-1
+In my case, I also had to add to 20-mongodb.ini.</description>
+    </item>
+    
+    <item>
+      <title>Installing mcrypt in php7.1 (Ubuntu)</title>
+      <link>https://www.it-quicktasks.com/install-mcrypt-php71-ubuntu/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-mcrypt-php71-ubuntu/</guid>
+      <description>sudo add-apt-repository ppa:ondrej/php sudo apt-get update sudo apt-get install mcrypt php7.1-mcrypt  </description>
+    </item>
+    
+    <item>
+      <title>Mcrypt error when running &#39;composer install&#39; from CLI</title>
+      <link>https://www.it-quicktasks.com/mcrypt-error-composer-install-from-cli/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mcrypt-error-composer-install-from-cli/</guid>
+      <description>Verify if mcypt is really installed
+php -m|grep -i mcrypt  Counter-check from phpmyadmin. If it say installed there, issue is that php-cli can&amp;rsquo;t see mcrypt as a module. Find the mcrypt definition and symlink similar to below:
+ln -s /etc/php5/mods-available/mcrypt.ini /etc/php5/cli/conf.d/20-mcrypt.ini  See details in https://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension</description>
+    </item>
+    
+    <item>
+      <title>Multi-php installation</title>
+      <link>https://www.it-quicktasks.com/multi-php-installation/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/multi-php-installation/</guid>
+      <description> https://pehapkari.cz/blog/2017/03/27/multiple-php-versions-the-easy-way/ https://github.com/oerdnj/deb.sury.org/wiki/Managing-Multiple-Versions  </description>
+    </item>
+    
+    <item>
+      <title>PHP Class &#39;DOMDocument&#39; not found</title>
+      <link>https://www.it-quicktasks.com/php-class-domdocument-not-found/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-class-domdocument-not-found/</guid>
+      <description>Sample error
+[Wed Jan 10 14:56:38.031846 2018] [:error] [pid 9378] [client 115.85.11.98:23443] PHP Fatal error: Class &#39;DOMDocument&#39; not found in /var/www/sites/site.example.com/docroot/core/lib/Drupal/Component/Utility/Html.php on line 286  Solution:
+apt-get install php5.6-dom  See details in https://stackoverflow.com/questions/14395239/class-domdocument-not-found</description>
+    </item>
+    
+    <item>
+      <title>php mailsender</title>
+      <link>https://www.it-quicktasks.com/php-test-mailsender/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-test-mailsender/</guid>
+      <description>A quick way to test mail sending via php:
+&amp;lt;?php ini_set( &#39;display_errors&#39;, 1 ); error_reporting( E_ALL ); $from = &amp;quot;webmaster@example.com&amp;quot;; $to = &amp;quot;me@example.com&amp;quot;; $subject = &amp;quot;PHP Mail Test script&amp;quot;; $message = &amp;quot;This is a test to check the PHP Mail functionality&amp;quot;; $headers = &amp;quot;From:&amp;quot; . $from; mail($to,$subject,$message, $headers); echo &amp;quot;Test email sent&amp;quot;; ?&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>php max upload size</title>
+      <link>https://www.it-quicktasks.com/php-max-upload-size/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-max-upload-size/</guid>
+      <description> Check first where php.ini is (create a page that dumps &amp;ldquo;phpinfo()&amp;quot;) Edit upload_max_filesize=10M (assuming 10M is the requested limit) 2.1 Given that &amp;lsquo;upload_max_filesize &amp;gt; 8M&amp;rsquo; edit as well &amp;ldquo;post_max_size&amp;rdquo; Restart apache (reload doesn&amp;rsquo;t change the setting)  </description>
+    </item>
+    
+    <item>
+      <title>php modules location</title>
+      <link>https://www.it-quicktasks.com/php-modules-location/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-modules-location/</guid>
+      <description>Check the current extension directory with: php-config --extension-dir and you can change it by setting extension_dir in php.ini: extension_dir=&amp;quot;/usr/lib64/php/modules&amp;quot; Don&#39;t forget to restart Apache.  See https://serverfault.com/questions/316156/change-php-modules-directory</description>
+    </item>
+    
+    <item>
+      <title>PHP Remi modules installed outside ansible trick</title>
+      <link>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</guid>
+      <description>Remi modules are installed in non-standard location. Geerlingguy&amp;rsquo;s ansible role harmonizes it and install it in standard locations.
+So, if you&amp;rsquo;re not familiar with standard locations, just do the following trick
+NOTE: In this case, I installed the memcache module for php7.1 from Remi&amp;rsquo;s repo.
+yum install -y php71-php-pecl-memcache.x86_64  Find where the memcache module is located
+[root@example-staging www]# find / -iname *memcache*.so /usr/lib64/httpd/modules/mod_socache_memcache.so /opt/remi/php71/root/usr/lib64/php/modules/memcache.so  Cross-check with a standard installed php module (you can see which modules via &amp;lsquo;php -m&amp;rsquo;)</description>
+    </item>
+    
+    <item>
+      <title>php seem to not get installed when accessing a site</title>
+      <link>https://www.it-quicktasks.com/php-seems-not-installed-accessing-site/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-seems-not-installed-accessing-site/</guid>
+      <description>apt-get install libapache2-mod-php  </description>
+    </item>
+    
+    <item>
+      <title>php7.1 memcache install in CentOS7</title>
+      <link>https://www.it-quicktasks.com/php7.1-memcache-install-centos7/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php7.1-memcache-install-centos7/</guid>
+      <description>yum install -y memcached libmemcached php71-php-pecl-memcache.x86_64  Harden memcached by at least making it listed only on loopback. Config is in /etc/sysonfig/memcached
+PORT=&amp;quot;11211&amp;quot; USER=&amp;quot;memcached&amp;quot; MAXCONN=&amp;quot;1024&amp;quot; CACHESIZE=&amp;quot;64&amp;quot; OPTIONS=&amp;quot;-l 127.0.0.1 -U 0&amp;quot;  Details in https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-memcached-on-centos-7</description>
+    </item>
+    
+    <item>
+      <title>Server used php.ini from CLI</title>
+      <link>https://www.it-quicktasks.com/server-php.ini-path/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/server-php.ini-path/</guid>
+      <description>echo &#39;&amp;lt;?php phpinfo(); ?&amp;gt;&#39;|php  </description>
+    </item>
+    
+    <item>
+      <title>GD PHP Module Installation Error</title>
+      <link>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</guid>
+      <description>It says something like &amp;ldquo;gd-last&amp;rdquo; needed but not found.
+Solution:
+Add remi-safe repo to your repository.
+See https://centos.org/forums/viewtopic.php?t=63158</description>
+    </item>
+    
+    <item>
+      <title>BASH_FUNC_module error</title>
+      <link>https://www.it-quicktasks.com/bash_func_module-error/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/bash_func_module-error/</guid>
+      <description>This error is seen as follows:
+sh: module: line 1: syntax error: unexpected end of file sh: error importing function definition for `BASH_FUNC_module&#39;  A lot of discussions has been done about it in https://github.com/drush-ops/drush/issues/2065#issuecomment-227820550 but the fix is made from /etc/php.ini:
+disable_functions = pcntl_exec  </description>
+    </item>
+    
+    <item>
+      <title>Phpinfo in Drupaladmin</title>
+      <link>https://www.it-quicktasks.com/phpinfo-in-drupaladmin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:15:59 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/phpinfo-in-drupaladmin/</guid>
+      <description>It can be found in
+http://&amp;lt;site_url&amp;gt;/admin/reports/status/php  </description>
+    </item>
+    
+  </channel>
+</rss>

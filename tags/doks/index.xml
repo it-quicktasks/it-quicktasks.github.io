@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>doks on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/doks/</link>
+    <description>Recent content in doks on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/doks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connection to Server Refused</title>
+      <link>https://www.it-quicktasks.com/connection-to-server-refused/</link>
+      <pubDate>Sat, 27 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/connection-to-server-refused/</guid>
+      <description>When you see similar error as below:
+user@example:~$ kubectl get nodes The connection to the server localhost:8080 was refused - did you specify the right host or port?  Check for the &amp;ldquo;$KUBECONFIG&amp;rdquo; if set and &amp;ldquo;kubectl config view&amp;rdquo; output. Chances are, both are empty like below:
+user@example:~$ echo $KUBECONFIG  user@example:~$ kubectl config view apiVersion: v1 clusters: null contexts: null current-context: &amp;quot;&amp;quot; kind: Config preferences: {} users: null  In this example, we&amp;rsquo;re using the DOKS or DigitalOcean Managed Kubernetes.</description>
+    </item>
+    
+  </channel>
+</rss>

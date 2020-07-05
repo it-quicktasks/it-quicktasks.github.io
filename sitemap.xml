@@ -1,0 +1,3070 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/access/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ansible/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/fix-jenkins-access-problem/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gmail/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/install/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-jenkins-lts-via-ansible/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-jenkins-plugin-via-ansible/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/jenkins/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/jenkins-gmail-smtp/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/migrate/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/migrate-jenkins-jobs-new-server/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/plugin/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/post/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/smtp/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/troubleshoot/</loc>
+    <lastmod>2020-07-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/centos/</loc>
+    <lastmod>2020-07-03T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/config/</loc>
+    <lastmod>2020-07-03T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/license/</loc>
+    <lastmod>2020-07-03T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/newrelic-license-location/</loc>
+    <lastmod>2020-07-03T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/newrelic/</loc>
+    <lastmod>2020-07-03T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/adding-helm-repo/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/change-default-cluster-in-kubernetes/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/checking-pvc/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cluster/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/disk/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cluster-list-in-kubernetes/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/list-nodes-in-kubernetes/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/helm/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-using-helm/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/k8s/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/kubectl/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/kubernetes/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/nodes/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pvc/</loc>
+    <lastmod>2020-06-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/connection-to-server-refused/</loc>
+    <lastmod>2020-06-27T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/doks/</loc>
+    <lastmod>2020-06-27T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/managed-kubernetes/</loc>
+    <lastmod>2020-06-27T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/troubleshooting/</loc>
+    <lastmod>2020-06-27T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dump/</loc>
+    <lastmod>2020-06-17T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mariadb/</loc>
+    <lastmod>2020-06-17T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mysql/</loc>
+    <lastmod>2020-06-17T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mysqldump/</loc>
+    <lastmod>2020-06-17T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mysqldump-except-locked-tables/</loc>
+    <lastmod>2020-06-17T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/acquia/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/blocked/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cron/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupal/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/reset/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/user/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tasks-in-drupal-cron/</loc>
+    <lastmod>2020-06-16T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/delete/</loc>
+    <lastmod>2020-06-10T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/truncate/</loc>
+    <lastmod>2020-06-10T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/truncate-mysql-table/</loc>
+    <lastmod>2020-06-10T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/apache/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/best-practices/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ca-bundle/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cert-chain/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cert-conversion/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/chain-issue/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-certificates-info/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-ssl-connection/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/comodo/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/converting-different-cert-formats/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-san-sslcert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cross-check/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cross-check-certificate-with-csr-and-private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/csr/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/deffie-hellman/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/generate-csr-from-existing-cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/generate-csr-from-existing-private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/generate-csr-from-private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/generate-selfsigned-cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/hardened-ssl-cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hardening/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-letsencrypt-ubuntu/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/letsencrypt/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/manual/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/manually-generate-letsencryp-cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/multidomain/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/nginx/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/one-liner-csr-creation/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/oneline/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/oneline-letsencrypt-cert-creation/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/oneliner/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/passhprase/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/perfect-forward-secrecy-fix/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/perfect-forward-secrecy/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pfs/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/positive-ssl/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/positive-wildcard/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/positivessl/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/remove-passphrase-from-private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/renew/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/san/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/self-signed-cert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ssl/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ssl-bundle/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/sslcert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ssllabs/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/chain-issues-ssllabs/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tls-best-practices/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tlscert/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ubuntu/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/unencrypt/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/unencrypt-private-key/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wildcard/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/wildcard-letsencrypt/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wildcard-multidomain/</loc>
+    <lastmod>2020-06-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dotfiles/</loc>
+    <lastmod>2020-06-06T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hidden/</loc>
+    <lastmod>2020-06-06T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/rsync/</loc>
+    <lastmod>2020-06-06T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rsync-including-hidden/</loc>
+    <lastmod>2020-06-06T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ssh/</loc>
+    <lastmod>2020-06-06T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/key/</loc>
+    <lastmod>2020-06-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/key_value/</loc>
+    <lastmod>2020-06-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/key_value-missing/</loc>
+    <lastmod>2020-06-06T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/troubleshooting-acquia-site-downtime/</loc>
+    <lastmod>2020-06-05T00:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/downtime/</loc>
+    <lastmod>2020-06-05T00:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupal9/</loc>
+    <lastmod>2020-06-03T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal9/</loc>
+    <lastmod>2020-06-03T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/migration/</loc>
+    <lastmod>2020-06-03T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupal7/</loc>
+    <lastmod>2020-06-03T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal7-extended-support/</loc>
+    <lastmod>2020-06-03T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/extended-support/</loc>
+    <lastmod>2020-06-03T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/git/</loc>
+    <lastmod>2020-05-29T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/public-key/</loc>
+    <lastmod>2020-05-29T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</loc>
+    <lastmod>2020-05-29T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/version-control/</loc>
+    <lastmod>2020-05-29T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/depth/</loc>
+    <lastmod>2020-05-26T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/git-with-latest-commit-log-only/</loc>
+    <lastmod>2020-05-26T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/save-space/</loc>
+    <lastmod>2020-05-26T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cache/</loc>
+    <lastmod>2020-05-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/files/</loc>
+    <lastmod>2020-05-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/finding-large-files-uncacheable-in-acquia-varnish/</loc>
+    <lastmod>2020-05-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/large-files/</loc>
+    <lastmod>2020-05-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/varnish/</loc>
+    <lastmod>2020-05-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/authentication/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/credentials/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/credentials-file/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mysql-security/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mysql-with-credentials-file/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/permission/</loc>
+    <lastmod>2020-05-12T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/curl/</loc>
+    <lastmod>2020-05-12T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/curl-with-credentials-file/</loc>
+    <lastmod>2020-05-12T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/404/</loc>
+    <lastmod>2020-05-01T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-login-404/</loc>
+    <lastmod>2020-05-01T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/log/</loc>
+    <lastmod>2020-05-01T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/login/</loc>
+    <lastmod>2020-05-01T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ignore/</loc>
+    <lastmod>2020-04-29T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ignored-password/</loc>
+    <lastmod>2020-04-29T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mariadb-root-ignoring-password/</loc>
+    <lastmod>2020-04-29T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/root/</loc>
+    <lastmod>2020-04-29T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/error/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/failed-to-open-stream-drupaltemporarystreamwrapperstream/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/fatal/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/fatal-error-call-to-undefined-function-cache_get/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/fatal-error/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-syntax/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/private-file/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/settings/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tempfile/</loc>
+    <lastmod>2020-04-17T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/change-drupal-credential/</loc>
+    <lastmod>2020-03-30T00:14:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drush/</loc>
+    <lastmod>2020-03-30T00:14:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/postfix-sending-to-anyone/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ansible-multiple-conditions-using-when/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/conditional/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/curl-type-dowload-in-ansible/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/download/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/multi-condition/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/multiple/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/postfix/</loc>
+    <lastmod>2020-03-11T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mirror/</loc>
+    <lastmod>2020-03-05T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mirror-git-repo/</loc>
+    <lastmod>2020-03-05T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cloning-repo-with-submodules/</loc>
+    <lastmod>2020-02-26T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/submodules/</loc>
+    <lastmod>2020-02-26T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-cant-connect-solr-server/</loc>
+    <lastmod>2020-02-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupal-solr/</loc>
+    <lastmod>2020-02-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/solr/</loc>
+    <lastmod>2020-02-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-modified-files/</loc>
+    <lastmod>2020-02-19T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/modified-files/</loc>
+    <lastmod>2020-02-19T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cannot-create-pid-file/</loc>
+    <lastmod>2020-02-19T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pid/</loc>
+    <lastmod>2020-02-19T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/session/</loc>
+    <lastmod>2020-02-11T00:18:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/weird-session-issue/</loc>
+    <lastmod>2020-02-11T00:18:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</loc>
+    <lastmod>2020-02-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-error/</loc>
+    <lastmod>2020-02-07T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/table-sizes/</loc>
+    <lastmod>2020-01-21T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/sizes/</loc>
+    <lastmod>2020-01-21T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/table/</loc>
+    <lastmod>2020-01-21T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/composer/</loc>
+    <lastmod>2020-01-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/d8/</loc>
+    <lastmod>2020-01-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/error-code1-in-drupal-entity-updates/</loc>
+    <lastmod>2020-01-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/entity/</loc>
+    <lastmod>2020-01-18T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/innodb/</loc>
+    <lastmod>2019-11-24T23:15:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/optimization/</loc>
+    <lastmod>2019-11-24T23:15:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/shrink-huge-ibdata1/</loc>
+    <lastmod>2019-11-24T23:15:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cli/</loc>
+    <lastmod>2019-11-24T12:38:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/database/</loc>
+    <lastmod>2019-11-24T12:38:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/dump-database-skip-some-table/</loc>
+    <lastmod>2019-11-24T12:38:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tables/</loc>
+    <lastmod>2019-11-24T12:38:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hugo/</loc>
+    <lastmod>2019-09-30T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/hugo-static-files/</loc>
+    <lastmod>2019-09-30T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/static/</loc>
+    <lastmod>2019-09-30T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/static-files/</loc>
+    <lastmod>2019-09-30T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/backup/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/basic/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/basic-wordpress-setup/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/change/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-current-fail2ban-status/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-status-specific-jail/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/db/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/db-backup-in-wp_cli/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/db-backup/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/domain/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/errors-in-project-nami-wp-on-mssql/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/fail2ban/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ftp/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-wp_cli/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/interesting-read/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/jail/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/more-info/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mssql/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/nami/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pagination/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/hugo-pagination/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/plugin-install-without-ftp-credentials/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/project-nami/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/setup/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/status/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tagcloud/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tag-cloud-hugo/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/url-change/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/where-is-db-config/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wordpress/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/wordpress-url-change/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wordpress-mssql/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wp-cli/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wp-config/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/wp_cli/</loc>
+    <lastmod>2019-09-28T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/cannot-send-email-to-own-domain/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cannot-send/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/centos7/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-queue-contents/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-php-memory-exhaustion-and-fix/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/convert/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/convert-command-not-found/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-separate-php-logfile/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/curl-to-php/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/domdocument/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dynamic-library/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/encryption/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/firewall/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/firewalld/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/firewalld-reading-materials/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php.ini-path-via-cli/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-php-mongodb/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/installation/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-mcrypt-php71-ubuntu/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/iptables/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/iptables-allow-specific-ip-to-ssh/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mail/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mail-encryption/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/max-upload-size/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mcrypt/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mcrypt-error-composer-install-from-cli/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/memcache/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/memory/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/module/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/modules/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/multi-php/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/multi-php-installation/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/not-found/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/own-domain/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-class-domdocument-not-found/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-test-mailsender/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-max-upload-size/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-modules-location/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-seems-not-installed-accessing-site/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-convert/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-curl/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-ini/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-log/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-memory/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-module/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-mongodb/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php-not-installed/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/php.-module/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php7.1-memcache-install-centos7/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/queue/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/remi/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/rich-rules/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/server-php.ini-path/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/specific-ip-connection-to-ssh-using-firewalld-rich-rules/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/specific-ip/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/test-mail/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ufw/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ufw-reading-materials/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/unable-to-load-dynamic-library-curl.so/</loc>
+    <lastmod>2019-09-28T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/create/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-solr-core-with-config/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/creating-solr-core/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/define-solr-core-in-settings/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/reindex/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/reindex-solr-in-drupal/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/solr-core/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/solr-reindex/</loc>
+    <lastmod>2019-09-25T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/beginners/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/bind/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/bind-container-port-to-host-port/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-all-running-docker-process/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-logs-of-container/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/container/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/daemon/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/docker/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/docker-build-cannot-connect-to-internet/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/docker-files-within-filesystem/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/docker-compose/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dockerce/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dockerfile/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dockerhub/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/filesystem/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/force-remove-docker-images/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/forced/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/getting-started-in-docker/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/how-to-login-dockerhub/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/images/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-docker-ce-centos/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-docker-compose/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/interface/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/internet/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/linux/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/linux-filesystem/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/logs/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/more-details-about-container/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ports/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/process/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pull-image-from-dockerhub/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/remove/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/remove-all-docker-containers/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/removing-docker0-interface/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rerun-docker-container-instance/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/run-container-as-daemon/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/starter/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/using-dockerfile/</loc>
+    <lastmod>2019-09-24T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ssl_st_init-pip-issue-ansible-upgrade/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ansible-best-practices/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ansible-logs-controlled-machine/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ansible-vault-tutorials/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ansible_os_family-not-found/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/blockinfile/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/blockinfline-module/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/broken/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-all-facts/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-os-type/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/check-os/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cim/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/compression/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/configuratio/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/configure/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/configure-email-using-mailgun/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/copy/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/copy-files-to-and-from-remote-locations/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/copy-file/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-playbook-skeleton/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-directory/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-file/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/create-directory/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/create-file/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/curl-with-authentication-credentials/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/debugging/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/debugging-ansible/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/children-labels-hosts-file/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/delete-solr-core/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/dns/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal8-broken-webui/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal8-entities-needs-deleted-before-import/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/eliminate/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/eliminate-queued-mails-postfix/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/entities/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/facts/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/field-loop-error/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gd/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gz/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/gz-and-bz2-not-supported-by-unarchive/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gz2/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gzip/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/gzip-compression-check-in-curl/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gzip-compression/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hardcoded/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hardcoded-dns/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/headers/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hosts/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/import/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/dockerfile-install-php-module/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-rpm-in-ansible/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-several-packages-in-loop/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/loop/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/mailgun/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/curl-with-hardcoded-domain-definition/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/managing-ansible-installation/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/package/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/paramiko/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pip/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/playbook/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/reboot/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rebooting-machine-via-ansible/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/remote/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/replace-ssh-connectivity-with-paramiko/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/rpm/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/run-ansible-playbook/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/save-shell-command-output-to-ansible-variable/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/shell/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/skeleton/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/string/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/get-characters-left-in-variable/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/syslog/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ufw-list-rules-in-ubuntu-machine/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ui/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/unarchive/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/upgrade/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/ux/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/variable/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/variable-in-playbook/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/vault/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/webui/</loc>
+    <lastmod>2019-09-21T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/merge/</loc>
+    <lastmod>2019-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/merge-remote-branch-to-local/</loc>
+    <lastmod>2019-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/quickly-work-git-code/</loc>
+    <lastmod>2019-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/slow/</loc>
+    <lastmod>2019-02-12T22:47:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/slow-query-logs/</loc>
+    <lastmod>2019-02-12T22:47:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/slow-query/</loc>
+    <lastmod>2019-02-12T22:47:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/trace-newrelic-app-from-logs/</loc>
+    <lastmod>2019-01-21T23:41:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</loc>
+    <lastmod>2018-12-29T09:47:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/configuration/</loc>
+    <lastmod>2018-12-29T09:47:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/cherry-pick/</loc>
+    <lastmod>2018-11-23T06:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/git-cherrypick/</loc>
+    <lastmod>2018-11-23T06:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/exclude/</loc>
+    <lastmod>2018-10-25T09:24:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rsync-excluding-inner-folders/</loc>
+    <lastmod>2018-10-25T09:24:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rsync-via-ssh/</loc>
+    <lastmod>2018-10-25T09:21:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rsync-with-specific-key/</loc>
+    <lastmod>2018-10-25T09:20:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/join/</loc>
+    <lastmod>2018-10-23T22:30:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mariadb-tablejoin-limit/</loc>
+    <lastmod>2018-10-23T22:30:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/delay/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/get-number-of-seconds-slave-is-behind-master/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/master/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/master-slave/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/slave/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/sync/</loc>
+    <lastmod>2018-10-15T12:45:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/get-replication-status-in-slave/</loc>
+    <lastmod>2018-10-15T12:44:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/replication/</loc>
+    <lastmod>2018-10-15T12:44:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/timing/</loc>
+    <lastmod>2018-10-15T12:44:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/count/</loc>
+    <lastmod>2018-10-15T12:43:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</loc>
+    <lastmod>2018-10-15T12:43:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</loc>
+    <lastmod>2018-10-15T12:42:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/output/</loc>
+    <lastmod>2018-10-15T12:42:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/scripting/</loc>
+    <lastmod>2018-10-15T12:42:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/performance/</loc>
+    <lastmod>2018-10-15T12:39:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</loc>
+    <lastmod>2018-10-15T12:39:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tweaks/</loc>
+    <lastmod>2018-10-15T12:39:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/dump-mysql-database/</loc>
+    <lastmod>2018-10-15T12:38:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/automysqlbackup/</loc>
+    <lastmod>2018-10-15T12:32:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/automysqlbackup-looking-for-.my.cnf-on-your-home-instead-of-in-root/</loc>
+    <lastmod>2018-10-15T12:32:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</loc>
+    <lastmod>2018-10-15T12:11:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/failure/</loc>
+    <lastmod>2018-10-15T12:11:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/information_schema/</loc>
+    <lastmod>2018-10-15T12:11:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/automysqlbackup-cannot-use-root-credentials-from-mysql-cli/</loc>
+    <lastmod>2018-10-15T12:00:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/character-set/</loc>
+    <lastmod>2018-10-15T07:46:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/charset/</loc>
+    <lastmod>2018-10-15T07:46:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</loc>
+    <lastmod>2018-10-15T07:46:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/checking-supported-character-set/</loc>
+    <lastmod>2018-10-15T07:41:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/undefined/</loc>
+    <lastmod>2018-10-15T07:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/undefined-class-constant-mysql_attr_ssl_ca/</loc>
+    <lastmod>2018-10-15T07:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-drop-mysql-tables-without-deleting-database/</loc>
+    <lastmod>2018-04-09T00:21:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/sql/</loc>
+    <lastmod>2018-04-09T00:21:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/settings-php-few-ways-add-changes/</loc>
+    <lastmod>2018-04-09T00:20:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/acquia-full-path-to-database-backups/</loc>
+    <lastmod>2018-04-09T00:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/backups/</loc>
+    <lastmod>2018-04-09T00:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/deploy/</loc>
+    <lastmod>2018-04-09T00:20:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/developer/</loc>
+    <lastmod>2018-04-09T00:20:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pantheon.io/</loc>
+    <lastmod>2018-04-09T00:20:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pantheon-developer-need-deploy-site/</loc>
+    <lastmod>2018-04-09T00:20:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drush-alias/</loc>
+    <lastmod>2018-04-09T00:20:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pantheon-cannot-see-drush-aliases-despite-org-access/</loc>
+    <lastmod>2018-04-09T00:20:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/acquia-logs/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/admin/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/bash/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/bash_func_module-error/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/caching/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-drupal-super-admin-via-drush/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/d7/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/diff/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-maintenance-mode-via-drush/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-memcache/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal7-install-via-drush/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal7-drush-features-diff/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-for-non-composer-drupal/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-uli-disable-automatic-open-in-browser/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/example/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/example-setup-stage_file_proxy/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/feature/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/features/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/force-http-to-https/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/htaccess/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/https/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/include/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-and-switch-between-drush-versions/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/install-composer/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/maintenance/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/nginx-404-when-in-drupal-admin/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pantheon-drush-aliases-download/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pantheon-drush-via-terminus/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/restore/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/restore-database-via-drush/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/search/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/search-index-via-drush/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/secure/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/settings-php-including-settings-local/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/settings-php-sample-settings-local/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/stage_file_proxy/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/terminus/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/uli/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/uuid/</loc>
+    <lastmod>2018-04-09T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</loc>
+    <lastmod>2018-04-09T00:20:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/custom-title-per-drupal-installation/</loc>
+    <lastmod>2018-04-09T00:18:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-installation/</loc>
+    <lastmod>2018-04-09T00:18:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/title/</loc>
+    <lastmod>2018-04-09T00:18:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupaladmin/</loc>
+    <lastmod>2018-04-09T00:15:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/phpinfo/</loc>
+    <lastmod>2018-04-09T00:15:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/phpinfo-in-drupaladmin/</loc>
+    <lastmod>2018-04-09T00:15:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/db-credentials-via-drush/</loc>
+    <lastmod>2018-04-09T00:14:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/getting-errors-with-drush-rr-not-installed/</loc>
+    <lastmod>2018-04-09T00:12:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/registry/</loc>
+    <lastmod>2018-04-09T00:12:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/reinstall-drupal8/</loc>
+    <lastmod>2018-04-09T00:12:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/rr/</loc>
+    <lastmod>2018-04-09T00:12:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal8-install-via-composer/</loc>
+    <lastmod>2018-04-09T00:09:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal8-manual-install-via-drush/</loc>
+    <lastmod>2018-04-09T00:09:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drupal-logs/</loc>
+    <lastmod>2018-04-08T23:50:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/clear-drupal-cache-outside-drush/</loc>
+    <lastmod>2018-04-08T23:45:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/drupal-admin/</loc>
+    <lastmod>2018-04-08T23:45:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/file-permission-problems/</loc>
+    <lastmod>2018-04-08T23:44:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/hardening-mysql/</loc>
+    <lastmod>2018-04-08T23:31:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</loc>
+    <lastmod>2018-04-08T23:28:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mysql-not-restarting-nothing-in-logs/</loc>
+    <lastmod>2018-04-08T23:24:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/restart/</loc>
+    <lastmod>2018-04-08T23:24:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/restore-one-table/</loc>
+    <lastmod>2018-04-08T23:22:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/dump-one-or-more-table/</loc>
+    <lastmod>2018-04-08T23:21:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/change-mysql-user-credentials/</loc>
+    <lastmod>2018-04-08T23:20:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/acl/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/branch/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/checking-remote-tags/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/checkout/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/committer/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/compare-tag-contents-github/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/configure-email-username/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/credentials-pantheon-git/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/delete-user/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/deleting-local-git-tag/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/deleting-remote-git-repo/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/deleting-remote-git-tag/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/duplicating-git-repo/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/email/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/fix-identity-used-in-commit/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/drush-uli-pantheon-site/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/git-log-ci-graph/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/git-patch-creation-apply/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/git-submodules/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/github/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/gitignore/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/google/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/graph/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/hosting/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/ignore-permission-changes/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/move-directory-in-git-to-another-repo/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/negating-contents-of-gitignore/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/no-push/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pantheon-site-redirects/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/patch/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pathspec/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pathspec-error-pn-tag-checkout/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/permissions/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/pull/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/pull-but-no-push/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/redirects/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/rename/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/rename-git-branch/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/repo/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/revert/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/reverting-a-commit/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/sso/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/tags/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/undo-almost-anything-in-git/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/update/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/tags/username/</loc>
+    <lastmod>2018-04-08T23:17:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/create-db-with-acl/</loc>
+    <lastmod>2018-04-08T23:15:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/allow-remote-connections-to-mysql/</loc>
+    <lastmod>2018-04-08T23:11:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/mysql-server-has-gone-away-fix/</loc>
+    <lastmod>2018-04-08T22:33:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.it-quicktasks.com/</loc>
+    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
+  </url>
+  
+</urlset>

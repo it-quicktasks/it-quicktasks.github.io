@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>merge on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/merge/</link>
+    <description>Recent content in merge on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/merge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Merge Remote Branch to Local</title>
+      <link>https://www.it-quicktasks.com/merge-remote-branch-to-local/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/merge-remote-branch-to-local/</guid>
+      <description>If you need to merge a remote repo&amp;rsquo;s (e.g. acquia) branch to your local branch:
+git pull acquia master  </description>
+    </item>
+    
+    <item>
+      <title>Git Cherry-Pick Merge</title>
+      <link>https://www.it-quicktasks.com/git-cherrypick/</link>
+      <pubDate>Fri, 23 Nov 2018 06:03:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-cherrypick/</guid>
+      <description>Cherry Picking in Git is quite easy: For single commit
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;hash-here&amp;gt;  See https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson
+Multiple commit NOTE: only the commits between &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo; are merged.
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;initial_commit_hash&amp;gt;..&amp;lt;terminal_commit_hash&amp;gt;  To include the &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo;, use the following:
+git cherry-pick &amp;lt;initial_commit_hash&amp;gt;^..&amp;lt;terminal_commit_hash&amp;gt;  Note that conflicts would pause cherry-picking and ask to resolve the conflict. You can then continue as follows:
+git cherry-pick --continue  See details in https://medium.</description>
+    </item>
+    
+  </channel>
+</rss>

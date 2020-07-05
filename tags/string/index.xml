@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/string/</link>
+    <description>Recent content in string on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>String manipulation: get characters left in a variable</title>
+      <link>https://www.it-quicktasks.com/get-characters-left-in-variable/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-characters-left-in-variable/</guid>
+      <description>- name: Display Result In Loop debug: msg=&amp;quot;Version is {{ result.stdout[:5] }}&amp;quot;  See https://stackoverflow.com/questions/32091667/ansible-fetch-first-few-character-of-a-register-value</description>
+    </item>
+    
+  </channel>
+</rss>

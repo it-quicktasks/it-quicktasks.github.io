@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backup on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/backup/</link>
+    <description>Recent content in backup on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DB Backup via wp_cli</title>
+      <link>https://www.it-quicktasks.com/db-backup-in-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/db-backup-in-wp_cli/</guid>
+      <description>cd /path/to/wordpress wp db export backups/name-of-db-backup.sql  </description>
+    </item>
+    
+    <item>
+      <title>Restore One Table</title>
+      <link>https://www.it-quicktasks.com/restore-one-table/</link>
+      <pubDate>Sun, 08 Apr 2018 23:22:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/restore-one-table/</guid>
+      <description>mysql -u root -p your_DB &amp;lt; ./your_system.sql  More details in https://stackoverflow.com/questions/9696249/restoring-a-mysql-table-back-to-the-database</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>helm on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/helm/</link>
+    <description>Recent content in helm on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Helm Repo</title>
+      <link>https://www.it-quicktasks.com/adding-helm-repo/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/adding-helm-repo/</guid>
+      <description>A Helm Repo that&amp;rsquo;s in https://github.com/codecentric/helm-charts has a corresponding repo URL. Add it as follows:
+user@example:~$ helm repo add codecentric https://codecentric.github.io/helm-charts &amp;quot;codecentric&amp;quot; has been added to your repositories  </description>
+    </item>
+    
+    <item>
+      <title>Installing Software using Helm</title>
+      <link>https://www.it-quicktasks.com/install-using-helm/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-using-helm/</guid>
+      <description>Say you want install jenkins and corresponding repo already added.
+user@example:~$ helm install jenkins codecentric/jenkins NAME: jenkins LAST DEPLOYED: Sun Jun 28 09:59:52 2020 NAMESPACE: default STATUS: deployed REVISION: 1 TEST SUITE: None NOTES: ************************************************************************ * * * Jenkins Helm Chart by codecentric AG * * * ************************************************************************ In case the chart was installed with the default configuration and you did not configure an admin user, Jenkins creates one per default.</description>
+    </item>
+    
+  </channel>
+</rss>

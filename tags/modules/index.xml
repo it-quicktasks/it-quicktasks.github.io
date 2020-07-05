@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modules on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/modules/</link>
+    <description>Recent content in modules on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>php modules location</title>
+      <link>https://www.it-quicktasks.com/php-modules-location/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-modules-location/</guid>
+      <description>Check the current extension directory with: php-config --extension-dir and you can change it by setting extension_dir in php.ini: extension_dir=&amp;quot;/usr/lib64/php/modules&amp;quot; Don&#39;t forget to restart Apache.  See https://serverfault.com/questions/316156/change-php-modules-directory</description>
+    </item>
+    
+  </channel>
+</rss>

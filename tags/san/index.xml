@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>san on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/san/</link>
+    <description>Recent content in san on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/san/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create SAN TLS/SSL Cert</title>
+      <link>https://www.it-quicktasks.com/create-san-sslcert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-san-sslcert/</guid>
+      <description>Create san.conf  [ req ] default_bits = 4096 prompt = no encrypt_key = no default_md = sha256 distinguished_name = dn req_extensions = req_ext [ dn ] CN = example.org emailAddress = webmaster@example.org O = Example Memorial Hospital OU = Example Memorial Hospital L = Chicago ST = Illinois C = US [ req_ext ] subjectAltName = DNS: example.org, DNS: www.example.org  NOTE: Do not leave out OU. Otherwise, you will see the error below.</description>
+    </item>
+    
+  </channel>
+</rss>

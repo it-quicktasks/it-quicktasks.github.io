@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/docker/</link>
+    <description>Recent content in docker on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bind Container Port to Host Port</title>
+      <link>https://www.it-quicktasks.com/bind-container-port-to-host-port/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/bind-container-port-to-host-port/</guid>
+      <description>docker run -d --name testOnly -p 6379:6379 redis:latest  </description>
+    </item>
+    
+    <item>
+      <title>Check All Running Docker Process</title>
+      <link>https://www.it-quicktasks.com/check-all-running-docker-process/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-all-running-docker-process/</guid>
+      <description>docker ps -a  </description>
+    </item>
+    
+    <item>
+      <title>Check Logs of a Container</title>
+      <link>https://www.it-quicktasks.com/check-logs-of-container/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-logs-of-container/</guid>
+      <description>docker logs &amp;lt;friendly-name|container-id&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Docker Build Cannot Connect to Internet</title>
+      <link>https://www.it-quicktasks.com/docker-build-cannot-connect-to-internet/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/docker-build-cannot-connect-to-internet/</guid>
+      <description>Example scenario:
+[root@selenium php-5.1.2]# docker build -t php5_1_2 . Sending build context to Docker daemon 8.071MB Step 1/9 : FROM nubs/arch-build ---&amp;gt; a68cd3855bfe Step 2/9 : MAINTAINER Spencer Rinehart &amp;lt;anubis@overthemonkey.com&amp;gt; ---&amp;gt; Using cache ---&amp;gt; 0d099a2cd179 Step 3/9 : COPY php/PKGBUILD php/*.patch /package/ ---&amp;gt; Using cache ---&amp;gt; e9a68b923b81 Step 4/9 : RUN makepkg --force ---&amp;gt; Running in 22c4f167216a ==&amp;gt; Making package: php 5.1.2-1 (Wed May 9 21:15:05 UTC 2018) ==&amp;gt; Checking runtime dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Docker files within Linux Filesystem</title>
+      <link>https://www.it-quicktasks.com/docker-files-within-filesystem/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/docker-files-within-filesystem/</guid>
+      <description>Location in
+/var/lib/docker  </description>
+    </item>
+    
+    <item>
+      <title>Force Remove Docker Images</title>
+      <link>https://www.it-quicktasks.com/force-remove-docker-images/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/force-remove-docker-images/</guid>
+      <description>[root@selenium02 ~]# docker rmi ad66a5961263 Error response from daemon: conflict: unable to delete ad66a5961263 (must be forced) - image is being used by stopped container 088219585a61 [root@selenium02 ~]# docker rmi -f ad66a5961263  </description>
+    </item>
+    
+    <item>
+      <title>Getting Started in Docker</title>
+      <link>https://www.it-quicktasks.com/getting-started-in-docker/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-started-in-docker/</guid>
+      <description>See details in https://docs.docker.com/get-started/</description>
+    </item>
+    
+    <item>
+      <title>How to Login to DockerHub</title>
+      <link>https://www.it-quicktasks.com/how-to-login-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/how-to-login-dockerhub/</guid>
+      <description>docker login  </description>
+    </item>
+    
+    <item>
+      <title>Install Docker CE in CentOS</title>
+      <link>https://www.it-quicktasks.com/install-docker-ce-centos/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-docker-ce-centos/</guid>
+      <description>See details in https://docs.docker.com/install/linux/docker-ce/centos/#upgrade-docker-ce</description>
+    </item>
+    
+    <item>
+      <title>Install Docker Compose</title>
+      <link>https://www.it-quicktasks.com/install-docker-compose/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-docker-compose/</guid>
+      <description>sudo yum install epel-release sudo yum install -y python-pip sudo pip install docker-compose  Further details in https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-centos-7</description>
+    </item>
+    
+    <item>
+      <title>More Details about a Container</title>
+      <link>https://www.it-quicktasks.com/more-details-about-container/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/more-details-about-container/</guid>
+      <description>docker inspect &amp;lt;friendly-name|container-id&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Pull an Image from DockerHub</title>
+      <link>https://www.it-quicktasks.com/pull-image-from-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-image-from-dockerhub/</guid>
+      <description>docker pull selenium/standalone-chrome:2.53.1-beryllium ## GETS https://hub.docker.com/r/selenium/standalone-chrome/tags/2.53.1-beryllium  </description>
+    </item>
+    
+    <item>
+      <title>Remove All Docker Containers</title>
+      <link>https://www.it-quicktasks.com/remove-all-docker-containers/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/remove-all-docker-containers/</guid>
+      <description>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q)  Details in https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers</description>
+    </item>
+    
+    <item>
+      <title>Removing docker0 Interface</title>
+      <link>https://www.it-quicktasks.com/removing-docker0-interface/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/removing-docker0-interface/</guid>
+      <description>If you see something like:
+root@example.com:/etc/apache2/sites-enabled# ifconfig docker0 Link encap:Ethernet HWaddr 02:42:8e:e1:53:84 inet addr:172.17.0.1 Bcast:0.0.0.0 Mask:255.255.0.0 UP BROADCAST MULTICAST MTU:1500 Metric:1 RX packets:0 errors:0 dropped:0 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:0 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)  And you&amp;rsquo;re sure you don&amp;rsquo;t need it, remove it using
+ip link del docker0  See https://superuser.com/questions/995373/remove-docker0-bridge</description>
+    </item>
+    
+    <item>
+      <title>Rerun a Docker Container Instance</title>
+      <link>https://www.it-quicktasks.com/rerun-docker-container-instance/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rerun-docker-container-instance/</guid>
+      <description>Given these:
+[root@selenium php-5.1.2]# docker ps -a CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 7e89768a78f9 e9a68b923b81 &amp;quot;/bin/sh -c &#39;makepkg…&amp;quot; 7 minutes ago Exited (1) 4 minutes ago nostalgic_lovelace af5262bdb8c1 selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_5 3d788ffebc32 selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_2 0bb97cb44ccd selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_3 982e0a223e1e selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_1 b4a2a19f9e80 selenium/node-chrome:2.</description>
+    </item>
+    
+    <item>
+      <title>Run Container as Daemon</title>
+      <link>https://www.it-quicktasks.com/run-container-as-daemon/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/run-container-as-daemon/</guid>
+      <description>docker run -d --name redisDynamic -p 6379 redis:latest  this will bind though to host port at random. To check bound port, use
+docker port redisDynamic 6379  </description>
+    </item>
+    
+    <item>
+      <title>Using a Dockerfile</title>
+      <link>https://www.it-quicktasks.com/using-dockerfile/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/using-dockerfile/</guid>
+      <description># Build an image using the Dockerfile at current location (specified by &#39;.&#39; at the end) # Example: docker build -t [name] . docker build -t my_mongodb .  To create a Dockerfile, see https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images</description>
+    </item>
+    
+    <item>
+      <title>Install PHP Module Inside Dockerfile</title>
+      <link>https://www.it-quicktasks.com/dockerfile-install-php-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dockerfile-install-php-module/</guid>
+      <description>Add this to Dockerfile
+RUN docker-php-ext-install mysqli  See details in https://github.com/docker-library/php/issues/279</description>
+    </item>
+    
+  </channel>
+</rss>

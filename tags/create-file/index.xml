@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>create-file on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/create-file/</link>
+    <description>Recent content in create-file on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/create-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create File</title>
+      <link>https://www.it-quicktasks.com/create-file/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-file/</guid>
+      <description>--- - hosts: localhost become: true tasks: - name: Create file file: path: /tmp/yallo state: touch  Ref http://docs.ansible.com/ansible/latest/file_module.html
+An alternative is to use &amp;lsquo;lineinfile&amp;rsquo; module. In my example below, Ubuntu 18.x no longer has the /etc/rc.local but it still works. See below
+## NOTE : /etc/rc.local doesn&#39;t exist in Ubuntu18.x but still runs if executable + has the shebang line ## See https://www.claudiokuenzler.com/blog/783/ubuntu-18.04-rc.local-file-not-exist-launch-with-systemd-rc-local#.XDYuL88zZTY - name: Create executable /etc/rc.local if it doesn&#39;t exist lineinfile: dest: /etc/rc.</description>
+    </item>
+    
+  </channel>
+</rss>

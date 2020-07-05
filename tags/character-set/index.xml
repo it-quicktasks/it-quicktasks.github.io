@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>character-set on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/character-set/</link>
+    <description>Recent content in character-set on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 07:46:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/character-set/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Check Current Character Set Settings in MySQL</title>
+      <link>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</link>
+      <pubDate>Mon, 15 Oct 2018 07:46:36 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</guid>
+      <description>mysql&amp;gt; SHOW VARIABLES WHERE Variable_name LIKE &#39;character\_set\_%&#39; OR Variable_name LIKE &#39;collation%&#39;;  Sample output as follows: </description>
+    </item>
+    
+    <item>
+      <title>Checking Supported Character Set</title>
+      <link>https://www.it-quicktasks.com/checking-supported-character-set/</link>
+      <pubDate>Mon, 15 Oct 2018 07:41:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-supported-character-set/</guid>
+      <description>mysql&amp;gt; SHOW CHARACTER SET;  </description>
+    </item>
+    
+    <item>
+      <title>Error 1273 (HY000): Unknown collation &#39;utf8mb4_unicode_520_ci</title>
+      <link>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</link>
+      <pubDate>Sun, 08 Apr 2018 23:28:33 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</guid>
+      <description>Caused by difference in database versions where the latest version you&amp;rsquo;re running does not support &amp;lsquo;utf8mb4unicode520_ci&amp;rsquo;.
+Search and replace it from within the dump file with &amp;lsquo;utf8mb4_unicode_ci&amp;rsquo;.
+See details in https://www.digitalocean.com/community/questions/error-1273-hy000-at-line-25-unknown-collation-utf8mb4_unicode_520_ci</description>
+    </item>
+    
+  </channel>
+</rss>

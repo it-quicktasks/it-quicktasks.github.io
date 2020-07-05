@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quicktasks on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/post/</link>
+    <description>Recent content in quicktasks on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fix Jenkins Access Problem</title>
+      <link>https://www.it-quicktasks.com/fix-jenkins-access-problem/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/fix-jenkins-access-problem/</guid>
+      <description> Manage Jenkins &amp;gt; Configure Global Security In &amp;ldquo;Authorization&amp;rdquo;, change to &amp;ldquo;Logged-in users can do anything&amp;rdquo; but uncheck &amp;ldquo;Allow anonymous read access&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>Install Jenkins LTS via Ansible</title>
+      <link>https://www.it-quicktasks.com/install-jenkins-lts-via-ansible/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-jenkins-lts-via-ansible/</guid>
+      <description>Personally, I&amp;rsquo;d like to use other&amp;rsquo;s work as much as possible in its original state. With ansible roles, authors usually name their repos as &amp;lsquo;ansible-role-java&amp;rsquo; but internally, it&amp;rsquo;s something like &amp;lsquo;geerlingguy.java&amp;rsquo; which is what they put in dependencies. Now, if you simply clone as is, you will need to change the dependencies name.
+This is the case with Geerlingguy&amp;rsquo;s jenkins role, where I hit on errors in java due to the name of the dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Install Jenkins Plugin via Ansible</title>
+      <link>https://www.it-quicktasks.com/install-jenkins-plugin-via-ansible/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-jenkins-plugin-via-ansible/</guid>
+      <description>example@user:/opt/ansible-playbooks$ cat vars/jenkins.yml ## Search names from https://plugins.jenkins.io/ jenkins_plugins: - git - hipchat - log-parser - mask-passwords - ssh-agent - ssh  </description>
+    </item>
+    
+    <item>
+      <title>Jenkins Gmail SMTP</title>
+      <link>https://www.it-quicktasks.com/jenkins-gmail-smtp/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/jenkins-gmail-smtp/</guid>
+      <description>Manage Jenkins &amp;gt; Configure System &amp;gt; E-mail Notification Input your gmail address (also works for Domains with gmail backends) Check &amp;ldquo;Use SSL&amp;rdquo; SMTP Port 465  Then, you should receive an email to confirm. Configure and allow sending.</description>
+    </item>
+    
+    <item>
+      <title>Migrate Jenkins Jobs to New Server</title>
+      <link>https://www.it-quicktasks.com/migrate-jenkins-jobs-new-server/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/migrate-jenkins-jobs-new-server/</guid>
+      <description>https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/</description>
+    </item>
+    
+    <item>
+      <title>Location of NewRelic License in CentOS7</title>
+      <link>https://www.it-quicktasks.com/newrelic-license-location/</link>
+      <pubDate>Fri, 03 Jul 2020 23:41:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/newrelic-license-location/</guid>
+      <description>It&amp;rsquo;s in &amp;ldquo;/etc/php.d/newrelic.ini&amp;rdquo; look for &amp;ldquo;newrelic.license&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Adding Helm Repo</title>
+      <link>https://www.it-quicktasks.com/adding-helm-repo/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/adding-helm-repo/</guid>
+      <description>A Helm Repo that&amp;rsquo;s in https://github.com/codecentric/helm-charts has a corresponding repo URL. Add it as follows:
+user@example:~$ helm repo add codecentric https://codecentric.github.io/helm-charts &amp;quot;codecentric&amp;quot; has been added to your repositories  </description>
+    </item>
+    
+    <item>
+      <title>Change Default Cluster in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/change-default-cluster-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-default-cluster-in-kubernetes/</guid>
+      <description>If you have more than one cluster as illustrated in https://ismael.casimpan.com/quicktasks-k8s/list-nodes-in-kubernetes/, you can change it using command:
+kubectl config use-context &amp;lt;cluster_name_here&amp;gt;  Use this command to verify the change:
+kubectl config get-contexts  </description>
+    </item>
+    
+    <item>
+      <title>Checking PersistentVolumeClaims</title>
+      <link>https://www.it-quicktasks.com/checking-pvc/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-pvc/</guid>
+      <description>user@example:~$ kubectl get pvc --all-namespaces NAMESPACE NAME STATUS VOLUME CAPACITY ACCESS MODES STORAGECLASS AGE testing-icasimpan-com vol-mysql-mysql-0 Bound pvc-bd199911-e0e5-4327-885d-4902a599ebe2 10Gi RWO do-block-storage 12m  </description>
+    </item>
+    
+    <item>
+      <title>Get Cluster List in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/cluster-list-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cluster-list-in-kubernetes/</guid>
+      <description>If you have a lot of kubernetes cluster, you will see the following:
+user@example:~$ kubectl config get-contexts CURRENT NAME CLUSTER AUTHINFO NAMESPACE * do-nyc1-kubernetes-tutorial do-nyc1-kubernetes-tutorial do-nyc1-kubernetes-tutorial-admin do-nyc3-infra do-nyc3-infra do-nyc3-infra-admin do-nyc2-devinfra do-nyc2-devinfra do-nyc2-devinfra-admin  The one with asterisk (do-nyc1-kubernetes-tutorial) is your current cluster. So &amp;ldquo;kubectl&amp;rdquo; commands without specified cluster will default to it.</description>
+    </item>
+    
+    <item>
+      <title>Get List of Nodes in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/list-nodes-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/list-nodes-in-kubernetes/</guid>
+      <description>user@example:~$ kubectl get nodes NAME STATUS ROLES AGE VERSION pool-78osxtl1e3-3f4qg Ready &amp;lt;none&amp;gt; 72m v1.17.5 pool-78osxtl1e3-3f4qw Ready &amp;lt;none&amp;gt; 71m v1.17.5  </description>
+    </item>
+    
+    <item>
+      <title>Installing Software using Helm</title>
+      <link>https://www.it-quicktasks.com/install-using-helm/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-using-helm/</guid>
+      <description>Say you want install jenkins and corresponding repo already added.
+user@example:~$ helm install jenkins codecentric/jenkins NAME: jenkins LAST DEPLOYED: Sun Jun 28 09:59:52 2020 NAMESPACE: default STATUS: deployed REVISION: 1 TEST SUITE: None NOTES: ************************************************************************ * * * Jenkins Helm Chart by codecentric AG * * * ************************************************************************ In case the chart was installed with the default configuration and you did not configure an admin user, Jenkins creates one per default.</description>
+    </item>
+    
+    <item>
+      <title>Connection to Server Refused</title>
+      <link>https://www.it-quicktasks.com/connection-to-server-refused/</link>
+      <pubDate>Sat, 27 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/connection-to-server-refused/</guid>
+      <description>When you see similar error as below:
+user@example:~$ kubectl get nodes The connection to the server localhost:8080 was refused - did you specify the right host or port?  Check for the &amp;ldquo;$KUBECONFIG&amp;rdquo; if set and &amp;ldquo;kubectl config view&amp;rdquo; output. Chances are, both are empty like below:
+user@example:~$ echo $KUBECONFIG  user@example:~$ kubectl config view apiVersion: v1 clusters: null contexts: null current-context: &amp;quot;&amp;quot; kind: Config preferences: {} users: null  In this example, we&amp;rsquo;re using the DOKS or DigitalOcean Managed Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>MySQLDump Except Locked Tables</title>
+      <link>https://www.it-quicktasks.com/mysqldump-except-locked-tables/</link>
+      <pubDate>Wed, 17 Jun 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysqldump-except-locked-tables/</guid>
+      <description>MySQL will go down if locked tables are touched during dump. Use the following mysqldump syntax instead:
+mysqldump --single-transaction --skip-lock-tables  </description>
+    </item>
+    
+    <item>
+      <title>Drupal User Blocked in D7</title>
+      <link>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</guid>
+      <description>How to reset user after being blocked (d7 only)?
+MySQL&amp;gt; delete from flood where identifier=&amp;lt;uid&amp;gt;;  To get the uid, search as follows:
+MySQL&amp;gt; select uid, name from users where name like &#39;%NameHere%&#39;\G;  Details in https://www.drupal.org/node/1023440</description>
+    </item>
+    
+    <item>
+      <title>What are the Tasks in Drupal Cron</title>
+      <link>https://www.it-quicktasks.com/tasks-in-drupal-cron/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/tasks-in-drupal-cron/</guid>
+      <description>Wondering what sort of tasks are in drupal cron? I need to know what those tasks are. You can start by searching your codebase for _cron functions.
+Remember:
+All *_cron() functions in a site will be run on cron.  </description>
+    </item>
+    
+    <item>
+      <title>Truncate Table</title>
+      <link>https://www.it-quicktasks.com/truncate-mysql-table/</link>
+      <pubDate>Wed, 10 Jun 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/truncate-mysql-table/</guid>
+      <description>To delete the entries BUT not the table, use:
+TRUNCATE TABLE &amp;lt;table_name&amp;gt;;  See details in https://www.mysqltutorial.org/mysql-truncate-table/</description>
+    </item>
+    
+    <item>
+      <title>Cert Chain for a multi-domain Comondo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</guid>
+      <description>cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt &amp;gt;&amp;gt; cert-chain.pem  NOTE: This is the inverse of &amp;ldquo;Creating an SSL Bundle out of Comodo Positive SSL&amp;rdquo; which seems valid as well. Not sure if it&amp;rsquo;s valid in any order.</description>
+    </item>
+    
+    <item>
+      <title>Cert Chain for Positive wildcard multi-domain</title>
+      <link>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</guid>
+      <description>Given this list of files given by Comodo
+Root CA Certificate - AddTrustExternalCARoot.crt Intermediate CA Certificate - USERTrustRSAAddTrustCA.crt Intermediate CA Certificate - SectigoRSADomainValidationSecureServerCA.crt Your PositiveSSL Multi-Domain Certificate - 285695299.crt  Do the following:
+cat 285695299.crt SectigoRSADomainValidationSecureServerCA.crt USERTrustRSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; cert-chain.pem  </description>
+    </item>
+    
+    <item>
+      <title>Check Certificates Info</title>
+      <link>https://www.it-quicktasks.com/check-certificates-info/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-certificates-info/</guid>
+      <description>Check a Certificate Signing Request (CSR)  openssl req -text -noout -verify -in CSR.csr   Check a private key  openssl rsa -in privateKey.key -check   Check a certificate  openssl x509 -in certificate.crt -text -noout   Check a PKCS#12 file (.pfx or .p12)  openssl pkcs12 -info -in keyStore.p12  See https://www.sslshopper.com/csr-decoder.html or https://www.sslshopper.com/certificate-decoder.html</description>
+    </item>
+    
+    <item>
+      <title>Check SSL Connection</title>
+      <link>https://www.it-quicktasks.com/check-ssl-connection/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-ssl-connection/</guid>
+      <description>All the certificates (including Intermediates) should be displayed
+openssl s_client -connect www.google.com:443  Web UI checking possible in https://www.sslshopper.com/ssl-checker.html</description>
+    </item>
+    
+    <item>
+      <title>Converting Certs from Different Formats</title>
+      <link>https://www.it-quicktasks.com/converting-different-cert-formats/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/converting-different-cert-formats/</guid>
+      <description>Convert a DER file (.crt .cer .der) to PEM  openssl x509 -inform der -in certificate.cer -out certificate.pem   Convert a PEM file to DER  openssl x509 -outform der -in certificate.pem -out certificate.der   Convert a PKCS#12 file (.pfx .p12) containing a private key and certificates to PEM  openssl pkcs12 -in keyStore.pfx -out keyStore.pem -nodes   You can add -nocerts to only output the private key or add -nokeys to only output the certificates.</description>
+    </item>
+    
+    <item>
+      <title>Create SAN TLS/SSL Cert</title>
+      <link>https://www.it-quicktasks.com/create-san-sslcert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-san-sslcert/</guid>
+      <description>Create san.conf  [ req ] default_bits = 4096 prompt = no encrypt_key = no default_md = sha256 distinguished_name = dn req_extensions = req_ext [ dn ] CN = example.org emailAddress = webmaster@example.org O = Example Memorial Hospital OU = Example Memorial Hospital L = Chicago ST = Illinois C = US [ req_ext ] subjectAltName = DNS: example.org, DNS: www.example.org  NOTE: Do not leave out OU. Otherwise, you will see the error below.</description>
+    </item>
+    
+    <item>
+      <title>Creating an SSL Bundle out of Comodo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</guid>
+      <description>www.example.org.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; www.example.org-bundle.crt  See details in https://helpdesk.ssls.com/hc/en-us/articles/203427642-How-to-install-a-SSL-certificate-on-a-NGINX-server</description>
+    </item>
+    
+    <item>
+      <title>Cross-check Certificate with Private Key and CSR</title>
+      <link>https://www.it-quicktasks.com/cross-check-certificate-with-csr-and-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cross-check-certificate-with-csr-and-private-key/</guid>
+      <description>openssl x509 -noout -modulus -in certificate.crt | openssl md5 openssl rsa -noout -modulus -in privateKey.key | openssl md5 openssl req -noout -modulus -in CSR.csr | openssl md5  </description>
+    </item>
+    
+    <item>
+      <title>Formerly using nginx, Moving to Apache won&#39;t Renew Cert</title>
+      <link>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</guid>
+      <description>It&amp;rsquo;s quite expected that certificate won&amp;rsquo;t renew as the automation has been broken. What you can do is install the apache version of certbot
+yum install python-certbot-apache  and re-issue the certificate
+sudo certbot --apache -d www.example.org  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Existing Cert</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-existing-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-existing-cert/</guid>
+      <description>openssl x509 -x509toreq -in certificate.crt -out CSR.csr -signkey privateKey.key  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Existing Private Key</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-existing-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-existing-private-key/</guid>
+      <description>openssl req -out CSR.csr -key privateKey.key -new  </description>
+    </item>
+    
+    <item>
+      <title>Generate CSR from Private Key</title>
+      <link>https://www.it-quicktasks.com/generate-csr-from-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-csr-from-private-key/</guid>
+      <description>openssl req -out CSR.csr -key privateKey.key -new  </description>
+    </item>
+    
+    <item>
+      <title>Generate Self-Signed Certificate</title>
+      <link>https://www.it-quicktasks.com/generate-selfsigned-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/generate-selfsigned-cert/</guid>
+      <description>openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout privateKey.key -out certificate.crt  </description>
+    </item>
+    
+    <item>
+      <title>Getting CA-bundle for Comodo Certificates</title>
+      <link>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</guid>
+      <description>Get it via chat to Comodo, one would pop-up from https://support.comodo.com/index.php?/Knowledgebase/Article/View/1145/1/how-do-i-make-my-own-bundle-file-from-crt-files.
+Make sure you edit your profile where they could send the information.</description>
+    </item>
+    
+    <item>
+      <title>Hardened TLS / SSL Cert</title>
+      <link>https://www.it-quicktasks.com/hardened-ssl-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hardened-ssl-cert/</guid>
+      <description>Apache
+SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES128-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA128:DHE-RSA-AES128-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA128:ECDHE-RSA-AES128-SHA384:ECDHE-RSA-AES128-SHA128:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA384:AES128-GCM-SHA128:AES128-SHA128:AES128-SHA128:AES128-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4 SSLProtocol All -SSLv2 -SSLv3 SSLHonorCipherOrder On Header always set Strict-Transport-Security &amp;quot;max-age=63072000; includeSubdomains; preload&amp;quot; Header always set X-Frame-Options SAMEORIGIN Header always set X-Content-Type-Options nosniff # Requires Apache &amp;gt;= 2.4 SSLCompression off SSLSessionTickets Off SSLUseStapling on SSLStaplingCache &amp;quot;shmcb:logs/stapling-cache(150000)&amp;quot;  Nginx
+ssl_ciphers &amp;quot;EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES128-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA128:DHE-RSA-AES128-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA128:ECDHE-RSA-AES128-SHA384:ECDHE-RSA-AES128-SHA128:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA384:AES128-GCM-SHA128:AES128-SHA128:AES128-SHA128:AES128-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4&amp;quot;; ssl_protocols TLSv1 TLSv1.1 TLSv1.2; ssl_prefer_server_ciphers on; ssl_session_cache shared:SSL:10m; # &#39;always&#39; requires nginx &amp;gt;= 1.7.5, see http://nginx.org/en/docs/http/ngx_http_headers_module.html#add_header add_header Strict-Transport-Security &amp;quot;max-age=63072000; includeSubdomains; preload&amp;quot; always; add_header X-Frame-Options SAMEORIGIN always; add_header X-Content-Type-Options nosniff always; ssl_session_tickets off; ssl_stapling on; # Requires nginx &amp;gt;= 1.</description>
+    </item>
+    
+    <item>
+      <title>Install LetsEncrypt in Ubuntu</title>
+      <link>https://www.it-quicktasks.com/install-letsencrypt-ubuntu/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-letsencrypt-ubuntu/</guid>
+      <description>sudo add-apt-repository ppa:certbot/certbot sudo apt-get update sudo apt-get install python-certbot-apache sudo certbot --apache -d one.example.com -d two.example.com  If the above don&amp;rsquo;t work, try this:
+sudo apt-get update sudo apt-get install software-properties-common sudo add-apt-repository universe sudo add-apt-repository ppa:certbot/certbot sudo apt-get update sudo apt-get install certbot python-certbot-nginx  Put the following in root crontab (sudo crontab -e)
+30 2 * * * /usr/bin/certbot renew &amp;gt;&amp;gt; /var/log/letsencrypt-renew.log  Some details in https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>Manually generating LetsEncrypt certificate</title>
+      <link>https://www.it-quicktasks.com/manually-generate-letsencryp-cert/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/manually-generate-letsencryp-cert/</guid>
+      <description>In cases where you don&amp;rsquo;t want to disrupt current production server, this is a good approach
+mkdir /opt/letsencrypt cd /opt/letsencrypt wget https://dl.eff.org/certbot-auto chmod a+x certbot-auto sudo ./certbot-auto --apache certonly  Sample run as follows:
+[root@687elmp01 letsencrypt]# sudo ./certbot-auto --apache certonly Saving debug log to /var/log/letsencrypt/letsencrypt.log Plugins selected: Authenticator apache, Installer apache Enter email address (used for urgent renewal and security notices) (Enter &#39;c&#39; to cancel): me@example.com ------------------------------------------------------------------------------- Please read the Terms of Service at https://letsencrypt.</description>
+    </item>
+    
+    <item>
+      <title>One Liner CSR Creation</title>
+      <link>https://www.it-quicktasks.com/one-liner-csr-creation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/one-liner-csr-creation/</guid>
+      <description>openssl req -new -newkey rsa:2048 -nodes -out this.example.com.csr -keyout this.example.com.key -subj &amp;quot;/C=PH/ST=Cebu/L=Cebu/O=Example Organization Cebu/OU=IT Department/CN=this.example.com&amp;quot;  What to use in the &amp;ldquo;-subj&amp;rsquo; as per https://www.endpoint.com/blog/2014/10/30/openssl-csr-with-alternative-names-one
+ C = Country ST = State/Province L = City O = Organization OU = Organizational Unit CN = Common Name (main domain the certificate would cover  </description>
+    </item>
+    
+    <item>
+      <title>Oneline Letsencrypt Cert Creation</title>
+      <link>https://www.it-quicktasks.com/oneline-letsencrypt-cert-creation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/oneline-letsencrypt-cert-creation/</guid>
+      <description>certbot --apache -d sub1.example.com -d sub2.example.com --agree-tos -m you@example.com --redirect  If you&amp;rsquo;re on nginx, use --nginx</description>
+    </item>
+    
+    <item>
+      <title>Perfect Forward Secrecy Fix</title>
+      <link>https://www.it-quicktasks.com/perfect-forward-secrecy-fix/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/perfect-forward-secrecy-fix/</guid>
+      <description>Generate dhparam.pem  openssl dhparam -out /etc/nginx/ssl/dhparam.pem 4096  Create /etc/nginx/conf.d/perfect-forward-secrecy.conf since all *.conf in /etc/nginx/conf.d:  ssl_protocols TLSv1.2; ssl_prefer_server_ciphers on; ssl_ciphers &amp;quot;EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !MEDIUM&amp;quot;; ssl_dhparam /etc/nginx/ssl/dhparam.pem;   Reload nginx
+  Test again using the SSLLabs Tool
+  https://www.howtoforge.com/ssl-perfect-forward-secrecy-in-nginx-webserver</description>
+    </item>
+    
+    <item>
+      <title>Remove Passphrase from Private Key</title>
+      <link>https://www.it-quicktasks.com/remove-passphrase-from-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/remove-passphrase-from-private-key/</guid>
+      <description>openssl rsa -in privateKey.pem -out newPrivateKey.pem  </description>
+    </item>
+    
+    <item>
+      <title>ssllabs.com test says that there&#39;s chain issues (Incorrect order, Extra certs)</title>
+      <link>https://www.it-quicktasks.com/chain-issues-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/chain-issues-ssllabs/</guid>
+      <description>This could be an incorrect use of certificates. Make sure to use the following (translate to nginx if you&amp;rsquo;re not using apache)
+SSLCertificateFile /etc/letsencrypt/live/example.com/cert.pem SSLCertificateKeyFile /etc/letsencrypt/live/example.com/privkey.pem Include /etc/letsencrypt/options-ssl-apache.conf SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem  In my case, the issue was on SSLCertificateChainFile. Instead of using &amp;ldquo;chain.pem&amp;rdquo;, I incorrectly used &amp;ldquo;fullchain.pem&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>TLS Best Practices</title>
+      <link>https://www.it-quicktasks.com/tls-best-practices/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/tls-best-practices/</guid>
+      <description>https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices</description>
+    </item>
+    
+    <item>
+      <title>Unencrypt Private Key</title>
+      <link>https://www.it-quicktasks.com/unencrypt-private-key/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/unencrypt-private-key/</guid>
+      <description>openssl rsa -in encrypted-private.key -out non-encrypted-private.key Enter pass phrase for encrypted-private.key: writing RSA key  See https://knowledge.digicert.com/solution/SO5292.html</description>
+    </item>
+    
+    <item>
+      <title>Weak Deffie-Hellman and a B rating in SSL Labs Test</title>
+      <link>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</guid>
+      <description>You can fix it by creating .a &amp;lsquo;dhparam&amp;rsquo; file as follows in nginx:
+cd /etc/ssl/certs openssl dhparam -dsaparam -out ./dhparam.pem 4096  NOTE: &amp;ldquo;-dsaparam&amp;rdquo; is significant. Otherwise, it would take creation of dhparam.pem almost 24hours or more. See https://security.stackexchange.com/questions/95178/diffie-hellman-parameters-still-calculating-after-24-hours
+then add this to nginx config
+ssl_dhparam /etc/ssl/certs/dhparam.pem;  </description>
+    </item>
+    
+    <item>
+      <title>Wildcard LetsEncrypt</title>
+      <link>https://www.it-quicktasks.com/wildcard-letsencrypt/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wildcard-letsencrypt/</guid>
+      <description>yum install certbot.noarch -y certbot -d *.example.com \ --manual \ --preferred-challenges \ dns certonly \ --server https://acme-v02.api.letsencrypt.org/directory ... ... create the TXT DNS record  NOTE: In creating the cert, make sure to wait for 5minutes or better check in another terminal session if the txt record is now visible. Otherwise, cert creation will fail.
+Some details in https://wicowen.github.io/2018-0315-1400-Enable-Lets-encrypt-wildcard-certificate-in-CentOS-7/
+In Ubuntu/Debian check https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7
+30 2 * * * /usr/bin/certbot renew &amp;gt;&amp;gt; /var/log/letsencrypt-renew.</description>
+    </item>
+    
+    <item>
+      <title>Rsync including hidden files</title>
+      <link>https://www.it-quicktasks.com/rsync-including-hidden/</link>
+      <pubDate>Sat, 06 Jun 2020 09:21:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-including-hidden/</guid>
+      <description>If you need to rsync those hidden directories or files starting with dot, do it something like below (not the trailing /)
+rsync -avz -e ssh --progress user@source-server:/somedirA/ somedirB/  See https://stackoverflow.com/questions/9046749/rsync-not-synchronizing-htaccess-file</description>
+    </item>
+    
+    <item>
+      <title>key_value table missing</title>
+      <link>https://www.it-quicktasks.com/key_value-missing/</link>
+      <pubDate>Sat, 06 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/key_value-missing/</guid>
+      <description>You just received a D8 database dump and it is said to be complete. However, you see this error:
+[notice] Missing database table: key_value  Said table is part of drupal8 so it can&amp;rsquo;t go missing. It could be that the table names for this site has prefix. Check using the command: {code} drush sql-drush &amp;ldquo;show tables;&amp;ldquo;|grep -i key_value {code}
+If you see something like: {code} bash-4.2$ drush sql-query &amp;ldquo;show tables;&amp;ldquo;|grep -i key_value kb_key_value kb_key_value_expire {code}</description>
+    </item>
+    
+    <item>
+      <title>Acquia: Troubleshooting Site Downtime</title>
+      <link>https://www.it-quicktasks.com/troubleshooting-acquia-site-downtime/</link>
+      <pubDate>Fri, 05 Jun 2020 00:20:31 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/troubleshooting-acquia-site-downtime/</guid>
+      <description>Below are some common performance-impacting issues that your environment(s) may be experiencing:
+ Traffic: Increased traffic to your environment(s) may be causing service to be interrupted on those environments. Apache access logs: https://docs.acquia.com/acquia-cloud/monitor/logs/ Insight: https://docs.acquia.com/acquia-cloud/insight/ Stack Metrics: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/application/ Out of memory issues: Check Stack Metrics for out of memory errors: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/ Learn to find and resolve memory related errors: https://support.acquia.com/hc/en-us/articles/360005248674-Finding-Resolving-Memory-Related-PHP-errors-in-Acquia-Cloud Application issues - Did you deploy code recently? If so, try reverting code to a previous tag that works properly.</description>
+    </item>
+    
+    <item>
+      <title>Drupal9 Migration</title>
+      <link>https://www.it-quicktasks.com/drupal9/</link>
+      <pubDate>Wed, 03 Jun 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal9/</guid>
+      <description>See:
+ https://www.acquia.com/sites/acquia.com/files/documents/2020-03/Acquia%20Ultimate%20Guide%20to%20Drupal%209.pdf https://dev.acquia.com/drupal9 https://github.com/mglaman/drupal-check https://phpstan.org/user-guide/getting-started  </description>
+    </item>
+    
+    <item>
+      <title>Drupal7 Extended Support</title>
+      <link>https://www.it-quicktasks.com/drupal7-extended-support/</link>
+      <pubDate>Wed, 03 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal7-extended-support/</guid>
+      <description>Acquia is one of those that would provide extended support beyond EOL of Nov 2021 https://support.acquia.com/hc/en-us/articles/360034121053-Drupal-7-x-Extended-Support</description>
+    </item>
+    
+    <item>
+      <title>Telling git To Use Specific Private Key</title>
+      <link>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</link>
+      <pubDate>Fri, 29 May 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</guid>
+      <description>Sometimes, you need to use specific keys. To do it, use ssh config, something like below in ~/.ssh/config
+host github.com HostName github.com IdentityFile ~/.ssh/id_rsa_github User git  See details in https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use</description>
+    </item>
+    
+    <item>
+      <title>Git with Latest Commit Log Only</title>
+      <link>https://www.it-quicktasks.com/git-with-latest-commit-log-only/</link>
+      <pubDate>Tue, 26 May 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-with-latest-commit-log-only/</guid>
+      <description>In some situations, you only need the latest commit log, saving space in the process. You have to do it as follows:
+git clone --depth=1 REPO  </description>
+    </item>
+    
+    <item>
+      <title>Finding Large Files Uncacheable in Acquia Varnish</title>
+      <link>https://www.it-quicktasks.com/finding-large-files-uncacheable-in-acquia-varnish/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/finding-large-files-uncacheable-in-acquia-varnish/</guid>
+      <description>Acquia varnish cannot cache files &amp;gt;10MB as per https://docs.acquia.com/acquia-cloud/performance/varnish/files/
+To find for those &amp;gt;10MB files, search from the sites/default/files:
+find ./ -type f -size +10M -exec du -sh &#39;{}&#39; \; -print|grep -v ^\./| sort -n  </description>
+    </item>
+    
+    <item>
+      <title>MySQL/MariaDB with Credentials File</title>
+      <link>https://www.it-quicktasks.com/mysql-with-credentials-file/</link>
+      <pubDate>Tue, 12 May 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-with-credentials-file/</guid>
+      <description>Using a configuration file for mysql is a good practice as you don&amp;rsquo;t immediately expose credentials. Below, you are going to mysql cli and immediately using the db named dbName.
+mysql --defaults-file=/path/to/credentials.ini dbName  where credentials.ini has this format:
+[client] host=&amp;lt;replace_with_servername_or_ip&amp;gt; user=&amp;lt;replace_with_db_user&amp;gt; password=&amp;lt;replace_with_db_password&amp;gt;  Of course, there are other security precautions you could take, not just the above but it&amp;rsquo;s a good start. See further info on securing mysql in https://dev.</description>
+    </item>
+    
+    <item>
+      <title>Curl with Credentials File</title>
+      <link>https://www.it-quicktasks.com/curl-with-credentials-file/</link>
+      <pubDate>Tue, 12 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-credentials-file/</guid>
+      <description>curl --config /path/to/config-file &amp;lt;url_here&amp;gt;  where config-file has this format:
+-u username:password  </description>
+    </item>
+    
+    <item>
+      <title>Drupal Login Not Found</title>
+      <link>https://www.it-quicktasks.com/drupal-login-404/</link>
+      <pubDate>Fri, 01 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-login-404/</guid>
+      <description>When you login to drupal via https://example.com/user and it is not found, try to check for the following:
+ Does it have .htaccess if in an apache web server? If in nginx, is the correct virtualhost rules in place? Does documentroot in apache have the needed directives to activate .htaccess?  Answer that and you will fix the issue. If you feel stuck, read https://www.drupal.org/docs/7/configuring-clean-urls/enable-clean-urls</description>
+    </item>
+    
+    <item>
+      <title>MariaDB root Account Ignoring Password</title>
+      <link>https://www.it-quicktasks.com/mariadb-root-ignoring-password/</link>
+      <pubDate>Wed, 29 Apr 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mariadb-root-ignoring-password/</guid>
+      <description>Observed this in Mariadb 10.x versions. Despite being able to change password, it is still ignoring the password.
+Non-root user not affected.
+Explanation per https://mariadb.com/kb/en/authentication-from-mariadb-104/
+ Using unix_socket means that if you are the system root user, you can login as root@locahost without a password. This technique was pioneered by Otto Kekäläinen in Debian MariaDB packages and has been successfully used in Debian since as early as MariaDB 10.0.
+  It is based on a simple fact that asking the system root for a password adds no extra security — root has full access to all the data files and all process memory anyway.</description>
+    </item>
+    
+    <item>
+      <title>Failed to open stream: DrupalTemporaryStreamWrapper::stream_open</title>
+      <link>https://www.it-quicktasks.com/failed-to-open-stream-drupaltemporarystreamwrapperstream/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/failed-to-open-stream-drupaltemporarystreamwrapperstream/</guid>
+      <description>From CLI
+This error is shown:
+failed to open stream: &amp;quot;DrupalTemporaryStreamWrapper::stream_open&amp;quot; call failed file.inc:1983  Solution
+Seems to be an issue with the temp file. Check &amp;ldquo;drush st&amp;rdquo; and confirm if the temp file is still accessible.
+This gives some hints on how to set the &amp;ldquo;temp and private files&amp;rdquo; in drupal setttings https://www.drupal.org/forum/support/installing-drupal/2011-03-01/failed-to-open-stream-drupaltemporarystreamwrapperstream#comment-4258986
+However, my test showed using &amp;ldquo;/tmp&amp;rdquo; doesn&amp;rsquo;t seem to reflected in drupal. What works is adding the full path, something like this (valid only in D7, D8 syntax is different, see earlier link above from drupal.</description>
+    </item>
+    
+    <item>
+      <title>Fatal Error: Call to undefined function cache_get()</title>
+      <link>https://www.it-quicktasks.com/fatal-error-call-to-undefined-function-cache_get/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/fatal-error-call-to-undefined-function-cache_get/</guid>
+      <description>From CLI
+ drush st  This error is shown:
+PHP Fatal error: Uncaught Error: Call to undefined function cache_get() in xxxx  Solution
+Is always due to php syntax error. What did you add just recently? Perhaps a semicolon is missing in settings.local.php?
+Further information in https://www.drupal.org/forum/support/post-installation/2016-06-23/fatal-error-call-to-undefined-function-cache_get</description>
+    </item>
+    
+    <item>
+      <title>Change drupal user credential</title>
+      <link>https://www.it-quicktasks.com/change-drupal-credential/</link>
+      <pubDate>Mon, 30 Mar 2020 00:14:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-drupal-credential/</guid>
+      <description>Go to drupal root, then:
+drush upwd --password=&amp;quot;newPassword_here&amp;quot; &amp;quot;the_user&amp;quot;  More info in https://www.drupal.org/node/44164</description>
+    </item>
+    
+    <item>
+      <title>Allow Postfix to Send Mail to Anyone</title>
+      <link>https://www.it-quicktasks.com/postfix-sending-to-anyone/</link>
+      <pubDate>Wed, 11 Mar 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/postfix-sending-to-anyone/</guid>
+      <description>in /etc/postfix/main.cf, change:
+inet_interfaces = localhost  to
+inet_interfaces = all  And restart postfix accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Ansible Multiple Conditions Using when ons Single Task.md</title>
+      <link>https://www.it-quicktasks.com/ansible-multiple-conditions-using-when/</link>
+      <pubDate>Wed, 11 Mar 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible-multiple-conditions-using-when/</guid>
+      <description>There are a lot of ways on doing it. One of it is as follows:
+tasks: - name: &amp;quot;shut down CentOS 6 and Debian 7 systems&amp;quot; command: /sbin/shutdown -t now when: (ansible_facts[&#39;distribution&#39;] == &amp;quot;CentOS&amp;quot; and ansible_facts[&#39;distribution_major_version&#39;] == &amp;quot;6&amp;quot;) or (ansible_facts[&#39;distribution&#39;] == &amp;quot;Debian&amp;quot; and ansible_facts[&#39;distribution_major_version&#39;] == &amp;quot;7&amp;quot;)  Read further in Ansible Official Docs.</description>
+    </item>
+    
+    <item>
+      <title>Curl type download in Ansible</title>
+      <link>https://www.it-quicktasks.com/curl-type-dowload-in-ansible/</link>
+      <pubDate>Wed, 11 Mar 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-type-dowload-in-ansible/</guid>
+      <description>- name: Download drush phar file (8.3.0) become: yes get_url: url: https://github.com/drush-ops/drush/releases/download/8.3.0/drush.phar dest: /usr/local/bin mode: +x checksum: sha256:ddfe6d529e44e98c2cf74c143c1fcdf67c927d6f9a5eb2ae10fbe47ef9b8eaf0 group: root owner: root  See get_url module in https://docs.ansible.com/ansible/latest/modules/get_url_module.html</description>
+    </item>
+    
+    <item>
+      <title>Mirror Git Repo</title>
+      <link>https://www.it-quicktasks.com/mirror-git-repo/</link>
+      <pubDate>Thu, 05 Mar 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mirror-git-repo/</guid>
+      <description>Get a clone of the bare repo
+git clone --bare https://github.com/example/example-repo.git  Push to remote repo
+git push --mirror https://github.com/remote/example-repo.git  </description>
+    </item>
+    
+    <item>
+      <title>Cloning Repos with Submodules</title>
+      <link>https://www.it-quicktasks.com/cloning-repo-with-submodules/</link>
+      <pubDate>Wed, 26 Feb 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cloning-repo-with-submodules/</guid>
+      <description>Submodules is quite a pain to manage. To make it easy, just use this command:
+git clone --recursive &amp;lt;repo_full_path&amp;gt;  Failure to use --recursive would mean using a lot of commands later.
+See detailed git submodules commands in https://www.vogella.com/tutorials/GitSubmodules/article.html</description>
+    </item>
+    
+    <item>
+      <title>Drupal Can&#39;t Connect to Local Solr Server</title>
+      <link>https://www.it-quicktasks.com/drupal-cant-connect-solr-server/</link>
+      <pubDate>Fri, 21 Feb 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-cant-connect-solr-server/</guid>
+      <description>Solr is already up and accessible from browser and within the drupal server but when connected through proper drupal admin settings, it says cannot connect to server.
+Solution is to create solr core. See https://ismael.casimpan.com/quicktasks-solr/post/create-solr-core-with-config/ or https://ismael.casimpan.com/quicktasks-solr/post/creating-solr-core/ depending on your situation.</description>
+    </item>
+    
+    <item>
+      <title>Checking Modified Files in a Commit</title>
+      <link>https://www.it-quicktasks.com/check-modified-files/</link>
+      <pubDate>Wed, 19 Feb 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-modified-files/</guid>
+      <description>Get the commit-hash (e.g. of last commit)
+git log -1  Show the files changed only in commit
+git show --stat &amp;lt;commit-hash&amp;gt;  See details in https://stackoverflow.com/questions/424071/how-to-list-all-the-files-in-a-commit</description>
+    </item>
+    
+    <item>
+      <title>Cannot write pid file</title>
+      <link>https://www.it-quicktasks.com/cannot-create-pid-file/</link>
+      <pubDate>Wed, 19 Feb 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cannot-create-pid-file/</guid>
+      <description>MariaDB seems to have this issue and can&amp;rsquo;t start as shown in /var/log/mariadb/mariadb.log
+2020-02-19 15:18:49 0 [ERROR] mysqld: Can&#39;t create/write to file &#39;/var/run/mariadb/mariadb.pid&#39; (Errcode: 2 &amp;quot;No such file or directory&amp;quot;)  I was able to fix one instance of this issue by doing:
+sudo mkdir /var/run/mariadb sudo chown mysql.mysql /var/run/mariadb  Then afterwards, starting the mariadb service went fine.
+Some possible solutions in case my solution doesn&amp;rsquo;t work https://stackoverflow.com/questions/15408643/cant-connect-to-mysql-server-cant-create-write-the-pid-file</description>
+    </item>
+    
+    <item>
+      <title>Weird session issue in drupal</title>
+      <link>https://www.it-quicktasks.com/weird-session-issue/</link>
+      <pubDate>Tue, 11 Feb 2020 00:18:01 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/weird-session-issue/</guid>
+      <description>Was seeing some session issue as follows:
+[me@example default]$ cd /var/www/example.com/docroot [me@example docroot]$ drush st session_set_save_handler(): Cannot change save handler when headers already sent session.inc:242 [warning] session_id(): Cannot change session id when headers already sent session.inc:266 [warning] session_name(): Cannot change session name when headers already sent in drupal_settings_initialize() (line 831 of [warning] /var/www/example.com/docroot/includes/bootstrap.inc). Drupal version : 7.69 Site URI : http://default Database driver : mysql Database hostname : localhost Database username : &amp;lt;REDACTED&amp;gt; Database name : &amp;lt;REDACTED&amp;gt; Database : Connected Drupal bootstrap : Successful Drupal user : Default theme : bootstrap_examplesite Administration theme : seven PHP configuration : /etc/php.</description>
+    </item>
+    
+    <item>
+      <title>PHP Fatal Error: Maximum Execution time exceeded</title>
+      <link>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</link>
+      <pubDate>Fri, 07 Feb 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</guid>
+      <description>If you&amp;rsquo;re seeing an error in your log:
+PHP Fatal error: Maximum execution time of 240 seconds exceeded in &amp;lt;/path/to/any_file.php&amp;gt; on line xx  Then you may need to edit your php.ini and update the variable &amp;lsquo;maximum_execution_time&amp;rsquo;. Don&amp;rsquo;t forget to restart your web service.
+If issue persist, then overrides is being done in code. Search it as follows and fix accordingly:
+grep -Ri max_execution_time ./*  </description>
+    </item>
+    
+    <item>
+      <title>Show Table Sizes</title>
+      <link>https://www.it-quicktasks.com/table-sizes/</link>
+      <pubDate>Tue, 21 Jan 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/table-sizes/</guid>
+      <description>Use the query below and replace &amp;ldquo;database_name&amp;rdquo; with the correct db name.
+SELECT table_name AS &amp;quot;Table&amp;quot;, ROUND(((data_length + index_length) / 1024 / 1024), 2) AS &amp;quot;Size (MB)&amp;quot; FROM information_schema.TABLES WHERE table_schema = &amp;quot;database_name&amp;quot; ORDER BY (data_length + index_length) DESC;  </description>
+    </item>
+    
+    <item>
+      <title>Drupal 8 Error Code 1 in Drupal Entity Updates</title>
+      <link>https://www.it-quicktasks.com/error-code1-in-drupal-entity-updates/</link>
+      <pubDate>Sat, 18 Jan 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/error-code1-in-drupal-entity-updates/</guid>
+      <description>At the end of composer install, the following was shown:
+In UpdateDBCommands.php line 109: Drupal removed its automatic entity-updates API in 8.7. See https://www.dru pal.org/node/3034742. entity:updates [--cache-clear [CACHE-CLEAR]] [--no-cache-clear] [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [-d|--debug] [-y|--yes] [--no] [--remote-host REMOTE-HOST] [--remote-user REMOTE-USER] [-r|--root ROOT] [-l|--uri URI] [--simulate] [--pipe] [-D|--define DEFINE] [--notify [NOTIFY]] [--druplicon] [--xh-link XH-LINK] [--] &amp;lt;command&amp;gt; Script sh scripts/composer/updates.sh handling the drupal-updates event returned with error code 1 Script @drupal-updates was called via post-install-cmd  This is just a info message and not an error.</description>
+    </item>
+    
+    <item>
+      <title>Shrink Huge ibdata1</title>
+      <link>https://www.it-quicktasks.com/shrink-huge-ibdata1/</link>
+      <pubDate>Sun, 24 Nov 2019 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/shrink-huge-ibdata1/</guid>
+      <description>Best way is to make one file per table and not use default which baloons to a huge file and never shrinks when some tables are removed and unused. See https://www.thegeekstuff.com/2016/02/mysql-innodb-file-per-table</description>
+    </item>
+    
+    <item>
+      <title>Dump MySQL Database but Skip Some Table(s)</title>
+      <link>https://www.it-quicktasks.com/dump-database-skip-some-table/</link>
+      <pubDate>Sun, 24 Nov 2019 12:38:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-database-skip-some-table/</guid>
+      <description>mysqldump -u&amp;lt;username&amp;gt; -p&amp;lt;password&amp;gt; --no-create-db myDB --ignore-table=myDB.table1 --ignore-table=myDB.table3-h localhost &amp;gt; mysql.backup  See https://tecadmin.net/tutorial/mysql/skip-tables-in-mysqldump/</description>
+    </item>
+    
+    <item>
+      <title>Hugo Static Files</title>
+      <link>https://www.it-quicktasks.com/hugo-static-files/</link>
+      <pubDate>Mon, 30 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hugo-static-files/</guid>
+      <description> https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/ https://gohugo.io/content-management/static-files/  </description>
+    </item>
+    
+    <item>
+      <title>Basic Wordpress Setup</title>
+      <link>https://www.it-quicktasks.com/basic-wordpress-setup/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/basic-wordpress-setup/</guid>
+      <description>cd /path/to/wordpress/docroot wp-cli db export ../backups/example.org_prodDB-icasimpan-2019.02.07.sql ## On new SITE (example.net) cd /path/to/new-wordpress/docroot ## update &#39;wp-config.php&#39; if needed wp-cli db clean wp-cli db import /path/to/wordpress/docroot/backups/site_prodDB-icasimpan-2019.02.07.sql rsync -avz /path/to/wordpress/docroot/wp-content/ /path/to/new-wordpress/docroot/wp-content/ wp-cli search-replace example.org example.net ## PUT &#39;--dry-run&#39; to test first  </description>
+    </item>
+    
+    <item>
+      <title>Checking current status of fail2ban</title>
+      <link>https://www.it-quicktasks.com/check-current-fail2ban-status/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-current-fail2ban-status/</guid>
+      <description>root@example:/var/log# fail2ban-client status Status |- Number of jail: 1 `- Jail list: sshd  </description>
+    </item>
+    
+    <item>
+      <title>Checking status of specific jail</title>
+      <link>https://www.it-quicktasks.com/check-status-specific-jail/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-status-specific-jail/</guid>
+      <description>root@example:/var/log# fail2ban-client status sshd Status for the jail: sshd |- Filter | |- Currently failed: 6 | |- Total failed: 91801 | `- File list: /var/log/auth.log `- Actions |- Currently banned: 1 |- Total banned: 9971 `- Banned IP list: 51.15.255.133  </description>
+    </item>
+    
+    <item>
+      <title>DB Backup via wp_cli</title>
+      <link>https://www.it-quicktasks.com/db-backup-in-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/db-backup-in-wp_cli/</guid>
+      <description>cd /path/to/wordpress wp db export backups/name-of-db-backup.sql  </description>
+    </item>
+    
+    <item>
+      <title>Errors in Project NAMI (wordpress on mssql)</title>
+      <link>https://www.it-quicktasks.com/errors-in-project-nami-wp-on-mssql/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/errors-in-project-nami-wp-on-mssql/</guid>
+      <description>Warning: file_put_contents(C:/inetpub/sites/example-wimp13/wp-includes/fields_map.parsed_types.php): failed to open stream: Permission denied in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 202 Warning: include(C:\inetpub\sites\error_page.php): failed to open stream: No such file or directory in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 209 Warning: include(): Failed opening &#39;C:\inetpub\sites\error_page.php&#39; for inclusion (include_path=&#39;.;C:\php\pear&#39;) in C:\inetpub\sites\example-wimp13\wp-includes\fields_map.php on line 209  Fix is to add the file &amp;ldquo;wp-includes\fields_map.parsed_types.php&amp;rdquo; with content
+&amp;lt;?php return array ( &#39;&#39; =&amp;gt; array ( ), ) ?&amp;gt;  and add write permission to IUSR. See details in https://github.</description>
+    </item>
+    
+    <item>
+      <title>Install wp_cli</title>
+      <link>https://www.it-quicktasks.com/install-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-wp_cli/</guid>
+      <description>curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar php wp-cli.phar --info ## check if it&#39;s working. chmod +x wp-cli.phar sudo mv wp-cli.phar /usr/local/bin/wp wp --info ## re-check if it&#39;s working as &#39;wp&#39;  Details in https://wp-cli.org/</description>
+    </item>
+    
+    <item>
+      <title>Interesting Read</title>
+      <link>https://www.it-quicktasks.com/interesting-read/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/interesting-read/</guid>
+      <description> Permanent banning of ip - https://nerdily.org/2017/upgrading-fail2ban-to-a-permanent-banhammer/ AbuseDB checking - https://www.abuseipdb.com/check/52.175.24.92  </description>
+    </item>
+    
+    <item>
+      <title>Pagination in Hugo</title>
+      <link>https://www.it-quicktasks.com/hugo-pagination/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hugo-pagination/</guid>
+      <description>See https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/</description>
+    </item>
+    
+    <item>
+      <title>Plugin install without FTP Credentials</title>
+      <link>https://www.it-quicktasks.com/plugin-install-without-ftp-credentials/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/plugin-install-without-ftp-credentials/</guid>
+      <description>Normal behavior of Wordpress when installing plugin is to ask for FTP credentials. So to fix the problem, just add this line to wp-config.php (of course, make sure permission are fine).
+define(&#39;FS_METHOD&#39;,&#39;direct&#39;);  More troubleshooting details in https://www.digitalocean.com/community/questions/wordpress-asking-for-ftp-credentials</description>
+    </item>
+    
+    <item>
+      <title>Tagcloud with Hugo</title>
+      <link>https://www.it-quicktasks.com/tag-cloud-hugo/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/tag-cloud-hugo/</guid>
+      <description>See https://www.sidorenko.io/post/2017/07/nice-tagcloud-with-hugo/</description>
+    </item>
+    
+    <item>
+      <title>Where is the database config </title>
+      <link>https://www.it-quicktasks.com/where-is-db-config/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/where-is-db-config/</guid>
+      <description>wp-config.php  </description>
+    </item>
+    
+    <item>
+      <title>Wordpress URL change</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change/</guid>
+      <description>in database/wp_options (&#39;siteurl&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>Wordpress URL change upon migration to another domain</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</guid>
+      <description>The easiest is to add it to &amp;ldquo;wp-config.php&amp;rdquo;. Something like:
+define(&#39;WP_HOME&#39;,&#39;http://NEW_DOMAIN.com/&#39;); define(&#39;WP_SITEURL&#39;,&#39;http://NEW_DOMAIN.com/&#39;);  You can test from &amp;lsquo;curl&amp;rsquo; it it works:
+curl -IL http://NEW_DOMAIN.com  </description>
+    </item>
+    
+    <item>
+      <title>Cannot Send Email To Own Domain in Postfix</title>
+      <link>https://www.it-quicktasks.com/cannot-send-email-to-own-domain/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cannot-send-email-to-own-domain/</guid>
+      <description>vi /etc/postfix/main.cf remove the domain  ... ... #mydestination = example.com, localhost.com, localhost mydestination = localhost ... ...  Then restart postfix:
+/etc/init.d/postix restart  See some further discussion in https://www.digitalocean.com/community/questions/why-won-t-postfix-deliver-mail-to-own-domain</description>
+    </item>
+    
+    <item>
+      <title>Check Queue Content in Postfix</title>
+      <link>https://www.it-quicktasks.com/check-queue-contents/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-queue-contents/</guid>
+      <description>root@example~# postqueue -p Mail queue is empty  </description>
+    </item>
+    
+    <item>
+      <title>Checking for php memory exhaustion &#43; possible fix</title>
+      <link>https://www.it-quicktasks.com/check-php-memory-exhaustion-and-fix/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-php-memory-exhaustion-and-fix/</guid>
+      <description>me@web-13940:/var/log/sites/web.prod/logs/web-13940$ zgrep -c &#39;Allowed memory size of&#39; php-errors.log php-errors.log-201712* php-errors.log:11 php-errors.log-20171222.gz:4  me@web-13940:/var/log/sites/web.prod/logs/web-13940$ zgrep &#39;Allowed memory size of&#39; php-errors.log* | grep -o &#39;request_id=&amp;quot;[^&amp;quot;]*&#39; | awk -F&#39;&amp;quot;&#39; &#39;{print $2}&#39; | xargs -I{} zgrep {} access.log* | awk &#39;{print $6&amp;quot; &amp;quot;$7}&#39; | cut -c2- | sort | uniq -c | sort -nr 6 GET /admin/content 3 POST /system/ajax 3 POST /admin/content 1 POST /views/ajax 1 POST /admin/content?title=budget&amp;amp;type=resource&amp;amp;author=&amp;amp;status=All&amp;amp;vid=All 1 GET /agendas/items/all  Conditional fix in https://docs.</description>
+    </item>
+    
+    <item>
+      <title>Convert command not found</title>
+      <link>https://www.it-quicktasks.com/convert-command-not-found/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/convert-command-not-found/</guid>
+      <description>I was seeing this error from drupal logs:
+ User error: ImageMagick error 127: sh: convert: command not found in _imagemagick_convert_exec() (line 522 of /var/www/example.com/docroot/sites/all/modules/contrib/imagemagick/imagemagick.module).  Which indicates that package ImageMagick wasn&amp;rsquo;t installed. Since the machine in questions was CentOS7, I installed it as follows:
+~$ sudo yum install ImageMagick -y  Ref:
+ https://www.experts-exchange.com/questions/27962692/Drupal-7-error-ImageMagick-error-127.html https://www.drupal.org/node/153310 https://syslint.com/blog/tutorial/install-imagemagick-in-centos7/  </description>
+    </item>
+    
+    <item>
+      <title>Create separate php log file</title>
+      <link>https://www.it-quicktasks.com/create-separate-php-logfile/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-separate-php-logfile/</guid>
+      <description>Update php.ini, example
+error_log = /tmp/error_php  Then restart apache
+Details in https://www.redips.net/php/log-errors-separate-file/</description>
+    </item>
+    
+    <item>
+      <title>curl to php code</title>
+      <link>https://www.it-quicktasks.com/curl-to-php/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-to-php/</guid>
+      <description>See https://incarnate.github.io/curl-to-php/</description>
+    </item>
+    
+    <item>
+      <title>FirewallD Reading Materials</title>
+      <link>https://www.it-quicktasks.com/firewalld-reading-materials/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/firewalld-reading-materials/</guid>
+      <description> https://www.certdepot.net/rhel7-get-started-firewalld/ https://www.linuxjournal.com/content/understanding-firewalld-multi-zone-configurations https://computingforgeeks.com/install-and-use-firewalld-on-ubuntu-18-04-ubuntu-16-04/  </description>
+    </item>
+    
+    <item>
+      <title>How do you know the php.ini used via CLI</title>
+      <link>https://www.it-quicktasks.com/php.ini-path-via-cli/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php.ini-path-via-cli/</guid>
+      <description>&amp;lt;?php $inipath = php_ini_loaded_file(); if ($inipath) { echo &#39;Loaded php.ini: &#39; . $inipath; } else { echo &#39;A php.ini file is not loaded&#39;; } ?&amp;gt;  or
+[icasimpan!@example.org ~]$ php -i |grep php.ini Configuration File (php.ini) Path =&amp;gt; /etc Loaded Configuration File =&amp;gt; /etc/php.ini  But not that server and CLI used php.ini could be different. Details in https://stackoverflow.com/questions/14558150/how-to-know-which-php-ini-is-used</description>
+    </item>
+    
+    <item>
+      <title>Install php-curl 5.6 (Ubuntu)</title>
+      <link>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</guid>
+      <description>sudo apt-get install php5.6-curl  More info in https://stackoverflow.com/questions/40567133/cannot-add-ppa-ppaondrej-php5-5-6</description>
+    </item>
+    
+    <item>
+      <title>Install PHP7.2 MongoDB</title>
+      <link>https://www.it-quicktasks.com/install-php-mongodb/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-php-mongodb/</guid>
+      <description>$ git clone https://github.com/mongodb/mongo-php-driver.git $ cd mongo-php-driver $ git submodule sync &amp;amp;&amp;amp; git submodule update --init $ phpize $ ./configure $ make all -j 5 $ sudo make install  Details in https://www.php.net/manual/en/mongodb.installation.manual.php or https://stackoverflow.com/questions/46276978/install-mongodb-driver-in-cent-os-7-with-php7-1
+In my case, I also had to add to 20-mongodb.ini.</description>
+    </item>
+    
+    <item>
+      <title>Installing mcrypt in php7.1 (Ubuntu)</title>
+      <link>https://www.it-quicktasks.com/install-mcrypt-php71-ubuntu/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-mcrypt-php71-ubuntu/</guid>
+      <description>sudo add-apt-repository ppa:ondrej/php sudo apt-get update sudo apt-get install mcrypt php7.1-mcrypt  </description>
+    </item>
+    
+    <item>
+      <title>iptables: Allow Specific IP to Connect via SSH.</title>
+      <link>https://www.it-quicktasks.com/iptables-allow-specific-ip-to-ssh/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/iptables-allow-specific-ip-to-ssh/</guid>
+      <description>iptables -A INPUT -p tcp -s 114.191.33.88 --dport 22 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT iptables -A OUTPUT -p tcp --sport 22 -m conntrack --ctstate ESTABLISHED -j ACCEPT  </description>
+    </item>
+    
+    <item>
+      <title>Mail Encryption in Postfix</title>
+      <link>https://www.it-quicktasks.com/mail-encryption/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mail-encryption/</guid>
+      <description>in /etc/postfix/main.cf, add:
+smtpd_tls_security_level = may smtp_tls_security_level = may smtp_tls_loglevel = 1 smtpd_tls_loglevel = 1  Details from From http://blog.snapdragon.cc/2013/07/07/setting-postfix-to-encrypt-all-traffic-when-talking-to-other-mailservers/</description>
+    </item>
+    
+    <item>
+      <title>Mcrypt error when running &#39;composer install&#39; from CLI</title>
+      <link>https://www.it-quicktasks.com/mcrypt-error-composer-install-from-cli/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mcrypt-error-composer-install-from-cli/</guid>
+      <description>Verify if mcypt is really installed
+php -m|grep -i mcrypt  Counter-check from phpmyadmin. If it say installed there, issue is that php-cli can&amp;rsquo;t see mcrypt as a module. Find the mcrypt definition and symlink similar to below:
+ln -s /etc/php5/mods-available/mcrypt.ini /etc/php5/cli/conf.d/20-mcrypt.ini  See details in https://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension</description>
+    </item>
+    
+    <item>
+      <title>Multi-php installation</title>
+      <link>https://www.it-quicktasks.com/multi-php-installation/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/multi-php-installation/</guid>
+      <description> https://pehapkari.cz/blog/2017/03/27/multiple-php-versions-the-easy-way/ https://github.com/oerdnj/deb.sury.org/wiki/Managing-Multiple-Versions  </description>
+    </item>
+    
+    <item>
+      <title>PHP Class &#39;DOMDocument&#39; not found</title>
+      <link>https://www.it-quicktasks.com/php-class-domdocument-not-found/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-class-domdocument-not-found/</guid>
+      <description>Sample error
+[Wed Jan 10 14:56:38.031846 2018] [:error] [pid 9378] [client 115.85.11.98:23443] PHP Fatal error: Class &#39;DOMDocument&#39; not found in /var/www/sites/site.example.com/docroot/core/lib/Drupal/Component/Utility/Html.php on line 286  Solution:
+apt-get install php5.6-dom  See details in https://stackoverflow.com/questions/14395239/class-domdocument-not-found</description>
+    </item>
+    
+    <item>
+      <title>php mailsender</title>
+      <link>https://www.it-quicktasks.com/php-test-mailsender/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-test-mailsender/</guid>
+      <description>A quick way to test mail sending via php:
+&amp;lt;?php ini_set( &#39;display_errors&#39;, 1 ); error_reporting( E_ALL ); $from = &amp;quot;webmaster@example.com&amp;quot;; $to = &amp;quot;me@example.com&amp;quot;; $subject = &amp;quot;PHP Mail Test script&amp;quot;; $message = &amp;quot;This is a test to check the PHP Mail functionality&amp;quot;; $headers = &amp;quot;From:&amp;quot; . $from; mail($to,$subject,$message, $headers); echo &amp;quot;Test email sent&amp;quot;; ?&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>php max upload size</title>
+      <link>https://www.it-quicktasks.com/php-max-upload-size/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-max-upload-size/</guid>
+      <description> Check first where php.ini is (create a page that dumps &amp;ldquo;phpinfo()&amp;quot;) Edit upload_max_filesize=10M (assuming 10M is the requested limit) 2.1 Given that &amp;lsquo;upload_max_filesize &amp;gt; 8M&amp;rsquo; edit as well &amp;ldquo;post_max_size&amp;rdquo; Restart apache (reload doesn&amp;rsquo;t change the setting)  </description>
+    </item>
+    
+    <item>
+      <title>php modules location</title>
+      <link>https://www.it-quicktasks.com/php-modules-location/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-modules-location/</guid>
+      <description>Check the current extension directory with: php-config --extension-dir and you can change it by setting extension_dir in php.ini: extension_dir=&amp;quot;/usr/lib64/php/modules&amp;quot; Don&#39;t forget to restart Apache.  See https://serverfault.com/questions/316156/change-php-modules-directory</description>
+    </item>
+    
+    <item>
+      <title>PHP Remi modules installed outside ansible trick</title>
+      <link>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</guid>
+      <description>Remi modules are installed in non-standard location. Geerlingguy&amp;rsquo;s ansible role harmonizes it and install it in standard locations.
+So, if you&amp;rsquo;re not familiar with standard locations, just do the following trick
+NOTE: In this case, I installed the memcache module for php7.1 from Remi&amp;rsquo;s repo.
+yum install -y php71-php-pecl-memcache.x86_64  Find where the memcache module is located
+[root@example-staging www]# find / -iname *memcache*.so /usr/lib64/httpd/modules/mod_socache_memcache.so /opt/remi/php71/root/usr/lib64/php/modules/memcache.so  Cross-check with a standard installed php module (you can see which modules via &amp;lsquo;php -m&amp;rsquo;)</description>
+    </item>
+    
+    <item>
+      <title>php seem to not get installed when accessing a site</title>
+      <link>https://www.it-quicktasks.com/php-seems-not-installed-accessing-site/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-seems-not-installed-accessing-site/</guid>
+      <description>apt-get install libapache2-mod-php  </description>
+    </item>
+    
+    <item>
+      <title>php7.1 memcache install in CentOS7</title>
+      <link>https://www.it-quicktasks.com/php7.1-memcache-install-centos7/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php7.1-memcache-install-centos7/</guid>
+      <description>yum install -y memcached libmemcached php71-php-pecl-memcache.x86_64  Harden memcached by at least making it listed only on loopback. Config is in /etc/sysonfig/memcached
+PORT=&amp;quot;11211&amp;quot; USER=&amp;quot;memcached&amp;quot; MAXCONN=&amp;quot;1024&amp;quot; CACHESIZE=&amp;quot;64&amp;quot; OPTIONS=&amp;quot;-l 127.0.0.1 -U 0&amp;quot;  Details in https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-memcached-on-centos-7</description>
+    </item>
+    
+    <item>
+      <title>Server used php.ini from CLI</title>
+      <link>https://www.it-quicktasks.com/server-php.ini-path/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/server-php.ini-path/</guid>
+      <description>echo &#39;&amp;lt;?php phpinfo(); ?&amp;gt;&#39;|php  </description>
+    </item>
+    
+    <item>
+      <title>Specific IP Connection to SSH Using Firewalld Rich Rules</title>
+      <link>https://www.it-quicktasks.com/specific-ip-connection-to-ssh-using-firewalld-rich-rules/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/specific-ip-connection-to-ssh-using-firewalld-rich-rules/</guid>
+      <description>sudo firewall-cmd --add-rich-rule &#39;rule family=&amp;quot;ipv4&amp;quot; source address=&amp;quot;192.168.10.9&amp;quot; service name=&amp;quot;ssh&amp;quot; accept&#39; --permanent sudo firewall-cmd --remove-service ssh --permanent ## needed, otherwise ssh will still be allowed for all sudo systemctl reload firewalld  See details in https://access.redhat.com/discussions/1342573</description>
+    </item>
+    
+    <item>
+      <title>ufw Reading Materials</title>
+      <link>https://www.it-quicktasks.com/ufw-reading-materials/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ufw-reading-materials/</guid>
+      <description>https://www.linux.com/learn/introduction-uncomplicated-firewall-ufw</description>
+    </item>
+    
+    <item>
+      <title>Unable to load dynamic library &#39;/usr/lib/php5/20131226/curl.so&#39;</title>
+      <link>https://www.it-quicktasks.com/unable-to-load-dynamic-library-curl.so/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/unable-to-load-dynamic-library-curl.so/</guid>
+      <description>Full error as follows:
+PHP Warning: PHP Startup: Unable to load dynamic library &#39;/usr/lib/php5/20131226/curl.so&#39; - /usr/lib/php5/20131226/curl.so: undefined symbol: zend_unset_property in Unknown on line 0  Solution: See https://ismael.casimpan.com/quicktasks-php/install-php-curl-56-ubuntu/</description>
+    </item>
+    
+    <item>
+      <title>Create Solr Core with Config</title>
+      <link>https://www.it-quicktasks.com/create-solr-core-with-config/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-solr-core-with-config/</guid>
+      <description>In the example below, &amp;ldquo;drupal_solr_conf&amp;rdquo; is in /var/www/sites/example.com
+sudo su solr cd /var/www/sites/example.com /opt/solr/bin/solr create_core -c upd_event -d drupal_solr_conf  </description>
+    </item>
+    
+    <item>
+      <title>Creating Solr Core</title>
+      <link>https://www.it-quicktasks.com/creating-solr-core/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/creating-solr-core/</guid>
+      <description>icasimpan@example.local:/opt/solr/bin$ sudo su solr -s /bin/bash solr@example.local:/opt/solr-6.6.2/bin$ /opt/solr/bin/solr create -c sample -p 8983 Copying configuration to new core instance directory: /var/solr/data/sample Creating new core &#39;sample&#39; using command: http://localhost:8983/solr/admin/cores?action=CREATE&amp;amp;name=cmoge&amp;amp;instanceDir=cmoge { &amp;quot;responseHeader&amp;quot;:{ &amp;quot;status&amp;quot;:0, &amp;quot;QTime&amp;quot;:686}, &amp;quot;core&amp;quot;:&amp;quot;cmoge&amp;quot;}  Then reload from the Web UI in https://example.local:8983/solr and you have the core running.</description>
+    </item>
+    
+    <item>
+      <title>Define Solr Core in settings.local.php</title>
+      <link>https://www.it-quicktasks.com/define-solr-core-in-settings/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/define-solr-core-in-settings/</guid>
+      <description>$config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_event&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_news&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_library&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_publication&#39;;  As seen above, there&amp;rsquo;s some config that hooks up drupal&amp;rsquo;s host/port to solr core.</description>
+    </item>
+    
+    <item>
+      <title>Reindex Solr in Drupal</title>
+      <link>https://www.it-quicktasks.com/reindex-solr-in-drupal/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/reindex-solr-in-drupal/</guid>
+      <description>In Drupal Admin, do the following:
+Config &amp;gt; Search and Metadata &amp;gt; Search API
+Click on the index name (e.g. Events)</description>
+    </item>
+    
+    <item>
+      <title>Bind Container Port to Host Port</title>
+      <link>https://www.it-quicktasks.com/bind-container-port-to-host-port/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/bind-container-port-to-host-port/</guid>
+      <description>docker run -d --name testOnly -p 6379:6379 redis:latest  </description>
+    </item>
+    
+    <item>
+      <title>Check All Running Docker Process</title>
+      <link>https://www.it-quicktasks.com/check-all-running-docker-process/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-all-running-docker-process/</guid>
+      <description>docker ps -a  </description>
+    </item>
+    
+    <item>
+      <title>Check Logs of a Container</title>
+      <link>https://www.it-quicktasks.com/check-logs-of-container/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-logs-of-container/</guid>
+      <description>docker logs &amp;lt;friendly-name|container-id&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Docker Build Cannot Connect to Internet</title>
+      <link>https://www.it-quicktasks.com/docker-build-cannot-connect-to-internet/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/docker-build-cannot-connect-to-internet/</guid>
+      <description>Example scenario:
+[root@selenium php-5.1.2]# docker build -t php5_1_2 . Sending build context to Docker daemon 8.071MB Step 1/9 : FROM nubs/arch-build ---&amp;gt; a68cd3855bfe Step 2/9 : MAINTAINER Spencer Rinehart &amp;lt;anubis@overthemonkey.com&amp;gt; ---&amp;gt; Using cache ---&amp;gt; 0d099a2cd179 Step 3/9 : COPY php/PKGBUILD php/*.patch /package/ ---&amp;gt; Using cache ---&amp;gt; e9a68b923b81 Step 4/9 : RUN makepkg --force ---&amp;gt; Running in 22c4f167216a ==&amp;gt; Making package: php 5.1.2-1 (Wed May 9 21:15:05 UTC 2018) ==&amp;gt; Checking runtime dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Docker files within Linux Filesystem</title>
+      <link>https://www.it-quicktasks.com/docker-files-within-filesystem/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/docker-files-within-filesystem/</guid>
+      <description>Location in
+/var/lib/docker  </description>
+    </item>
+    
+    <item>
+      <title>Force Remove Docker Images</title>
+      <link>https://www.it-quicktasks.com/force-remove-docker-images/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/force-remove-docker-images/</guid>
+      <description>[root@selenium02 ~]# docker rmi ad66a5961263 Error response from daemon: conflict: unable to delete ad66a5961263 (must be forced) - image is being used by stopped container 088219585a61 [root@selenium02 ~]# docker rmi -f ad66a5961263  </description>
+    </item>
+    
+    <item>
+      <title>Getting Started in Docker</title>
+      <link>https://www.it-quicktasks.com/getting-started-in-docker/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-started-in-docker/</guid>
+      <description>See details in https://docs.docker.com/get-started/</description>
+    </item>
+    
+    <item>
+      <title>How to Login to DockerHub</title>
+      <link>https://www.it-quicktasks.com/how-to-login-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/how-to-login-dockerhub/</guid>
+      <description>docker login  </description>
+    </item>
+    
+    <item>
+      <title>Install Docker CE in CentOS</title>
+      <link>https://www.it-quicktasks.com/install-docker-ce-centos/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-docker-ce-centos/</guid>
+      <description>See details in https://docs.docker.com/install/linux/docker-ce/centos/#upgrade-docker-ce</description>
+    </item>
+    
+    <item>
+      <title>Install Docker Compose</title>
+      <link>https://www.it-quicktasks.com/install-docker-compose/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-docker-compose/</guid>
+      <description>sudo yum install epel-release sudo yum install -y python-pip sudo pip install docker-compose  Further details in https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-centos-7</description>
+    </item>
+    
+    <item>
+      <title>More Details about a Container</title>
+      <link>https://www.it-quicktasks.com/more-details-about-container/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/more-details-about-container/</guid>
+      <description>docker inspect &amp;lt;friendly-name|container-id&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Pull an Image from DockerHub</title>
+      <link>https://www.it-quicktasks.com/pull-image-from-dockerhub/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-image-from-dockerhub/</guid>
+      <description>docker pull selenium/standalone-chrome:2.53.1-beryllium ## GETS https://hub.docker.com/r/selenium/standalone-chrome/tags/2.53.1-beryllium  </description>
+    </item>
+    
+    <item>
+      <title>Remove All Docker Containers</title>
+      <link>https://www.it-quicktasks.com/remove-all-docker-containers/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/remove-all-docker-containers/</guid>
+      <description>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q)  Details in https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers</description>
+    </item>
+    
+    <item>
+      <title>Removing docker0 Interface</title>
+      <link>https://www.it-quicktasks.com/removing-docker0-interface/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/removing-docker0-interface/</guid>
+      <description>If you see something like:
+root@example.com:/etc/apache2/sites-enabled# ifconfig docker0 Link encap:Ethernet HWaddr 02:42:8e:e1:53:84 inet addr:172.17.0.1 Bcast:0.0.0.0 Mask:255.255.0.0 UP BROADCAST MULTICAST MTU:1500 Metric:1 RX packets:0 errors:0 dropped:0 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:0 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)  And you&amp;rsquo;re sure you don&amp;rsquo;t need it, remove it using
+ip link del docker0  See https://superuser.com/questions/995373/remove-docker0-bridge</description>
+    </item>
+    
+    <item>
+      <title>Rerun a Docker Container Instance</title>
+      <link>https://www.it-quicktasks.com/rerun-docker-container-instance/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rerun-docker-container-instance/</guid>
+      <description>Given these:
+[root@selenium php-5.1.2]# docker ps -a CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 7e89768a78f9 e9a68b923b81 &amp;quot;/bin/sh -c &#39;makepkg…&amp;quot; 7 minutes ago Exited (1) 4 minutes ago nostalgic_lovelace af5262bdb8c1 selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_5 3d788ffebc32 selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_2 0bb97cb44ccd selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_3 982e0a223e1e selenium/node-chrome:2.53.1-beryllium &amp;quot;/opt/bin/entry_poin…&amp;quot; 4 weeks ago Up 4 weeks seleniumhub_chrome_1 b4a2a19f9e80 selenium/node-chrome:2.</description>
+    </item>
+    
+    <item>
+      <title>Run Container as Daemon</title>
+      <link>https://www.it-quicktasks.com/run-container-as-daemon/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/run-container-as-daemon/</guid>
+      <description>docker run -d --name redisDynamic -p 6379 redis:latest  this will bind though to host port at random. To check bound port, use
+docker port redisDynamic 6379  </description>
+    </item>
+    
+    <item>
+      <title>Using a Dockerfile</title>
+      <link>https://www.it-quicktasks.com/using-dockerfile/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/using-dockerfile/</guid>
+      <description># Build an image using the Dockerfile at current location (specified by &#39;.&#39; at the end) # Example: docker build -t [name] . docker build -t my_mongodb .  To create a Dockerfile, see https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images</description>
+    </item>
+    
+    <item>
+      <title>After Upgrading Ansible, pip had an issue SSL_ST_INIT</title>
+      <link>https://www.it-quicktasks.com/ssl_st_init-pip-issue-ansible-upgrade/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ssl_st_init-pip-issue-ansible-upgrade/</guid>
+      <description>sudo apt-get remove python-openssl curl -o ./get-pip.py https://bootstrap.pypa.io/get-pip.py sudo python2 ./get-pip.py  Replace with yum if in RH-based OS. See https://stackoverflow.com/questions/43267157/python-attributeerror-module-object-has-no-attribute-ssl-st-init for details.</description>
+    </item>
+    
+    <item>
+      <title>Ansible Best Practices</title>
+      <link>https://www.it-quicktasks.com/ansible-best-practices/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible-best-practices/</guid>
+      <description>http://docs.ansible.com/ansible/latest/playbooks_best_practices.html</description>
+    </item>
+    
+    <item>
+      <title>Ansible Logs in Controlled Machine</title>
+      <link>https://www.it-quicktasks.com/ansible-logs-controlled-machine/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible-logs-controlled-machine/</guid>
+      <description>It&amp;rsquo;s in syslog. In ubuntu, do the following:
+grep -i ansible /var/log/syslog  See details in https://serverfault.com/questions/531004/where-do-i-find-the-latest-ansible-error-log</description>
+    </item>
+    
+    <item>
+      <title>Ansible Vault Tutorials</title>
+      <link>https://www.it-quicktasks.com/ansible-vault-tutorials/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible-vault-tutorials/</guid>
+      <description>https://serversforhackers.com/c/how-ansible-vault-works https://gist.github.com/tristanfisher/e5a306144a637dc739e7</description>
+    </item>
+    
+    <item>
+      <title>ansible_os_family Not Found</title>
+      <link>https://www.it-quicktasks.com/ansible_os_family-not-found/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible_os_family-not-found/</guid>
+      <description>Ensure &amp;ldquo;gather_facts&amp;rdquo; is NOT set to false and it should be fine.</description>
+    </item>
+    
+    <item>
+      <title>blockinfline module</title>
+      <link>https://www.it-quicktasks.com/blockinfline-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/blockinfline-module/</guid>
+      <description>You need to add a &amp;ldquo;marker&amp;rdquo; in order NOT to overwrite current content.
+For example usage, see github.com/promet/pstools.git and head over to promet-ansible branch &amp;amp; ansible-promet-apacheconfig/tasks/main.yml
+Syntax guide https://docs.ansible.com/ansible/latest/modules/blockinfile_module.html
+Some tutorial online http://www.mydailytutorials.com/ansible-blockinfile-module-adding-multiple-lines/</description>
+    </item>
+    
+    <item>
+      <title>Check All Facts</title>
+      <link>https://www.it-quicktasks.com/check-all-facts/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-all-facts/</guid>
+      <description>ansible all -m setup  </description>
+    </item>
+    
+    <item>
+      <title>Check OS Type</title>
+      <link>https://www.it-quicktasks.com/check-os-type/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-os-type/</guid>
+      <description>ansible all -m setup -a &amp;quot;filter=ansible_distribution*&amp;quot;  more in https://raymii.org/s/tutorials/Ansible_-_Only_if_on_specific_distribution_or_distribution_version.html</description>
+    </item>
+    
+    <item>
+      <title>Configure Email Using Mailgun</title>
+      <link>https://www.it-quicktasks.com/configure-email-using-mailgun/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/configure-email-using-mailgun/</guid>
+      <description>Have client create account in mailgun (with upgraded account by inputting credit card) Test email using test php sender Check in mailgun &amp;ldquo;Logs&amp;rdquo;  More info in https://www.digitalocean.com/community/tutorials/how-to-set-up-a-mail-relay-with-postfix-and-mailgun-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>Copy Files To and From Remote Locations</title>
+      <link>https://www.it-quicktasks.com/copy-files-to-and-from-remote-locations/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/copy-files-to-and-from-remote-locations/</guid>
+      <description>- name: Move foo to bar command: mv /path/to/foo /path/to/bar  or check first and do a copy if it exist
+- name: stat foo stat: path=/path/to/foo register: foo_stat - name: Move foo to bar command: mv /path/to/foo /path/to/bar when: foo_stat.stat.exists  and, for ansible 2.0+, you can do:
+- name: Copy files from foo to bar copy: remote_src=True src=https://www.it-quicktasks.com/path/to/foo dest=/path/to/bar  Details in https://stackoverflow.com/questions/24162996/how-to-move-rename-a-file-using-an-ansible-task-on-a-remote-system</description>
+    </item>
+    
+    <item>
+      <title>Create Ansible Playbook Skeleton</title>
+      <link>https://www.it-quicktasks.com/create-playbook-skeleton/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-playbook-skeleton/</guid>
+      <description>ansible@example.com:/opt/ansible/roles$ ansible-galaxy init ansible-role-python2  </description>
+    </item>
+    
+    <item>
+      <title>Create Directory</title>
+      <link>https://www.it-quicktasks.com/create-directory/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-directory/</guid>
+      <description>--- - hosts: localhost become: true tasks: - name: Create directory file: path: /tmp/yallo_dir state: directory  Ref http://docs.ansible.com/ansible/latest/file_module.html</description>
+    </item>
+    
+    <item>
+      <title>Create File</title>
+      <link>https://www.it-quicktasks.com/create-file/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-file/</guid>
+      <description>--- - hosts: localhost become: true tasks: - name: Create file file: path: /tmp/yallo state: touch  Ref http://docs.ansible.com/ansible/latest/file_module.html
+An alternative is to use &amp;lsquo;lineinfile&amp;rsquo; module. In my example below, Ubuntu 18.x no longer has the /etc/rc.local but it still works. See below
+## NOTE : /etc/rc.local doesn&#39;t exist in Ubuntu18.x but still runs if executable + has the shebang line ## See https://www.claudiokuenzler.com/blog/783/ubuntu-18.04-rc.local-file-not-exist-launch-with-systemd-rc-local#.XDYuL88zZTY - name: Create executable /etc/rc.local if it doesn&#39;t exist lineinfile: dest: /etc/rc.</description>
+    </item>
+    
+    <item>
+      <title>Curl with Authentication Credentials</title>
+      <link>https://www.it-quicktasks.com/curl-with-authentication-credentials/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-authentication-credentials/</guid>
+      <description>curl -u user:password &amp;lt;url_here&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Debugging Ansible</title>
+      <link>https://www.it-quicktasks.com/debugging-ansible/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/debugging-ansible/</guid>
+      <description>https://blog.codecentric.de/en/2017/06/debug-ansible-playbooks-like-pro/</description>
+    </item>
+    
+    <item>
+      <title>Declaring Children Labels in Hosts File</title>
+      <link>https://www.it-quicktasks.com/children-labels-hosts-file/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/children-labels-hosts-file/</guid>
+      <description> [dev_server] ... ... ... [devtools_internal] ... ... ... [dev_needed:children] dev_server devtools_internal  </description>
+    </item>
+    
+    <item>
+      <title>Delete Solr Core</title>
+      <link>https://www.it-quicktasks.com/delete-solr-core/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-solr-core/</guid>
+      <description>cd /opt/solr/bin ./solr delete -c &amp;lt;solr_core_name&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Broken Web UI</title>
+      <link>https://www.it-quicktasks.com/drupal8-broken-webui/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal8-broken-webui/</guid>
+      <description>Most probably caused by CSS/JS Aggreggation. Disable it by doing the following:
+Can edit settings.php - add the following:
+$config[&#39;system.performance&#39;][&#39;css&#39;][&#39;preprocess&#39;] = FALSE; $config[&#39;system.performance&#39;][&#39;js&#39;][&#39;preprocess&#39;] = FALSE;  In Drupal Admin
+-site-/admin/config/development/performance
+Uncheck two checkboxes:
+ Aggregate CSS files Aggregate JavaScript files  Reference: https://www.drupal.org/forum/support/post-installation/2017-04-02/disabling-caching-cssjs-aggregation</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Entities neeeds to be deleted before importing error</title>
+      <link>https://www.it-quicktasks.com/drupal8-entities-needs-deleted-before-import/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal8-entities-needs-deleted-before-import/</guid>
+      <description>The following was seen during configuration import (drush cim)
+ The import failed due to the following reasons: Entities exist of type &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut link&amp;lt;/em&amp;gt; and &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut set&amp;lt;/em&amp;gt; &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Default&amp;lt;/em&amp;gt;. These entities need to be deleted before importing.  Fix by running this:
+drush ev &#39;\Drupal::entityManager()-&amp;gt;getStorage(&amp;quot;shortcut_set&amp;quot;)-&amp;gt;load(&amp;quot;default&amp;quot;)-&amp;gt;delete();&#39;  Reference: https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during-import-configuration</description>
+    </item>
+    
+    <item>
+      <title>Eliminate Queued Mails in Postfix</title>
+      <link>https://www.it-quicktasks.com/eliminate-queued-mails-postfix/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/eliminate-queued-mails-postfix/</guid>
+      <description>root@example~# postsuper -d ALL postsuper: Deleted: 7966 messages  </description>
+    </item>
+    
+    <item>
+      <title>Field Loop Error</title>
+      <link>https://www.it-quicktasks.com/field-loop-error/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/field-loop-error/</guid>
+      <description>If you see the error below:
+ERROR! The field &#39;loop&#39; is supposed to be a string type, however the incoming data structure is a &amp;lt;class &#39;ansible.parsing.yaml.objects.AnsibleSequence&#39;&amp;gt;  Upgrade your ansible to at least version 2.5. The &amp;lsquo;loop&amp;rsquo; keyword is defined starting that version. See https://stackoverflow.com/questions/49680809/ansible-loop-error</description>
+    </item>
+    
+    <item>
+      <title>GD PHP Module Installation Error</title>
+      <link>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</guid>
+      <description>It says something like &amp;ldquo;gd-last&amp;rdquo; needed but not found.
+Solution:
+Add remi-safe repo to your repository.
+See https://centos.org/forums/viewtopic.php?t=63158</description>
+    </item>
+    
+    <item>
+      <title>gz and bz2 Not Supported by unarchive</title>
+      <link>https://www.it-quicktasks.com/gz-and-bz2-not-supported-by-unarchive/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/gz-and-bz2-not-supported-by-unarchive/</guid>
+      <description>Encountered this issue:
+The full traceback is: File &amp;quot;/tmp/ansible_f1UXSi/ansible_module_unarchive.py&amp;quot;, line 151, in &amp;lt;module&amp;gt; from shlex import quote fatal: [206.81.5.18]: FAILED! =&amp;gt; { &amp;quot;changed&amp;quot;: false, &amp;quot;invocation&amp;quot;: { &amp;quot;module_args&amp;quot;: { &amp;quot;attributes&amp;quot;: null, &amp;quot;backup&amp;quot;: null, &amp;quot;content&amp;quot;: null, &amp;quot;creates&amp;quot;: null, &amp;quot;delimiter&amp;quot;: null, &amp;quot;dest&amp;quot;: &amp;quot;/root/&amp;quot;, &amp;quot;directory_mode&amp;quot;: null, &amp;quot;exclude&amp;quot;: [], &amp;quot;extra_opts&amp;quot;: [], &amp;quot;follow&amp;quot;: false, &amp;quot;force&amp;quot;: null, &amp;quot;group&amp;quot;: null, &amp;quot;keep_newer&amp;quot;: false, &amp;quot;list_files&amp;quot;: false, &amp;quot;mode&amp;quot;: null, &amp;quot;owner&amp;quot;: null, &amp;quot;regexp&amp;quot;: null, &amp;quot;remote_src&amp;quot;: true, &amp;quot;selevel&amp;quot;: null, &amp;quot;serole&amp;quot;: null, &amp;quot;setype&amp;quot;: null, &amp;quot;seuser&amp;quot;: null, &amp;quot;src&amp;quot;: &amp;quot;/root/my-files-2019-07-23.</description>
+    </item>
+    
+    <item>
+      <title>GZip Compression Check in curl</title>
+      <link>https://www.it-quicktasks.com/gzip-compression-check-in-curl/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/gzip-compression-check-in-curl/</guid>
+      <description>icasimpan@icasimpan.local:~$ curl -H &amp;quot;Accept-Encoding: gzip&amp;quot; -I -udemo:demo http://example.com HTTP/1.1 200 OK Date: Wed, 04 Oct 2017 15:25:48 GMT Server: Apache/2.4.18 (Ubuntu) X-Drupal-Cache: HIT Etag: &amp;quot;1507130489-1&amp;quot; Content-Language: en X-Frame-Options: SAMEORIGIN Link: &amp;lt;/node/171&amp;gt;; rel=&amp;quot;shortlink&amp;quot;,&amp;lt;/home&amp;gt;; rel=&amp;quot;canonical&amp;quot; X-Generator: Drupal 7 (http://drupal.org) Cache-Control: public, max-age=60 Last-Modified: Wed, 04 Oct 2017 15:21:29 GMT Expires: Sun, 19 Nov 1978 05:00:00 GMT Vary: Cookie,Accept-Encoding Content-Encoding: gzip Content-Type: text/html; charset=utf-8  Look at &amp;ldquo;Content-Encoding&amp;rdquo;. It says &amp;lsquo;gzip&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Install PHP Module Inside Dockerfile</title>
+      <link>https://www.it-quicktasks.com/dockerfile-install-php-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dockerfile-install-php-module/</guid>
+      <description>Add this to Dockerfile
+RUN docker-php-ext-install mysqli  See details in https://github.com/docker-library/php/issues/279</description>
+    </item>
+    
+    <item>
+      <title>Install rpm via Ansible</title>
+      <link>https://www.it-quicktasks.com/install-rpm-in-ansible/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-rpm-in-ansible/</guid>
+      <description>Manual
+sudo rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm  In Ansible:
+- name: Add Web Static Repo yum: name: https://mirror.webtatic.com/yum/el7/webtatic-release.rpm state: present  </description>
+    </item>
+    
+    <item>
+      <title>Install Several Packages in a Loop</title>
+      <link>https://www.it-quicktasks.com/install-several-packages-in-loop/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-several-packages-in-loop/</guid>
+      <description>Manual
+sudo yum install -y mod_php71w php71w-cli php71w-common php71w-gd php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-xml  In Ansible:
+- name: Install needed php7 packages yum: name={{ item }} state=present with_items: - mod_php71w - php71w-cli - php71w-common - php71w-gd - php71w-mbstring - php71w-mcrypt - php71w-mysqlnd - php71w-xml  </description>
+    </item>
+    
+    <item>
+      <title>Make curl Use Hardcoded Domain Definition</title>
+      <link>https://www.it-quicktasks.com/curl-with-hardcoded-domain-definition/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-hardcoded-domain-definition/</guid>
+      <description>curl --resolve example.edu:443:51.87.65.267 -sI https://graduate.example.edu  </description>
+    </item>
+    
+    <item>
+      <title>Managing Ansible Installation</title>
+      <link>https://www.it-quicktasks.com/managing-ansible-installation/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/managing-ansible-installation/</guid>
+      <description>To be able to change versions, it&amp;rsquo;s best to use pip
+pip install -I ansible==2.0.2  More details in https://askubuntu.com/questions/820892/how-to-downgrade-ansible-2-1-1-0-to-2-0-2</description>
+    </item>
+    
+    <item>
+      <title>Rebooting a Machine via Ansible</title>
+      <link>https://www.it-quicktasks.com/rebooting-machine-via-ansible/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rebooting-machine-via-ansible/</guid>
+      <description>https://www.jeffgeerling.com/blog/2018/reboot-and-wait-reboot-complete-ansible-playbook and https://stackoverflow.com/questions/29955605/how-to-reboot-centos-7-with-ansible</description>
+    </item>
+    
+    <item>
+      <title>Replace SSH Connectivity via Paramiko</title>
+      <link>https://www.it-quicktasks.com/replace-ssh-connectivity-with-paramiko/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/replace-ssh-connectivity-with-paramiko/</guid>
+      <description>When an issue such as &amp;ldquo;Timeout, waiting for priviledged escalation&amp;rdquo; happens
+Run the playbook as follows:
+ansible-playbook -c paramiko ansible/ansible-usermgr.yml -i &amp;quot;cool.example.com, &amp;quot; -vvv  suggested in https://github.com/ansible/ansible/issues/14426</description>
+    </item>
+    
+    <item>
+      <title>Run Ansible Playbook</title>
+      <link>https://www.it-quicktasks.com/run-ansible-playbook/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/run-ansible-playbook/</guid>
+      <description>ansible-playbook ansible/web-apache-ubuntu.yml -u root --private-key ~/.ssh/ansible-only.ppk -i &amp;quot;67.217.89.118, &amp;quot; -vvv  </description>
+    </item>
+    
+    <item>
+      <title>Save shell command output to ansible variable</title>
+      <link>https://www.it-quicktasks.com/save-shell-command-output-to-ansible-variable/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/save-shell-command-output-to-ansible-variable/</guid>
+      <description>Test playbook:
+[root@lampp lampp]# cat test.yml --- - name: LAMPP Dev (MySQL/CentOS7) hosts: 127.0.0.1 connection: local become: true tasks: - name: Get the mysql root default password command: awk &#39;/temporary password/ {print $NF}&#39; /var/log/mysqld.log register: command_output - set_fact: default_mysqlroot_password: &amp;quot;{{ command_output.stdout }}&amp;quot; ## NOTE: debug line below is only to show output in ansible-playbook run - debug: msg=&amp;quot;{{ default_mysqlroot_password }}&amp;quot;```  Output
+[root@lampp lampp]# ansible-playbook test.yml [WARNING]: provided hosts list is empty, only localhost is available.</description>
+    </item>
+    
+    <item>
+      <title>String manipulation: get characters left in a variable</title>
+      <link>https://www.it-quicktasks.com/get-characters-left-in-variable/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-characters-left-in-variable/</guid>
+      <description>- name: Display Result In Loop debug: msg=&amp;quot;Version is {{ result.stdout[:5] }}&amp;quot;  See https://stackoverflow.com/questions/32091667/ansible-fetch-first-few-character-of-a-register-value</description>
+    </item>
+    
+    <item>
+      <title>ufw: List Rules in Ubuntu Machine</title>
+      <link>https://www.it-quicktasks.com/ufw-list-rules-in-ubuntu-machine/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ufw-list-rules-in-ubuntu-machine/</guid>
+      <description>root@xxx:/var/log# ufw status Status: active To Action From -- ------ ---- 22 LIMIT Anywhere 80 ALLOW Anywhere 443 ALLOW Anywhere ??41908/tcp ALLOW Anywhere Anywhere ALLOW 115.85.11.98 25/tcp ALLOW Anywhere 4444/tcp ALLOW Anywhere 4444/udp ALLOW Anywhere 22 (v6) LIMIT Anywhere (v6) 80 (v6) ALLOW Anywhere (v6) 443 (v6) ALLOW Anywhere (v6) 41908/tcp (v6) ALLOW Anywhere (v6) 25/tcp (v6) ALLOW Anywhere (v6) 4444/tcp (v6) ALLOW Anywhere (v6) 4444/udp (v6) ALLOW Anywhere (v6)  </description>
+    </item>
+    
+    <item>
+      <title>Variable in a Playbook</title>
+      <link>https://www.it-quicktasks.com/variable-in-playbook/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/variable-in-playbook/</guid>
+      <description>ex. Set the &amp;lsquo;webserver_name&amp;rsquo; variable as &amp;lsquo;httpd&amp;rsquo;
+- set_fact: webserver_name: httpd  </description>
+    </item>
+    
+    <item>
+      <title>Merge Remote Branch to Local</title>
+      <link>https://www.it-quicktasks.com/merge-remote-branch-to-local/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/merge-remote-branch-to-local/</guid>
+      <description>If you need to merge a remote repo&amp;rsquo;s (e.g. acquia) branch to your local branch:
+git pull acquia master  </description>
+    </item>
+    
+    <item>
+      <title>Quick Setup for You Git Code</title>
+      <link>https://www.it-quicktasks.com/quickly-work-git-code/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/quickly-work-git-code/</guid>
+      <description>If you need less keystrokes in updating your git code specially if it&amp;rsquo;s very minimal change, do the following:
+git clone https://&amp;lt;github_token_here&amp;gt;@github.com/icasimpan/quicktasks-git cd quicktasks-git git config user.name &amp;quot;Ismael Casimpan&amp;quot; git config user.email &amp;quot;ismael.angelo@casimpan.com&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Slow Query Logs</title>
+      <link>https://www.it-quicktasks.com/slow-query-logs/</link>
+      <pubDate>Tue, 12 Feb 2019 22:47:36 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/slow-query-logs/</guid>
+      <description>slow_query_log = 1 long_query_time = 1 slow_query_log_file = /var/log/mariadb/slow-query.log log_queries_not_using_indexes  See details in https://www.cyberciti.biz/faq/how-to-set-and-enable-mariadb-slow-query-log-linux-unix/</description>
+    </item>
+    
+    <item>
+      <title>Trace New Relic App from Logs</title>
+      <link>https://www.it-quicktasks.com/trace-newrelic-app-from-logs/</link>
+      <pubDate>Mon, 21 Jan 2019 23:41:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/trace-newrelic-app-from-logs/</guid>
+      <description>In /var/logs/newrelic
+[root@example.com newrelic]# grep -i newrelic.com newrelic-daemon.log 2019/01/21 06:09:53.115267 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 06:37:43.147116 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 07:07:22.072717 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 09:12:03.655458 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 09:40:53.506475 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 10:48:51.453005 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 11:08:14.956574 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 11:32:53.766170 (12209) Info: Reporting to: https://rpm.newrelic.com/accounts/76083/applications/159251100 2019/01/21 12:02:22.397894 (12209) Info: Reporting to: https://rpm.</description>
+    </item>
+    
+    <item>
+      <title>[InnoDB] Fatal error: cannot allocate memory for the buffer pool</title>
+      <link>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</link>
+      <pubDate>Sat, 29 Dec 2018 09:47:00 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</guid>
+      <description>From /var/log/mariadb/mariadb.log, something like
+ 150515 12:10:45 InnoDB: Completed initialization of buffer pool 150515 12:10:45 InnoDB: Fatal error: cannot allocate memory for the buffer pool 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; init function returned error. 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; registration as a STORAGE ENGINE failed. 150515 12:10:45 [ERROR] Unknown/unsupported storage engine: InnoDB 150515 12:10:45 [ERROR] Aborting  Ensure to allocate 50% of max machine RAM. Assuming you have 2GB in the machine, you&amp;rsquo;ll need</description>
+    </item>
+    
+    <item>
+      <title>Git Cherry-Pick Merge</title>
+      <link>https://www.it-quicktasks.com/git-cherrypick/</link>
+      <pubDate>Fri, 23 Nov 2018 06:03:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-cherrypick/</guid>
+      <description>Cherry Picking in Git is quite easy: For single commit
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;hash-here&amp;gt;  See https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson
+Multiple commit NOTE: only the commits between &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo; are merged.
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;initial_commit_hash&amp;gt;..&amp;lt;terminal_commit_hash&amp;gt;  To include the &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo;, use the following:
+git cherry-pick &amp;lt;initial_commit_hash&amp;gt;^..&amp;lt;terminal_commit_hash&amp;gt;  Note that conflicts would pause cherry-picking and ask to resolve the conflict. You can then continue as follows:
+git cherry-pick --continue  See details in https://medium.</description>
+    </item>
+    
+    <item>
+      <title>Rsync Excluding Inner Folders</title>
+      <link>https://www.it-quicktasks.com/rsync-excluding-inner-folders/</link>
+      <pubDate>Thu, 25 Oct 2018 09:24:00 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-excluding-inner-folders/</guid>
+      <description>In this example, we want to sync example.com except &amp;lsquo;example.com/temp_uploads&amp;rsquo;
+rsync -avz --exclude &#39;example.com/temp_uploads&#39; example.com /var/www_backups  NOTE: exclude files are always relative.
+details in https://www.thegeekstuff.com/2011/01/rsync-exclude-files-and-folders</description>
+    </item>
+    
+    <item>
+      <title>Rsync via Ssh</title>
+      <link>https://www.it-quicktasks.com/rsync-via-ssh/</link>
+      <pubDate>Thu, 25 Oct 2018 09:21:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-via-ssh/</guid>
+      <description>rsync -avz -e &amp;quot;ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null&amp;quot; \ --progress /var/www/html/example.com/docroot me@example.org:/var/www/html/example.org/  </description>
+    </item>
+    
+    <item>
+      <title>Rsync With Specific Key</title>
+      <link>https://www.it-quicktasks.com/rsync-with-specific-key/</link>
+      <pubDate>Thu, 25 Oct 2018 09:20:07 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-with-specific-key/</guid>
+      <description>rsync -Pav -e &amp;quot;ssh -i $HOME/.ssh/somekey&amp;quot; username@hostname:/from/dir/ /to/dir/  </description>
+    </item>
+    
+    <item>
+      <title>MariaDB Table Join Limit</title>
+      <link>https://www.it-quicktasks.com/mariadb-tablejoin-limit/</link>
+      <pubDate>Tue, 23 Oct 2018 22:30:18 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mariadb-tablejoin-limit/</guid>
+      <description>Maximum number of table joins is 61 as per https://stackoverflow.com/questions/23389820/what-is-the-maximum-number-of-table-joins-in-mariadb Tested out as follows:
+CREATE TABLE t (i INT(10) NOT NULL); select * from t a01 join t a02 join t a03 join t a04 join t a05 join t a06 join t a07 join t a08 join t a09 join t a10 join t a11 join t a12 join t a13 join t a14 join t a15 join t a16 join t a17 join t a18 join t a19 join t a20 join t a21 join t a22 join t a23 join t a24 join t a25 join t a26 join t a27 join t a28 join t a29 join t a30 join t a31 join t a32 join t a33 join t a34 join t a35 join t a36 join t a37 join t a38 join t a39 join t a40 join t a41 join t a42 join t a43 join t a44 join t a45 join t a46 join t a47 join t a48 join t a49 join t a50 join t a51 join t a52 join t a53 join t a54 join t a55 join t a56 join t a57 join t a58 join t a59 join t a60 join t a61 join t a62;  Results in error for more than 61 table used (tested on MariaDB 10.</description>
+    </item>
+    
+    <item>
+      <title>Get Number of Seconds Slave Is Behind Master</title>
+      <link>https://www.it-quicktasks.com/get-number-of-seconds-slave-is-behind-master/</link>
+      <pubDate>Mon, 15 Oct 2018 12:45:19 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-number-of-seconds-slave-is-behind-master/</guid>
+      <description>Get replication status, and look for &amp;ldquo;Seconds_Behind_Master&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Get Replication Status in Slave</title>
+      <link>https://www.it-quicktasks.com/get-replication-status-in-slave/</link>
+      <pubDate>Mon, 15 Oct 2018 12:44:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-replication-status-in-slave/</guid>
+      <description>mysql&amp;gt; show slave status\G;  </description>
+    </item>
+    
+    <item>
+      <title>Count Number of Tables in a MySQL Database</title>
+      <link>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</link>
+      <pubDate>Mon, 15 Oct 2018 12:43:31 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</guid>
+      <description>mysql&amp;gt; select distinct(TABLE_SCHEMA) from information_schema.tables; +--------------------+ | TABLE_SCHEMA | +--------------------+ | information_schema | | drcongo | | mysql | | performance_schema | | pseademo | | pseairaq | | sys | +--------------------+ mysql&amp;gt; select count(*) from information_schema.tables where TABLE_SCHEMA=&#39;drcongo&#39;; +----------+ | count(*) | +----------+ | 333 | +----------+ 1 row in set (0.00 sec)  </description>
+    </item>
+    
+    <item>
+      <title>List Table Names Only for Shell Scripting Purposes</title>
+      <link>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</link>
+      <pubDate>Mon, 15 Oct 2018 12:42:34 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</guid>
+      <description>mysql -s --skip-column-names -ne &amp;quot;use DB_to_Use; show tables;&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Some MySQL Tweaking Tips</title>
+      <link>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</link>
+      <pubDate>Mon, 15 Oct 2018 12:39:54 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</guid>
+      <description>See https://serverfault.com/questions/42789/how-to-increase-memory-usage-in-mysql-server-to-improve-speed</description>
+    </item>
+    
+    <item>
+      <title>Dump MySQL Database</title>
+      <link>https://www.it-quicktasks.com/dump-mysql-database/</link>
+      <pubDate>Mon, 15 Oct 2018 12:38:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-mysql-database/</guid>
+      <description>mysqldump -u&amp;lt;username&amp;gt; -p&amp;lt;password&amp;gt; --no-create-db myDB -h localhost &amp;gt; mysql.backup  That way, it would strip the original database name and NOT become a problem when importing to another database name. See https://stackoverflow.com/questions/30835874/how-to-avoid-use-database-statement-on-mysqldump-backups</description>
+    </item>
+    
+    <item>
+      <title>AUTOMySQLBackup: Looking for .my.cnf in your $HOME instead of in /root</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-looking-for-.my.cnf-on-your-home-instead-of-in-root/</link>
+      <pubDate>Mon, 15 Oct 2018 12:32:03 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-looking-for-.my.cnf-on-your-home-instead-of-in-root/</guid>
+      <description>root@rh:~# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; grep: /home/icasimpan/.my.cnf: No such file or directory grep: /home/icasimpan/.my.cnf: No such file or directory # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/fullschema&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>Automysqlbackup Fails Due to Issues in Information_schema</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</link>
+      <pubDate>Mon, 15 Oct 2018 12:11:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</guid>
+      <description>In a machine &amp;lsquo;rh&amp;rsquo;, tested automysqlbackup cron job if it would work and got the issue below:
+[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>Automysqlbackup: Cannot Use Root Credentials From MySQL CLI</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-cannot-use-root-credentials-from-mysql-cli/</link>
+      <pubDate>Mon, 15 Oct 2018 12:00:13 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-cannot-use-root-credentials-from-mysql-cli/</guid>
+      <description>[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/fullschema&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/status&amp;quot; ... exists. # Testing for installed programs mysql .</description>
+    </item>
+    
+    <item>
+      <title>Check Current Character Set Settings in MySQL</title>
+      <link>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</link>
+      <pubDate>Mon, 15 Oct 2018 07:46:36 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-current-character-set-settings-in-mysql/</guid>
+      <description>mysql&amp;gt; SHOW VARIABLES WHERE Variable_name LIKE &#39;character\_set\_%&#39; OR Variable_name LIKE &#39;collation%&#39;;  Sample output as follows: </description>
+    </item>
+    
+    <item>
+      <title>Checking Supported Character Set</title>
+      <link>https://www.it-quicktasks.com/checking-supported-character-set/</link>
+      <pubDate>Mon, 15 Oct 2018 07:41:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-supported-character-set/</guid>
+      <description>mysql&amp;gt; SHOW CHARACTER SET;  </description>
+    </item>
+    
+    <item>
+      <title>Undefined Class Constant MYSQL_ATTR_SSL_CA</title>
+      <link>https://www.it-quicktasks.com/undefined-class-constant-mysql_attr_ssl_ca/</link>
+      <pubDate>Mon, 15 Oct 2018 07:27:21 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/undefined-class-constant-mysql_attr_ssl_ca/</guid>
+      <description>drupal@ubuntu:/var/www/sites/openedu.localhost/docroot$ drush si site-name=&#39;OpenEDU Testing&#39; --db-url=&#39;mysql://openedu_DBA:openedu_PASS@127.0.0.1/openedu_DB&#39; openedu PHP Fatal error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php:56 Stack trace: #0 /usr/local/share/drush/lib/Drush/Sql/SqlBase.php(164): Drush\Sql\Sqlmysql-&amp;gt;creds() #1 /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php(107): Drush\Sql\SqlBase-&amp;gt;query(&#39;SELECT 1;&#39;, &#39;/tmp/drush_uX7T...&#39;, &#39;/dev/null&#39;) #2 /usr/local/share/drush/commands/core/site_install.drush.inc(146): Drush\Sql\Sqlmysql-&amp;gt;db_exists() #3 /usr/local/share/drush/includes/command.inc(422): drush_core_pre_site_install(&#39;site-name=OpenE...&#39;) #4 /usr/local/share/drush/includes/command.inc(231): _drush_invoke_hooks(Array, Array) #5 /usr/local/share/drush/includes/command.inc(199): drush_command(&#39;site-name=OpenE...&#39;) #6 /usr/local/share/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch(Array) #7 /usr/local/share/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot-&amp;gt;bootstrap_and_dispatch() #8 /usr/local/share/drush/drush.php(12): drush_main() #9 {main} thrown in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php on line 56 Drush command terminated abnormally due to an unrecoverable error. [error] Error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.</description>
+    </item>
+    
+    <item>
+      <title>Drush: Drop Mysql Tables Without Deleting Database</title>
+      <link>https://www.it-quicktasks.com/drush-drop-mysql-tables-without-deleting-database/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-drop-mysql-tables-without-deleting-database/</guid>
+      <description>In drupal root:
+drush sql-drop  </description>
+    </item>
+    
+    <item>
+      <title>settings.php: Few Ways to Add Changes</title>
+      <link>https://www.it-quicktasks.com/settings-php-few-ways-add-changes/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:33 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/settings-php-few-ways-add-changes/</guid>
+      <description>Method 1 (env.json) in drupalroot/sites/default/env.json
+{ &amp;quot;conf_dir&amp;quot;: &amp;quot;/etc/drupal/site_identifier_here/default&amp;quot; }  in /etc/drupal/site_identifier_here/default, there is then a file globals.conf.d/globals.default.json with content:
+{ &amp;quot;id&amp;quot;: &amp;quot;default&amp;quot;, &amp;quot;databases&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;database&amp;quot;: &amp;quot;yourDB&amp;quot;, &amp;quot;username&amp;quot;: &amp;quot;yourDBA&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;yourPASS&amp;quot;, &amp;quot;host&amp;quot;: &amp;quot;127.0.0.1&amp;quot;, &amp;quot;driver&amp;quot;: &amp;quot;mysql&amp;quot; } } }, &amp;quot;uri&amp;quot;: &amp;quot;example.com&amp;quot;, &amp;quot;doc_root&amp;quot;: &amp;quot;www&amp;quot;, &amp;quot;chef_type&amp;quot;: &amp;quot;data_bag_item&amp;quot;, &amp;quot;data_bag&amp;quot;: &amp;quot;drupal&amp;quot; } *Method 2: Referenced from settings.php* See https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-including-settings-local/ With sample settings.local.php in https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-sample-settings-local/  </description>
+    </item>
+    
+    <item>
+      <title>Acquia: Full Path to Database Backups Made via GUI</title>
+      <link>https://www.it-quicktasks.com/acquia-full-path-to-database-backups/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:31 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/acquia-full-path-to-database-backups/</guid>
+      <description>From CLI, ssh to specific server and go to:
+ /mnt/files/[site].[dev | test | prod]/backups/  </description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: Developer need to be able to deploy for a site</title>
+      <link>https://www.it-quicktasks.com/pantheon-developer-need-deploy-site/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:29 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pantheon-developer-need-deploy-site/</guid>
+      <description>He/she needs to be added to the sites &amp;ldquo;Team&amp;rdquo; as &amp;ldquo;Team Member&amp;rdquo;. See details in https://pantheon.io/docs/change-management/</description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: Can&#39;t see drush aliases to some sites (despite having organization access)</title>
+      <link>https://www.it-quicktasks.com/pantheon-cannot-see-drush-aliases-despite-org-access/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:27 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pantheon-cannot-see-drush-aliases-despite-org-access/</guid>
+      <description>You need to be part of the &amp;ldquo;Team&amp;rdquo;. Access the site name and go to &amp;ldquo;Team&amp;rdquo; and add yourself(assuming you have access). Check back the aliases and you should have it now.</description>
+    </item>
+    
+    <item>
+      <title>Acquia Logs</title>
+      <link>https://www.it-quicktasks.com/acquia-logs/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/acquia-logs/</guid>
+      <description>https://docs.acquia.com/acquia-cloud/files/system-files</description>
+    </item>
+    
+    <item>
+      <title>BASH_FUNC_module error</title>
+      <link>https://www.it-quicktasks.com/bash_func_module-error/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/bash_func_module-error/</guid>
+      <description>This error is seen as follows:
+sh: module: line 1: syntax error: unexpected end of file sh: error importing function definition for `BASH_FUNC_module&#39;  A lot of discussions has been done about it in https://github.com/drush-ops/drush/issues/2065#issuecomment-227820550 but the fix is made from /etc/php.ini:
+disable_functions = pcntl_exec  </description>
+    </item>
+    
+    <item>
+      <title>Create drupal super admin user via drush</title>
+      <link>https://www.it-quicktasks.com/create-drupal-super-admin-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-drupal-super-admin-via-drush/</guid>
+      <description>drush user-create prometadmin &amp;quot;letmein&amp;quot; drush user-add-role super_admin prometadmin  </description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Site UUID in source storage does not match the target storage</title>
+      <link>https://www.it-quicktasks.com/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</guid>
+      <description>Problem
+You encountered this error when running &amp;lsquo;drush cim&amp;rsquo;:
+Site UUID in source storage does not match the target storage.  As mentioned, UUID no longer match. To fix, get the UUID in config/sync directory, something like below:
+awk &#39;{for (I=1;I&amp;lt;=NF;I++) if ($I == &amp;quot;uuid:&amp;quot;) {print $(I+1)};}&#39; sites/default/config/sync/system.site.yml  and assuming you get this value:
+d5835485-ed5e-433a-b782-41eca3ef7727  Set that to current installation as follows:
+drush cset system.site uuid d5835485-ed5e-433a-b782-41eca3ef7727 -y  Rerun &amp;lsquo;drush cim&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Drupal maintenance mode (turn-off) via drush</title>
+      <link>https://www.it-quicktasks.com/drupal-maintenance-mode-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-maintenance-mode-via-drush/</guid>
+      <description>Drupal 8 drush sset system.maintenance_mode FALSE  Drupal 7 drush vset maintenance_mode 0  You may need to clear cache for it to work.
+See details and some other options if it doesn&amp;rsquo;t work in https://drupal.stackexchange.com/questions/100771/how-do-i-turn-off-maintenance-mode</description>
+    </item>
+    
+    <item>
+      <title>Drupal Memcache</title>
+      <link>https://www.it-quicktasks.com/drupal-memcache/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-memcache/</guid>
+      <description>Had to install as follows (need to be php7.x):
+pecl install memcached  Dependencies may need to be installed
+# yum groupinstall &amp;quot;Development tools&amp;quot; # yum install zlib zlib-devel # yum install php php-devel php-pear echo &amp;quot;extension=memcache.so&amp;quot; &amp;gt;&amp;gt; /etc/php.d/memcache.ini  See https://tecadmin.net/install-memcached-with-pecl-memcache-on-centos-rhel/
+For Ubuntu 16.x (with php5.6.x)
+apt-get install memcached apt-get install php-memcache  </description>
+    </item>
+    
+    <item>
+      <title>Drupal7 install via drush</title>
+      <link>https://www.it-quicktasks.com/drupal7-install-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal7-install-via-drush/</guid>
+      <description>cd /var/www/sites drush dl drupal-7 --destination=yoursite.example.com --drupal-project-rename=www -y cd yoursite.example.com/www drush site-install standard --account-name=admin --account-pass=admin --db-url=mysql://myDBA:myDBPASS@localhost/myDB -y  See http://www.coderintherye.com/install-drupal-7-using-drush</description>
+    </item>
+    
+    <item>
+      <title>Drush Features Diff (drupal7)</title>
+      <link>https://www.it-quicktasks.com/drupal7-drush-features-diff/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal7-drush-features-diff/</guid>
+      <description>Enable diff module  drush en diff -y  Show all features  [root@yoursite.example.com docroot]# drush fd BEF Test Content bef_test_content Disabled 7.x-3.5 Keystone Media News content_keystone_media Enabled 7.x-1.0-alpha10 Content Set #1 content_set_1 Enabled 7.x-1.0-alpha9m Content Set #2 content_set_2 Enabled 7.x-1.0-alpha16m Content Set #3 content_set_3 Enabled 7.x-1.0-alpha80 Overridden Content Set #4 content_set_4 Enabled 7.x-1.0-alpha26 Date Migration Example date_migrate_example Disabled 7.x-2.10 Features Tests features_test Disabled 7.x-2.10 Feeds Import feeds_import Enabled 7.</description>
+    </item>
+    
+    <item>
+      <title>Drush for non-composer drupal</title>
+      <link>https://www.it-quicktasks.com/drush-for-non-composer-drupal/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-for-non-composer-drupal/</guid>
+      <description>#install composer and Drush curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar chmod +x drush.phar sudo mv drush.phar /usr/local/bin/drush cd drupal cat &amp;gt; composer.json&amp;lt;&amp;lt;&#39;EOF&#39; { &amp;quot;require&amp;quot;: { &amp;quot;drush/drush&amp;quot;: &amp;quot;8.*&amp;quot; }, &amp;quot;extra&amp;quot;: { &amp;quot;installer-paths&amp;quot;: { &amp;quot;core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;] } } } EOF composer install  Details from https://github.com/dbjpanda/digitalocean-drupal/blob/7.x/install.sh and https://github.com/drush-ops/drush-launcher/issues/33</description>
+    </item>
+    
+    <item>
+      <title>Drush ULI: disable automatic open in browser</title>
+      <link>https://www.it-quicktasks.com/drush-uli-disable-automatic-open-in-browser/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-uli-disable-automatic-open-in-browser/</guid>
+      <description>drush uli --no-browser  </description>
+    </item>
+    
+    <item>
+      <title>Example Setup for stage_file_proxy</title>
+      <link>https://www.it-quicktasks.com/example-setup-stage_file_proxy/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/example-setup-stage_file_proxy/</guid>
+      <description>[me@common-dev default]$ drush pm-download stage_file_proxy Project stage_file_proxy (7.x-1.8) downloaded to /var/www/sites/project.example.com/www/sites/all/modules/contrib/stage_file_proxy. [success] [me@common-dev default]$ drush pm-enable --yes stage_file_proxy The following module has moved within the file system: &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;stage_file_proxy&amp;lt;/em&amp;gt;. In order to fix this, clear caches or put the module back in its [warning] original location. For more information, see &amp;lt;a href=&amp;quot;https://www.drupal.org/node/2487215&amp;quot;&amp;gt;the documentation page&amp;lt;/a&amp;gt;. bootstrap.inc:1143 The following extensions will be enabled: stage_file_proxy Do you really want to continue? (y/n): y stage_file_proxy was enabled successfully.</description>
+    </item>
+    
+    <item>
+      <title>Force http to https</title>
+      <link>https://www.it-quicktasks.com/force-http-to-https/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/force-http-to-https/</guid>
+      <description>root@example.com:/var/www/sites/yoursite.example.com/www# git diff .htaccess diff --git a/www/.htaccess b/www/.htaccess index 440cabc..968f601 100644 --- a/www/.htaccess +++ b/www/.htaccess @@ -93,6 +93,12 @@ DirectoryIndex index.php index.html index.htm # RewriteCond %{HTTP_HOST} !^www\. [NC] # RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301] # + + # Redirect HTTP to HTTPS + RewriteCond %{HTTPS} off + RewriteCond %{HTTP:X-Forwarded-Proto} !https + RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] + # To redirect all users to access the site WITHOUT the &#39;www.&#39; prefix, # (http://www.example.com/... will be redirected to http://example.</description>
+    </item>
+    
+    <item>
+      <title>Install and switch between different drush versions</title>
+      <link>https://www.it-quicktasks.com/install-and-switch-between-drush-versions/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-and-switch-between-drush-versions/</guid>
+      <description>See https://www.lullabot.com/articles/switching-drush-versions</description>
+    </item>
+    
+    <item>
+      <title>Install Composer</title>
+      <link>https://www.it-quicktasks.com/install-composer/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-composer/</guid>
+      <description>curl -sS https://getcomposer.org/installer | php mv composer.phar /usr/local/bin/composer ln -s /usr/local/bin/composer /usr/bin/composer  </description>
+    </item>
+    
+    <item>
+      <title>Nginx 404 when in Drupal Admin</title>
+      <link>https://www.it-quicktasks.com/nginx-404-when-in-drupal-admin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/nginx-404-when-in-drupal-admin/</guid>
+      <description>This lacks URL rewriting. See https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/</description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: drush aliases download</title>
+      <link>https://www.it-quicktasks.com/pantheon-drush-aliases-download/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pantheon-drush-aliases-download/</guid>
+      <description>Your Username &amp;gt; Dashboard &amp;gt; Drush Aliases</description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: drush via terminus</title>
+      <link>https://www.it-quicktasks.com/pantheon-drush-via-terminus/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pantheon-drush-via-terminus/</guid>
+      <description>See https://pantheon.io/docs/terminus/</description>
+    </item>
+    
+    <item>
+      <title>Restore Database via Drush</title>
+      <link>https://www.it-quicktasks.com/restore-database-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/restore-database-via-drush/</guid>
+      <description>drush sqlc &amp;lt; database.sql  </description>
+    </item>
+    
+    <item>
+      <title>Search Index via drush</title>
+      <link>https://www.it-quicktasks.com/search-index-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/search-index-via-drush/</guid>
+      <description>drush sapi-i ## or drush search-api-index  </description>
+    </item>
+    
+    <item>
+      <title>settings.php: Adding reference to settings.local.php</title>
+      <link>https://www.it-quicktasks.com/settings-php-including-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/settings-php-including-settings-local/</guid>
+      <description>/** * Load local development override configuration, if available. * * Use settings.local.php to override variables on secondary (staging, * development, etc) installations of this site. Typically used to disable * caching, JavaScript/CSS compression, re-routing of outgoing emails, and * other things that should not happen on development and testing sites. * * Keep this code block at the end of this file to take full effect. */ if (file_exists(__DIR__ .</description>
+    </item>
+    
+    <item>
+      <title>settings.php: Sample settings.local.php</title>
+      <link>https://www.it-quicktasks.com/settings-php-sample-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/settings-php-sample-settings-local/</guid>
+      <description>&amp;lt;?php $databases[&#39;default&#39;][&#39;default&#39;] = array ( &#39;database&#39; =&amp;gt; &#39;yourDB&#39;, &#39;username&#39; =&amp;gt; &#39;yourDBA&#39;, &#39;password&#39; =&amp;gt; &#39;yourDBPASS&#39;, &#39;prefix&#39; =&amp;gt; &#39;&#39;, &#39;host&#39; =&amp;gt; &#39;localhost&#39;, &#39;port&#39; =&amp;gt; &#39;3306&#39;, &#39;namespace&#39; =&amp;gt; &#39;Drupal\\Core\\Database\\Driver\\mysql&#39;, &#39;driver&#39; =&amp;gt; &#39;mysql&#39;, );  EDIT: Updated to reflect new learning in https://ismael.casimpan.com/quicktasks-drupal/post/weird-session-issue/</description>
+    </item>
+    
+    <item>
+      <title>error: &#39;drush -fra -y&#39; Failed to Create Directory</title>
+      <link>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</guid>
+      <description>bash-4.1$ /usr/local/bin/drush cc all ‘all’ cache was cleared. [success] bash-4.1$ /usr/local/bin/drush fra -y WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/ttfontdata” for print_pdf_mpdf. [error] WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/tmp” for print_pdf_mpdf. [error] The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.field_group. [ok] bash-4.1$ /usr/local/bin/drush fra -y The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.</description>
+    </item>
+    
+    <item>
+      <title>Custom Site Title Per Drupal Installation (d8)</title>
+      <link>https://www.it-quicktasks.com/custom-title-per-drupal-installation/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/custom-title-per-drupal-installation/</guid>
+      <description>Do you have several drupal installation in a test server that you want to distinguish which is which? Add this to settings.local.php and it will override whatever is in database.
+ $config[&#39;system.site&#39;][&#39;name&#39;] = &amp;quot;Example Site (Fixes)&amp;quot;;  </description>
+    </item>
+    
+    <item>
+      <title>Drush Installation</title>
+      <link>https://www.it-quicktasks.com/drush-installation/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-installation/</guid>
+      <description>Go to your drupal root composer require drush/drush  See http://docs.drush.org/en/master/install/ for details.
+Then install drupal launcher -&amp;gt; https://github.com/drush-ops/drush-launcher
+ cd ~ wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/download/0.3.1/drush.phar chmod ug+x drush.phar sudo chown www-data:www-data drush.phar sudo mv drush.phar /usr/local/bin/drush  Further readings in https://www.dx-experts.nl/site-specific-local-drush-and-drupal-console</description>
+    </item>
+    
+    <item>
+      <title>Phpinfo in Drupaladmin</title>
+      <link>https://www.it-quicktasks.com/phpinfo-in-drupaladmin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:15:59 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/phpinfo-in-drupaladmin/</guid>
+      <description>It can be found in
+http://&amp;lt;site_url&amp;gt;/admin/reports/status/php  </description>
+    </item>
+    
+    <item>
+      <title>DB Credentials via Drush</title>
+      <link>https://www.it-quicktasks.com/db-credentials-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:14:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/db-credentials-via-drush/</guid>
+      <description>Go to drupal root, then:
+drush st --show-passwords database  In drush 9.7.2 (may also work for other sub-versions of drush 9), the following command should be used:
+drush st DB  </description>
+    </item>
+    
+    <item>
+      <title>Getting Errors with Drush rr not Installed</title>
+      <link>https://www.it-quicktasks.com/getting-errors-with-drush-rr-not-installed/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-errors-with-drush-rr-not-installed/</guid>
+      <description>drush @none dl registry_rebuild-7.x  See https://www.drupal.org/project/registry_rebuild or https://www.deeson.co.uk/labs/drush-registry-rebuild</description>
+    </item>
+    
+    <item>
+      <title>Reinstall Drupal8</title>
+      <link>https://www.it-quicktasks.com/reinstall-drupal8/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/reinstall-drupal8/</guid>
+      <description>Empty the files directory. Replace the settings.php file with a copy of the default.settings.php file. Add write permissions to the settings.php file. Drop all tables in the database. Reinstall the site on http://yoursite.com/core/install.php.  Ref http://dribbit.eu/drupal-8/reinstall-drupal-8</description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Install via Composer</title>
+      <link>https://www.it-quicktasks.com/drupal8-install-via-composer/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal8-install-via-composer/</guid>
+      <description>NOTE:
+ Noticed some memory issue during installation on a VM with 2GB RAM, so if it happens to you, just augment with swap file.  cd /var/www/sites composer create-project drupal-composer/drupal-project:8.x yoursite.example.com --stability dev --no-interaction ../vendor/bin/drush site-install --site-name=&amp;quot;Drupal Title Here&amp;quot; --db-url=mysql://yourDBA:yourPASS@localhost/yourDB --account-mail=admin@example.com --account-pass=acountPassw0RD -y  </description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Manual Install via Drush</title>
+      <link>https://www.it-quicktasks.com/drupal8-manual-install-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal8-manual-install-via-drush/</guid>
+      <description>NOTE:
+ Per https://www.drupal.org/project/drupal/releases/8.4.0, drupal8.4.x needs drush 8.1.12+ Method works but has theme issue. Better to use composer method instead.   cd /var/www/sites/yourdrupal.com/ drush dl drupal-8 mv drupal-8.4.5 docroot composer install composer update composer require drush/drush drush si &amp;ndash;db-url=&#39;mysql://yourDBA:yourPASS@127.0.0.1/yourDB&amp;rsquo;  Steps 4, 5, 6 are mandatory per site. Some reference for drush install of drupal8 in https://drupal.stackexchange.com/questions/130680/downloading-core-via-command-line</description>
+    </item>
+    
+    <item>
+      <title>Drupal Logs</title>
+      <link>https://www.it-quicktasks.com/drupal-logs/</link>
+      <pubDate>Sun, 08 Apr 2018 23:50:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-logs/</guid>
+      <description>From Web Browser:
+generate &amp;lsquo;drush uli&amp;rsquo; Go to /admin/reports/dblog From CLI:
+ drush watchdog-show  See https://drupal.stackexchange.com/questions/48645/how-to-show-admin-reports-dblog-in-terminal-cli</description>
+    </item>
+    
+    <item>
+      <title>Clear Drupal Cache Outside Drush</title>
+      <link>https://www.it-quicktasks.com/clear-drupal-cache-outside-drush/</link>
+      <pubDate>Sun, 08 Apr 2018 23:45:58 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/clear-drupal-cache-outside-drush/</guid>
+      <description>From drupal admin UI: Administration &amp;gt; Configuration &amp;gt; Development &amp;gt; Performance
+But will work only if you have drupal admin login. Otherwise, you need to install drush instead and do the &amp;lsquo;drush cc all&amp;rsquo; from there. Some other options -&amp;gt; https://www.drupal.org/docs/7/administering-drupal-7-site/clearing-or-rebuilding-drupals-cache</description>
+    </item>
+    
+    <item>
+      <title>File Permission Problems</title>
+      <link>https://www.it-quicktasks.com/file-permission-problems/</link>
+      <pubDate>Sun, 08 Apr 2018 23:44:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/file-permission-problems/</guid>
+      <description>Changing group ownership of the files in &amp;ldquo;sites/default/files&amp;rdquo;. More details in https://www.drupal.org/docs/7/install/setting-up-the-files-directory</description>
+    </item>
+    
+    <item>
+      <title>Hardening Mysql</title>
+      <link>https://www.it-quicktasks.com/hardening-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:31:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hardening-mysql/</guid>
+      <description>icasimpan@am2018:~$ sudo mysql_secure_installation Securing the MySQL server deployment. Connecting to MySQL using a blank password. VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin? Press y|Y for Yes, any other key for No: Y There are three levels of password validation policy: LOW Length &amp;gt;= 8 MEDIUM Length &amp;gt;= 8, numeric, mixed case, and special characters STRONG Length &amp;gt;= 8, numeric, mixed case, special characters and dictionary file Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 8 Invalid option provided.</description>
+    </item>
+    
+    <item>
+      <title>Error 1273 (HY000): Unknown collation &#39;utf8mb4_unicode_520_ci</title>
+      <link>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</link>
+      <pubDate>Sun, 08 Apr 2018 23:28:33 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</guid>
+      <description>Caused by difference in database versions where the latest version you&amp;rsquo;re running does not support &amp;lsquo;utf8mb4unicode520_ci&amp;rsquo;.
+Search and replace it from within the dump file with &amp;lsquo;utf8mb4_unicode_ci&amp;rsquo;.
+See details in https://www.digitalocean.com/community/questions/error-1273-hy000-at-line-25-unknown-collation-utf8mb4_unicode_520_ci</description>
+    </item>
+    
+    <item>
+      <title>Mysql Not Restarting Nothing in Logs</title>
+      <link>https://www.it-quicktasks.com/mysql-not-restarting-nothing-in-logs/</link>
+      <pubDate>Sun, 08 Apr 2018 23:24:04 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-not-restarting-nothing-in-logs/</guid>
+      <description>Check /etc/mysql/my.cnf and examine &amp;ldquo;datadir&amp;rdquo; value. If it isn&amp;rsquo;t valid or you know the disk is bad, change it. Restart service and all will be well.</description>
+    </item>
+    
+    <item>
+      <title>Restore One Table</title>
+      <link>https://www.it-quicktasks.com/restore-one-table/</link>
+      <pubDate>Sun, 08 Apr 2018 23:22:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/restore-one-table/</guid>
+      <description>mysql -u root -p your_DB &amp;lt; ./your_system.sql  More details in https://stackoverflow.com/questions/9696249/restoring-a-mysql-table-back-to-the-database</description>
+    </item>
+    
+    <item>
+      <title>Dump One or More Table</title>
+      <link>https://www.it-quicktasks.com/dump-one-or-more-table/</link>
+      <pubDate>Sun, 08 Apr 2018 23:21:30 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dump-one-or-more-table/</guid>
+      <description>mysqldump -u root -p yourDB system &amp;gt; yourDB_system.sql  More details in https://dba.stackexchange.com/questions/9306/how-do-you-mysqldump-specific-tables</description>
+    </item>
+    
+    <item>
+      <title>Change MySQL User Credentials</title>
+      <link>https://www.it-quicktasks.com/change-mysql-user-credentials/</link>
+      <pubDate>Sun, 08 Apr 2018 23:20:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-mysql-user-credentials/</guid>
+      <description>For as long as you have root access to MySQL, this would work:
+UPDATE mysql.user SET Password=PASSWORD(&#39;new-password-here&#39;) WHERE USER=&#39;user-name-here&#39; AND Host=&#39;host-name-here&#39;;  more details from https://www.cyberciti.biz/faq/mysql-change-user-password/</description>
+    </item>
+    
+    <item>
+      <title>Checking Remote Tags</title>
+      <link>https://www.it-quicktasks.com/checking-remote-tags/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-remote-tags/</guid>
+      <description>git ls-remote --tags  </description>
+    </item>
+    
+    <item>
+      <title>Compare tags contents in github</title>
+      <link>https://www.it-quicktasks.com/compare-tag-contents-github/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/compare-tag-contents-github/</guid>
+      <description>Example https://github.com/icasimpan/shcf/compare/shcf-v0.2.0...shcf-v0.3.0</description>
+    </item>
+    
+    <item>
+      <title>Configure email and username</title>
+      <link>https://www.it-quicktasks.com/configure-email-username/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/configure-email-username/</guid>
+      <description>git config user.name &amp;quot;Your Name Here&amp;quot; git config user.email &amp;quot;name@email.com&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Credentials to Pantheon.io git</title>
+      <link>https://www.it-quicktasks.com/credentials-pantheon-git/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/credentials-pantheon-git/</guid>
+      <description>Add the email to the Project&amp;rsquo;s Team. The login credentials is the access to git as well. NOTE: If using Google login, make sure to change password.</description>
+    </item>
+    
+    <item>
+      <title>Delete User</title>
+      <link>https://www.it-quicktasks.com/delete-user/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-user/</guid>
+      <description>DROP USER &#39;yourDBA&#39;@&#39;localhost&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Deleting a local git tag</title>
+      <link>https://www.it-quicktasks.com/deleting-local-git-tag/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/deleting-local-git-tag/</guid>
+      <description>me@mysite:/var/www/sites/mysite.local$ git tag --delete origin :v1.56 To git@git-server:mysite.git Deleted tag &#39;v1.56&#39; (was f346d287f)  </description>
+    </item>
+    
+    <item>
+      <title>Deleting a remote git repo branch</title>
+      <link>https://www.it-quicktasks.com/deleting-remote-git-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/deleting-remote-git-repo/</guid>
+      <description>me@mysite:/var/www/sites/mysite.local$ git push origin :release-redesign To git@git-server:mysite.git - [deleted] release-redesign  </description>
+    </item>
+    
+    <item>
+      <title>Deleting a remote git tag</title>
+      <link>https://www.it-quicktasks.com/deleting-remote-git-tag/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/deleting-remote-git-tag/</guid>
+      <description>me@mysite:/var/www/sites/mysite.local$ git push origin :v1.56 To git@git-server:mysite.git - [deleted] v1.56  </description>
+    </item>
+    
+    <item>
+      <title>Duplicating a git repo</title>
+      <link>https://www.it-quicktasks.com/duplicating-git-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/duplicating-git-repo/</guid>
+      <description>git clone --bare https://example.com/repo.git cd repo.git git push --mirror https://remote-example.com/repo.git  See https://help.github.com/articles/duplicating-a-repository/</description>
+    </item>
+    
+    <item>
+      <title>Fix the identity used for a commit</title>
+      <link>https://www.it-quicktasks.com/fix-identity-used-in-commit/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/fix-identity-used-in-commit/</guid>
+      <description>git commit --amend --reset-author  </description>
+    </item>
+    
+    <item>
+      <title>Getting drush uli in a Pantheon site</title>
+      <link>https://www.it-quicktasks.com/drush-uli-pantheon-site/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-uli-pantheon-site/</guid>
+      <description>See https://pantheon.io/blog/five-steps-feeling-drupal-drush</description>
+    </item>
+    
+    <item>
+      <title>git log (cli graph)</title>
+      <link>https://www.it-quicktasks.com/git-log-ci-graph/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-log-ci-graph/</guid>
+      <description>git log --graph --oneline --decorate --all  </description>
+    </item>
+    
+    <item>
+      <title>Git Patch Creation/Apply</title>
+      <link>https://www.it-quicktasks.com/git-patch-creation-apply/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-patch-creation-apply/</guid>
+      <description>See https://www.devroom.io/2009/10/26/how-to-create-and-apply-a-patch-with-git/</description>
+    </item>
+    
+    <item>
+      <title>Git submodules (similar to svn:externals)</title>
+      <link>https://www.it-quicktasks.com/git-submodules/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-submodules/</guid>
+      <description>See https://chrisjean.com/git-submodules-adding-using-removing-and-updating/</description>
+    </item>
+    
+    <item>
+      <title>Ignore Permission Changes</title>
+      <link>https://www.it-quicktasks.com/ignore-permission-changes/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ignore-permission-changes/</guid>
+      <description>git config core.fileMode false  details in https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes</description>
+    </item>
+    
+    <item>
+      <title>Move a directory in one git repo to another (preserving history)</title>
+      <link>https://www.it-quicktasks.com/move-directory-in-git-to-another-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/move-directory-in-git-to-another-repo/</guid>
+      <description>See http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/</description>
+    </item>
+    
+    <item>
+      <title>Negating contents of .gitignore</title>
+      <link>https://www.it-quicktasks.com/negating-contents-of-gitignore/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/negating-contents-of-gitignore/</guid>
+      <description>See https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder</description>
+    </item>
+    
+    <item>
+      <title>Pantheon site redirects</title>
+      <link>https://www.it-quicktasks.com/pantheon-site-redirects/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pantheon-site-redirects/</guid>
+      <description>Pantheon.io hosted sites don&amp;rsquo;t use htaccess. But there&amp;rsquo;s an equivalent implementation via php. See https://pantheon.io/docs/redirects/</description>
+    </item>
+    
+    <item>
+      <title>Pathspec error on tag checkout</title>
+      <link>https://www.it-quicktasks.com/pathspec-error-pn-tag-checkout/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pathspec-error-pn-tag-checkout/</guid>
+      <description>When you see error such as this
+bash-4.1$ git checkout Brick_Release_2018-06-19 error: pathspec &#39;Brick_Release_2018-06-19&#39; did not match any file(s) known to git.  &amp;lsquo;git fetch&amp;rsquo; first and retry to checkout. If it still fails, ensure you&amp;rsquo;re using the correct branch name.</description>
+    </item>
+    
+    <item>
+      <title>Pull but no push in git</title>
+      <link>https://www.it-quicktasks.com/pull-but-no-push/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-but-no-push/</guid>
+      <description>$ git remote set-url --push origin no-pushing $ git push fatal: &#39;no-pushing&#39; does not appear to be a git repository fatal: The remote end hung up unexpectedly  See https://stackoverflow.com/questions/7556155/git-set-up-a-fetch-only-remote</description>
+    </item>
+    
+    <item>
+      <title>Rename git branch</title>
+      <link>https://www.it-quicktasks.com/rename-git-branch/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rename-git-branch/</guid>
+      <description>If on a branch you want renamed
+git branch -m new-name  If on a different branch
+git branch -m old-name new-name  </description>
+    </item>
+    
+    <item>
+      <title>Reverting a commit</title>
+      <link>https://www.it-quicktasks.com/reverting-a-commit/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/reverting-a-commit/</guid>
+      <description>Scenario: A PR has been merged and further tests found out that it breaks the build. What do you do?
+git checkout -b to-revert-commits git revert &amp;lt;sha-to-remove&amp;gt; git push -u origin to-revert-commits ## create a Pull Request and have it reviewed and merged by others.  </description>
+    </item>
+    
+    <item>
+      <title>Undo almost anything in git</title>
+      <link>https://www.it-quicktasks.com/undo-almost-anything-in-git/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/undo-almost-anything-in-git/</guid>
+      <description>See https://github.com/blog/2019-how-to-undo-almost-anything-with-git</description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+    <item>
+      <title>Allow Remote Connections to MySQL/MariaDB</title>
+      <link>https://www.it-quicktasks.com/allow-remote-connections-to-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/allow-remote-connections-to-mysql/</guid>
+      <description>Use format below:
+GRANT ALL ON yourDB.* TO yourDBA@&#39;23.216.39.44&#39; IDENTIFIED BY &#39;yourPASS&#39;;  and make sure that &amp;lsquo;bind-address&amp;rsquo; in /etc/my.cnf is either 0.0.0.0 or commented out for this to take effect. Turn-off as well any firewall, SELinux, etc.
+Further details in https://www.digitalocean.com/community/questions/how-to-allow-remote-mysql-database-connection</description>
+    </item>
+    
+    <item>
+      <title>Mysql Server Has Gone Away Fix</title>
+      <link>https://www.it-quicktasks.com/mysql-server-has-gone-away-fix/</link>
+      <pubDate>Sun, 08 Apr 2018 22:33:18 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-server-has-gone-away-fix/</guid>
+      <description>If you see an error like the following:
+ERROR 2006 (HY000): MySQL server has gone away No connection. Trying to reconnect... Connection id: 990 Current database: yourDB  Add the the following to /etc/my.cnf, increasing the value if error persists.
+&#39;max_allowed_packet=64M&#39;  See https://stackoverflow.com/questions/7942154/mysql-error-2006-mysql-server-has-gone-away for reference.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gz2 on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/gz2/</link>
+    <description>Recent content in gz2 on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/gz2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gz and bz2 Not Supported by unarchive</title>
+      <link>https://www.it-quicktasks.com/gz-and-bz2-not-supported-by-unarchive/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/gz-and-bz2-not-supported-by-unarchive/</guid>
+      <description>Encountered this issue:
+The full traceback is: File &amp;quot;/tmp/ansible_f1UXSi/ansible_module_unarchive.py&amp;quot;, line 151, in &amp;lt;module&amp;gt; from shlex import quote fatal: [206.81.5.18]: FAILED! =&amp;gt; { &amp;quot;changed&amp;quot;: false, &amp;quot;invocation&amp;quot;: { &amp;quot;module_args&amp;quot;: { &amp;quot;attributes&amp;quot;: null, &amp;quot;backup&amp;quot;: null, &amp;quot;content&amp;quot;: null, &amp;quot;creates&amp;quot;: null, &amp;quot;delimiter&amp;quot;: null, &amp;quot;dest&amp;quot;: &amp;quot;/root/&amp;quot;, &amp;quot;directory_mode&amp;quot;: null, &amp;quot;exclude&amp;quot;: [], &amp;quot;extra_opts&amp;quot;: [], &amp;quot;follow&amp;quot;: false, &amp;quot;force&amp;quot;: null, &amp;quot;group&amp;quot;: null, &amp;quot;keep_newer&amp;quot;: false, &amp;quot;list_files&amp;quot;: false, &amp;quot;mode&amp;quot;: null, &amp;quot;owner&amp;quot;: null, &amp;quot;regexp&amp;quot;: null, &amp;quot;remote_src&amp;quot;: true, &amp;quot;selevel&amp;quot;: null, &amp;quot;serole&amp;quot;: null, &amp;quot;setype&amp;quot;: null, &amp;quot;seuser&amp;quot;: null, &amp;quot;src&amp;quot;: &amp;quot;/root/my-files-2019-07-23.</description>
+    </item>
+    
+  </channel>
+</rss>

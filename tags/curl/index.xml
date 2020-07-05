@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>curl on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/curl/</link>
+    <description>Recent content in curl on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Curl with Credentials File</title>
+      <link>https://www.it-quicktasks.com/curl-with-credentials-file/</link>
+      <pubDate>Tue, 12 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-credentials-file/</guid>
+      <description>curl --config /path/to/config-file &amp;lt;url_here&amp;gt;  where config-file has this format:
+-u username:password  </description>
+    </item>
+    
+    <item>
+      <title>Curl type download in Ansible</title>
+      <link>https://www.it-quicktasks.com/curl-type-dowload-in-ansible/</link>
+      <pubDate>Wed, 11 Mar 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-type-dowload-in-ansible/</guid>
+      <description>- name: Download drush phar file (8.3.0) become: yes get_url: url: https://github.com/drush-ops/drush/releases/download/8.3.0/drush.phar dest: /usr/local/bin mode: +x checksum: sha256:ddfe6d529e44e98c2cf74c143c1fcdf67c927d6f9a5eb2ae10fbe47ef9b8eaf0 group: root owner: root  See get_url module in https://docs.ansible.com/ansible/latest/modules/get_url_module.html</description>
+    </item>
+    
+    <item>
+      <title>Install php-curl 5.6 (Ubuntu)</title>
+      <link>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-php-curl-56-ubuntu/</guid>
+      <description>sudo apt-get install php5.6-curl  More info in https://stackoverflow.com/questions/40567133/cannot-add-ppa-ppaondrej-php5-5-6</description>
+    </item>
+    
+    <item>
+      <title>Curl with Authentication Credentials</title>
+      <link>https://www.it-quicktasks.com/curl-with-authentication-credentials/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-authentication-credentials/</guid>
+      <description>curl -u user:password &amp;lt;url_here&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>GZip Compression Check in curl</title>
+      <link>https://www.it-quicktasks.com/gzip-compression-check-in-curl/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/gzip-compression-check-in-curl/</guid>
+      <description>icasimpan@icasimpan.local:~$ curl -H &amp;quot;Accept-Encoding: gzip&amp;quot; -I -udemo:demo http://example.com HTTP/1.1 200 OK Date: Wed, 04 Oct 2017 15:25:48 GMT Server: Apache/2.4.18 (Ubuntu) X-Drupal-Cache: HIT Etag: &amp;quot;1507130489-1&amp;quot; Content-Language: en X-Frame-Options: SAMEORIGIN Link: &amp;lt;/node/171&amp;gt;; rel=&amp;quot;shortlink&amp;quot;,&amp;lt;/home&amp;gt;; rel=&amp;quot;canonical&amp;quot; X-Generator: Drupal 7 (http://drupal.org) Cache-Control: public, max-age=60 Last-Modified: Wed, 04 Oct 2017 15:21:29 GMT Expires: Sun, 19 Nov 1978 05:00:00 GMT Vary: Cookie,Accept-Encoding Content-Encoding: gzip Content-Type: text/html; charset=utf-8  Look at &amp;ldquo;Content-Encoding&amp;rdquo;. It says &amp;lsquo;gzip&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Make curl Use Hardcoded Domain Definition</title>
+      <link>https://www.it-quicktasks.com/curl-with-hardcoded-domain-definition/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/curl-with-hardcoded-domain-definition/</guid>
+      <description>curl --resolve example.edu:443:51.87.65.267 -sI https://graduate.example.edu  </description>
+    </item>
+    
+  </channel>
+</rss>

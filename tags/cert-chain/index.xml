@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cert-chain on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/cert-chain/</link>
+    <description>Recent content in cert-chain on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/cert-chain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cert Chain for a multi-domain Comondo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</guid>
+      <description>cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt &amp;gt;&amp;gt; cert-chain.pem  NOTE: This is the inverse of &amp;ldquo;Creating an SSL Bundle out of Comodo Positive SSL&amp;rdquo; which seems valid as well. Not sure if it&amp;rsquo;s valid in any order.</description>
+    </item>
+    
+    <item>
+      <title>Cert Chain for Positive wildcard multi-domain</title>
+      <link>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-positive-wildcard-multidomain/</guid>
+      <description>Given this list of files given by Comodo
+Root CA Certificate - AddTrustExternalCARoot.crt Intermediate CA Certificate - USERTrustRSAAddTrustCA.crt Intermediate CA Certificate - SectigoRSADomainValidationSecureServerCA.crt Your PositiveSSL Multi-Domain Certificate - 285695299.crt  Do the following:
+cat 285695299.crt SectigoRSADomainValidationSecureServerCA.crt USERTrustRSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; cert-chain.pem  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>acl on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/acl/</link>
+    <description>Recent content in acl on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Apr 2018 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/acl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delete User</title>
+      <link>https://www.it-quicktasks.com/delete-user/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-user/</guid>
+      <description>DROP USER &#39;yourDBA&#39;@&#39;localhost&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+  </channel>
+</rss>

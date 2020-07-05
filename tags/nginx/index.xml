@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/nginx/</link>
+    <description>Recent content in nginx on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formerly using nginx, Moving to Apache won&#39;t Renew Cert</title>
+      <link>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/renew-from-nginx-to-apache/</guid>
+      <description>It&amp;rsquo;s quite expected that certificate won&amp;rsquo;t renew as the automation has been broken. What you can do is install the apache version of certbot
+yum install python-certbot-apache  and re-issue the certificate
+sudo certbot --apache -d www.example.org  </description>
+    </item>
+    
+    <item>
+      <title>Nginx 404 when in Drupal Admin</title>
+      <link>https://www.it-quicktasks.com/nginx-404-when-in-drupal-admin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/nginx-404-when-in-drupal-admin/</guid>
+      <description>This lacks URL rewriting. See https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/</description>
+    </item>
+    
+  </channel>
+</rss>

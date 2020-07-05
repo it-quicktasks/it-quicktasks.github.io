@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chain-issue on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/chain-issue/</link>
+    <description>Recent content in chain-issue on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/chain-issue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ssllabs.com test says that there&#39;s chain issues (Incorrect order, Extra certs)</title>
+      <link>https://www.it-quicktasks.com/chain-issues-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/chain-issues-ssllabs/</guid>
+      <description>This could be an incorrect use of certificates. Make sure to use the following (translate to nginx if you&amp;rsquo;re not using apache)
+SSLCertificateFile /etc/letsencrypt/live/example.com/cert.pem SSLCertificateKeyFile /etc/letsencrypt/live/example.com/privkey.pem Include /etc/letsencrypt/options-ssl-apache.conf SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem  In my case, the issue was on SSLCertificateChainFile. Instead of using &amp;ldquo;chain.pem&amp;rdquo;, I incorrectly used &amp;ldquo;fullchain.pem&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oneliner on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/oneliner/</link>
+    <description>Recent content in oneliner on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/oneliner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One Liner CSR Creation</title>
+      <link>https://www.it-quicktasks.com/one-liner-csr-creation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/one-liner-csr-creation/</guid>
+      <description>openssl req -new -newkey rsa:2048 -nodes -out this.example.com.csr -keyout this.example.com.key -subj &amp;quot;/C=PH/ST=Cebu/L=Cebu/O=Example Organization Cebu/OU=IT Department/CN=this.example.com&amp;quot;  What to use in the &amp;ldquo;-subj&amp;rsquo; as per https://www.endpoint.com/blog/2014/10/30/openssl-csr-with-alternative-names-one
+ C = Country ST = State/Province L = City O = Organization OU = Organizational Unit CN = Common Name (main domain the certificate would cover  </description>
+    </item>
+    
+  </channel>
+</rss>

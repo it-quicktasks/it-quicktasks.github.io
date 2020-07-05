@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mail on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/mail/</link>
+    <description>Recent content in mail on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/mail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>php mailsender</title>
+      <link>https://www.it-quicktasks.com/php-test-mailsender/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-test-mailsender/</guid>
+      <description>A quick way to test mail sending via php:
+&amp;lt;?php ini_set( &#39;display_errors&#39;, 1 ); error_reporting( E_ALL ); $from = &amp;quot;webmaster@example.com&amp;quot;; $to = &amp;quot;me@example.com&amp;quot;; $subject = &amp;quot;PHP Mail Test script&amp;quot;; $message = &amp;quot;This is a test to check the PHP Mail functionality&amp;quot;; $headers = &amp;quot;From:&amp;quot; . $from; mail($to,$subject,$message, $headers); echo &amp;quot;Test email sent&amp;quot;; ?&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

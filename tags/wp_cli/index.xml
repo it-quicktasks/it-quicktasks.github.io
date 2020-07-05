@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wp_cli on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/wp_cli/</link>
+    <description>Recent content in wp_cli on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/wp_cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DB Backup via wp_cli</title>
+      <link>https://www.it-quicktasks.com/db-backup-in-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/db-backup-in-wp_cli/</guid>
+      <description>cd /path/to/wordpress wp db export backups/name-of-db-backup.sql  </description>
+    </item>
+    
+    <item>
+      <title>Install wp_cli</title>
+      <link>https://www.it-quicktasks.com/install-wp_cli/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-wp_cli/</guid>
+      <description>curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar php wp-cli.phar --info ## check if it&#39;s working. chmod +x wp-cli.phar sudo mv wp-cli.phar /usr/local/bin/wp wp --info ## re-check if it&#39;s working as &#39;wp&#39;  Details in https://wp-cli.org/</description>
+    </item>
+    
+  </channel>
+</rss>

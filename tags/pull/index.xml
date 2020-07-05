@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pull on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/pull/</link>
+    <description>Recent content in pull on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Apr 2018 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/pull/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pull but no push in git</title>
+      <link>https://www.it-quicktasks.com/pull-but-no-push/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-but-no-push/</guid>
+      <description>$ git remote set-url --push origin no-pushing $ git push fatal: &#39;no-pushing&#39; does not appear to be a git repository fatal: The remote end hung up unexpectedly  See https://stackoverflow.com/questions/7556155/git-set-up-a-fetch-only-remote</description>
+    </item>
+    
+  </channel>
+</rss>

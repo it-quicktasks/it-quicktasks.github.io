@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>information_schema on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/information_schema/</link>
+    <description>Recent content in information_schema on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 12:11:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/information_schema/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automysqlbackup Fails Due to Issues in Information_schema</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</link>
+      <pubDate>Mon, 15 Oct 2018 12:11:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</guid>
+      <description>In a machine &amp;lsquo;rh&amp;rsquo;, tested automysqlbackup cron job if it would work and got the issue below:
+[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; .</description>
+    </item>
+    
+  </channel>
+</rss>

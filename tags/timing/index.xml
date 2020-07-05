@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>timing on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/timing/</link>
+    <description>Recent content in timing on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 12:44:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/timing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get Replication Status in Slave</title>
+      <link>https://www.it-quicktasks.com/get-replication-status-in-slave/</link>
+      <pubDate>Mon, 15 Oct 2018 12:44:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/get-replication-status-in-slave/</guid>
+      <description>mysql&amp;gt; show slave status\G;  </description>
+    </item>
+    
+  </channel>
+</rss>

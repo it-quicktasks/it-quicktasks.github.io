@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>create on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/create/</link>
+    <description>Recent content in create on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/create/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create Solr Core with Config</title>
+      <link>https://www.it-quicktasks.com/create-solr-core-with-config/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-solr-core-with-config/</guid>
+      <description>In the example below, &amp;ldquo;drupal_solr_conf&amp;rdquo; is in /var/www/sites/example.com
+sudo su solr cd /var/www/sites/example.com /opt/solr/bin/solr create_core -c upd_event -d drupal_solr_conf  </description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+  </channel>
+</rss>

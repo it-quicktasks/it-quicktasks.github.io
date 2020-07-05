@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>module on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/module/</link>
+    <description>Recent content in module on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/module/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP Remi modules installed outside ansible trick</title>
+      <link>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-remi-modules-installed-outside-ansible/</guid>
+      <description>Remi modules are installed in non-standard location. Geerlingguy&amp;rsquo;s ansible role harmonizes it and install it in standard locations.
+So, if you&amp;rsquo;re not familiar with standard locations, just do the following trick
+NOTE: In this case, I installed the memcache module for php7.1 from Remi&amp;rsquo;s repo.
+yum install -y php71-php-pecl-memcache.x86_64  Find where the memcache module is located
+[root@example-staging www]# find / -iname *memcache*.so /usr/lib64/httpd/modules/mod_socache_memcache.so /opt/remi/php71/root/usr/lib64/php/modules/memcache.so  Cross-check with a standard installed php module (you can see which modules via &amp;lsquo;php -m&amp;rsquo;)</description>
+    </item>
+    
+    <item>
+      <title>blockinfline module</title>
+      <link>https://www.it-quicktasks.com/blockinfline-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/blockinfline-module/</guid>
+      <description>You need to add a &amp;ldquo;marker&amp;rdquo; in order NOT to overwrite current content.
+For example usage, see github.com/promet/pstools.git and head over to promet-ansible branch &amp;amp; ansible-promet-apacheconfig/tasks/main.yml
+Syntax guide https://docs.ansible.com/ansible/latest/modules/blockinfile_module.html
+Some tutorial online http://www.mydailytutorials.com/ansible-blockinfile-module-adding-multiple-lines/</description>
+    </item>
+    
+    <item>
+      <title>GD PHP Module Installation Error</title>
+      <link>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php-gd-dependency-error-during-installation/</guid>
+      <description>It says something like &amp;ldquo;gd-last&amp;rdquo; needed but not found.
+Solution:
+Add remi-safe repo to your repository.
+See https://centos.org/forums/viewtopic.php?t=63158</description>
+    </item>
+    
+    <item>
+      <title>Install PHP Module Inside Dockerfile</title>
+      <link>https://www.it-quicktasks.com/dockerfile-install-php-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dockerfile-install-php-module/</guid>
+      <description>Add this to Dockerfile
+RUN docker-php-ext-install mysqli  See details in https://github.com/docker-library/php/issues/279</description>
+    </item>
+    
+    <item>
+      <title>Example Setup for stage_file_proxy</title>
+      <link>https://www.it-quicktasks.com/example-setup-stage_file_proxy/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/example-setup-stage_file_proxy/</guid>
+      <description>[me@common-dev default]$ drush pm-download stage_file_proxy Project stage_file_proxy (7.x-1.8) downloaded to /var/www/sites/project.example.com/www/sites/all/modules/contrib/stage_file_proxy. [success] [me@common-dev default]$ drush pm-enable --yes stage_file_proxy The following module has moved within the file system: &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;stage_file_proxy&amp;lt;/em&amp;gt;. In order to fix this, clear caches or put the module back in its [warning] original location. For more information, see &amp;lt;a href=&amp;quot;https://www.drupal.org/node/2487215&amp;quot;&amp;gt;the documentation page&amp;lt;/a&amp;gt;. bootstrap.inc:1143 The following extensions will be enabled: stage_file_proxy Do you really want to continue? (y/n): y stage_file_proxy was enabled successfully.</description>
+    </item>
+    
+  </channel>
+</rss>

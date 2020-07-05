@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k8s on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/k8s/</link>
+    <description>Recent content in k8s on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Helm Repo</title>
+      <link>https://www.it-quicktasks.com/adding-helm-repo/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/adding-helm-repo/</guid>
+      <description>A Helm Repo that&amp;rsquo;s in https://github.com/codecentric/helm-charts has a corresponding repo URL. Add it as follows:
+user@example:~$ helm repo add codecentric https://codecentric.github.io/helm-charts &amp;quot;codecentric&amp;quot; has been added to your repositories  </description>
+    </item>
+    
+    <item>
+      <title>Change Default Cluster in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/change-default-cluster-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-default-cluster-in-kubernetes/</guid>
+      <description>If you have more than one cluster as illustrated in https://ismael.casimpan.com/quicktasks-k8s/list-nodes-in-kubernetes/, you can change it using command:
+kubectl config use-context &amp;lt;cluster_name_here&amp;gt;  Use this command to verify the change:
+kubectl config get-contexts  </description>
+    </item>
+    
+    <item>
+      <title>Checking PersistentVolumeClaims</title>
+      <link>https://www.it-quicktasks.com/checking-pvc/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-pvc/</guid>
+      <description>user@example:~$ kubectl get pvc --all-namespaces NAMESPACE NAME STATUS VOLUME CAPACITY ACCESS MODES STORAGECLASS AGE testing-icasimpan-com vol-mysql-mysql-0 Bound pvc-bd199911-e0e5-4327-885d-4902a599ebe2 10Gi RWO do-block-storage 12m  </description>
+    </item>
+    
+    <item>
+      <title>Get Cluster List in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/cluster-list-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cluster-list-in-kubernetes/</guid>
+      <description>If you have a lot of kubernetes cluster, you will see the following:
+user@example:~$ kubectl config get-contexts CURRENT NAME CLUSTER AUTHINFO NAMESPACE * do-nyc1-kubernetes-tutorial do-nyc1-kubernetes-tutorial do-nyc1-kubernetes-tutorial-admin do-nyc3-infra do-nyc3-infra do-nyc3-infra-admin do-nyc2-devinfra do-nyc2-devinfra do-nyc2-devinfra-admin  The one with asterisk (do-nyc1-kubernetes-tutorial) is your current cluster. So &amp;ldquo;kubectl&amp;rdquo; commands without specified cluster will default to it.</description>
+    </item>
+    
+    <item>
+      <title>Get List of Nodes in Kubernetes</title>
+      <link>https://www.it-quicktasks.com/list-nodes-in-kubernetes/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/list-nodes-in-kubernetes/</guid>
+      <description>user@example:~$ kubectl get nodes NAME STATUS ROLES AGE VERSION pool-78osxtl1e3-3f4qg Ready &amp;lt;none&amp;gt; 72m v1.17.5 pool-78osxtl1e3-3f4qw Ready &amp;lt;none&amp;gt; 71m v1.17.5  </description>
+    </item>
+    
+    <item>
+      <title>Installing Software using Helm</title>
+      <link>https://www.it-quicktasks.com/install-using-helm/</link>
+      <pubDate>Sun, 28 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-using-helm/</guid>
+      <description>Say you want install jenkins and corresponding repo already added.
+user@example:~$ helm install jenkins codecentric/jenkins NAME: jenkins LAST DEPLOYED: Sun Jun 28 09:59:52 2020 NAMESPACE: default STATUS: deployed REVISION: 1 TEST SUITE: None NOTES: ************************************************************************ * * * Jenkins Helm Chart by codecentric AG * * * ************************************************************************ In case the chart was installed with the default configuration and you did not configure an admin user, Jenkins creates one per default.</description>
+    </item>
+    
+    <item>
+      <title>Connection to Server Refused</title>
+      <link>https://www.it-quicktasks.com/connection-to-server-refused/</link>
+      <pubDate>Sat, 27 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/connection-to-server-refused/</guid>
+      <description>When you see similar error as below:
+user@example:~$ kubectl get nodes The connection to the server localhost:8080 was refused - did you specify the right host or port?  Check for the &amp;ldquo;$KUBECONFIG&amp;rdquo; if set and &amp;ldquo;kubectl config view&amp;rdquo; output. Chances are, both are empty like below:
+user@example:~$ echo $KUBECONFIG  user@example:~$ kubectl config view apiVersion: v1 clusters: null contexts: null current-context: &amp;quot;&amp;quot; kind: Config preferences: {} users: null  In this example, we&amp;rsquo;re using the DOKS or DigitalOcean Managed Kubernetes.</description>
+    </item>
+    
+  </channel>
+</rss>

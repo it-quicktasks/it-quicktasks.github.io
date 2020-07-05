@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daemon on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/daemon/</link>
+    <description>Recent content in daemon on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/daemon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Container as Daemon</title>
+      <link>https://www.it-quicktasks.com/run-container-as-daemon/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/run-container-as-daemon/</guid>
+      <description>docker run -d --name redisDynamic -p 6379 redis:latest  this will bind though to host port at random. To check bound port, use
+docker port redisDynamic 6379  </description>
+    </item>
+    
+  </channel>
+</rss>

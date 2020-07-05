@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>permission on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/permission/</link>
+    <description>Recent content in permission on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 23:11:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/permission/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MySQL/MariaDB with Credentials File</title>
+      <link>https://www.it-quicktasks.com/mysql-with-credentials-file/</link>
+      <pubDate>Tue, 12 May 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mysql-with-credentials-file/</guid>
+      <description>Using a configuration file for mysql is a good practice as you don&amp;rsquo;t immediately expose credentials. Below, you are going to mysql cli and immediately using the db named dbName.
+mysql --defaults-file=/path/to/credentials.ini dbName  where credentials.ini has this format:
+[client] host=&amp;lt;replace_with_servername_or_ip&amp;gt; user=&amp;lt;replace_with_db_user&amp;gt; password=&amp;lt;replace_with_db_password&amp;gt;  Of course, there are other security precautions you could take, not just the above but it&amp;rsquo;s a good start. See further info on securing mysql in https://dev.</description>
+    </item>
+    
+    <item>
+      <title>Cannot write pid file</title>
+      <link>https://www.it-quicktasks.com/cannot-create-pid-file/</link>
+      <pubDate>Wed, 19 Feb 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cannot-create-pid-file/</guid>
+      <description>MariaDB seems to have this issue and can&amp;rsquo;t start as shown in /var/log/mariadb/mariadb.log
+2020-02-19 15:18:49 0 [ERROR] mysqld: Can&#39;t create/write to file &#39;/var/run/mariadb/mariadb.pid&#39; (Errcode: 2 &amp;quot;No such file or directory&amp;quot;)  I was able to fix one instance of this issue by doing:
+sudo mkdir /var/run/mariadb sudo chown mysql.mysql /var/run/mariadb  Then afterwards, starting the mariadb service went fine.
+Some possible solutions in case my solution doesn&amp;rsquo;t work https://stackoverflow.com/questions/15408643/cant-connect-to-mysql-server-cant-create-write-the-pid-file</description>
+    </item>
+    
+    <item>
+      <title>error: &#39;drush -fra -y&#39; Failed to Create Directory</title>
+      <link>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</guid>
+      <description>bash-4.1$ /usr/local/bin/drush cc all ‘all’ cache was cleared. [success] bash-4.1$ /usr/local/bin/drush fra -y WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/ttfontdata” for print_pdf_mpdf. [error] WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/tmp” for print_pdf_mpdf. [error] The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.field_group. [ok] bash-4.1$ /usr/local/bin/drush fra -y The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.</description>
+    </item>
+    
+    <item>
+      <title>File Permission Problems</title>
+      <link>https://www.it-quicktasks.com/file-permission-problems/</link>
+      <pubDate>Sun, 08 Apr 2018 23:44:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/file-permission-problems/</guid>
+      <description>Changing group ownership of the files in &amp;ldquo;sites/default/files&amp;rdquo;. More details in https://www.drupal.org/docs/7/install/setting-up-the-files-directory</description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+  </channel>
+</rss>

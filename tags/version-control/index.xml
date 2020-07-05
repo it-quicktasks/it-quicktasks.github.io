@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>version-control on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/version-control/</link>
+    <description>Recent content in version-control on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2020 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Telling git To Use Specific Private Key</title>
+      <link>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</link>
+      <pubDate>Fri, 29 May 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</guid>
+      <description>Sometimes, you need to use specific keys. To do it, use ssh config, something like below in ~/.ssh/config
+host github.com HostName github.com IdentityFile ~/.ssh/id_rsa_github User git  See details in https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use</description>
+    </item>
+    
+    <item>
+      <title>Git with Latest Commit Log Only</title>
+      <link>https://www.it-quicktasks.com/git-with-latest-commit-log-only/</link>
+      <pubDate>Tue, 26 May 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-with-latest-commit-log-only/</guid>
+      <description>In some situations, you only need the latest commit log, saving space in the process. You have to do it as follows:
+git clone --depth=1 REPO  </description>
+    </item>
+    
+    <item>
+      <title>Mirror Git Repo</title>
+      <link>https://www.it-quicktasks.com/mirror-git-repo/</link>
+      <pubDate>Thu, 05 Mar 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mirror-git-repo/</guid>
+      <description>Get a clone of the bare repo
+git clone --bare https://github.com/example/example-repo.git  Push to remote repo
+git push --mirror https://github.com/remote/example-repo.git  </description>
+    </item>
+    
+    <item>
+      <title>Cloning Repos with Submodules</title>
+      <link>https://www.it-quicktasks.com/cloning-repo-with-submodules/</link>
+      <pubDate>Wed, 26 Feb 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cloning-repo-with-submodules/</guid>
+      <description>Submodules is quite a pain to manage. To make it easy, just use this command:
+git clone --recursive &amp;lt;repo_full_path&amp;gt;  Failure to use --recursive would mean using a lot of commands later.
+See detailed git submodules commands in https://www.vogella.com/tutorials/GitSubmodules/article.html</description>
+    </item>
+    
+    <item>
+      <title>Checking Modified Files in a Commit</title>
+      <link>https://www.it-quicktasks.com/check-modified-files/</link>
+      <pubDate>Wed, 19 Feb 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/check-modified-files/</guid>
+      <description>Get the commit-hash (e.g. of last commit)
+git log -1  Show the files changed only in commit
+git show --stat &amp;lt;commit-hash&amp;gt;  See details in https://stackoverflow.com/questions/424071/how-to-list-all-the-files-in-a-commit</description>
+    </item>
+    
+    <item>
+      <title>Merge Remote Branch to Local</title>
+      <link>https://www.it-quicktasks.com/merge-remote-branch-to-local/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/merge-remote-branch-to-local/</guid>
+      <description>If you need to merge a remote repo&amp;rsquo;s (e.g. acquia) branch to your local branch:
+git pull acquia master  </description>
+    </item>
+    
+    <item>
+      <title>Quick Setup for You Git Code</title>
+      <link>https://www.it-quicktasks.com/quickly-work-git-code/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/quickly-work-git-code/</guid>
+      <description>If you need less keystrokes in updating your git code specially if it&amp;rsquo;s very minimal change, do the following:
+git clone https://&amp;lt;github_token_here&amp;gt;@github.com/icasimpan/quicktasks-git cd quicktasks-git git config user.name &amp;quot;Ismael Casimpan&amp;quot; git config user.email &amp;quot;ismael.angelo@casimpan.com&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Git Cherry-Pick Merge</title>
+      <link>https://www.it-quicktasks.com/git-cherrypick/</link>
+      <pubDate>Fri, 23 Nov 2018 06:03:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-cherrypick/</guid>
+      <description>Cherry Picking in Git is quite easy: For single commit
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;hash-here&amp;gt;  See https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson
+Multiple commit NOTE: only the commits between &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo; are merged.
+git checkout &amp;lt;destination_branch&amp;gt; git cherry-pick &amp;lt;initial_commit_hash&amp;gt;..&amp;lt;terminal_commit_hash&amp;gt;  To include the &amp;lsquo;initial_commit_hash&amp;rsquo; and &amp;lsquo;terminal_commit_hash&amp;rsquo;, use the following:
+git cherry-pick &amp;lt;initial_commit_hash&amp;gt;^..&amp;lt;terminal_commit_hash&amp;gt;  Note that conflicts would pause cherry-picking and ask to resolve the conflict. You can then continue as follows:
+git cherry-pick --continue  See details in https://medium.</description>
+    </item>
+    
+    <item>
+      <title>Checking Remote Tags</title>
+      <link>https://www.it-quicktasks.com/checking-remote-tags/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/checking-remote-tags/</guid>
+      <description>git ls-remote --tags  </description>
+    </item>
+    
+    <item>
+      <title>Compare tags contents in github</title>
+      <link>https://www.it-quicktasks.com/compare-tag-contents-github/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/compare-tag-contents-github/</guid>
+      <description>Example https://github.com/icasimpan/shcf/compare/shcf-v0.2.0...shcf-v0.3.0</description>
+    </item>
+    
+    <item>
+      <title>Configure email and username</title>
+      <link>https://www.it-quicktasks.com/configure-email-username/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/configure-email-username/</guid>
+      <description>git config user.name &amp;quot;Your Name Here&amp;quot; git config user.email &amp;quot;name@email.com&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Deleting a remote git repo branch</title>
+      <link>https://www.it-quicktasks.com/deleting-remote-git-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/deleting-remote-git-repo/</guid>
+      <description>me@mysite:/var/www/sites/mysite.local$ git push origin :release-redesign To git@git-server:mysite.git - [deleted] release-redesign  </description>
+    </item>
+    
+    <item>
+      <title>Deleting a remote git tag</title>
+      <link>https://www.it-quicktasks.com/deleting-remote-git-tag/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/deleting-remote-git-tag/</guid>
+      <description>me@mysite:/var/www/sites/mysite.local$ git push origin :v1.56 To git@git-server:mysite.git - [deleted] v1.56  </description>
+    </item>
+    
+    <item>
+      <title>Duplicating a git repo</title>
+      <link>https://www.it-quicktasks.com/duplicating-git-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/duplicating-git-repo/</guid>
+      <description>git clone --bare https://example.com/repo.git cd repo.git git push --mirror https://remote-example.com/repo.git  See https://help.github.com/articles/duplicating-a-repository/</description>
+    </item>
+    
+    <item>
+      <title>Fix the identity used for a commit</title>
+      <link>https://www.it-quicktasks.com/fix-identity-used-in-commit/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/fix-identity-used-in-commit/</guid>
+      <description>git commit --amend --reset-author  </description>
+    </item>
+    
+    <item>
+      <title>git log (cli graph)</title>
+      <link>https://www.it-quicktasks.com/git-log-ci-graph/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-log-ci-graph/</guid>
+      <description>git log --graph --oneline --decorate --all  </description>
+    </item>
+    
+    <item>
+      <title>Git Patch Creation/Apply</title>
+      <link>https://www.it-quicktasks.com/git-patch-creation-apply/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-patch-creation-apply/</guid>
+      <description>See https://www.devroom.io/2009/10/26/how-to-create-and-apply-a-patch-with-git/</description>
+    </item>
+    
+    <item>
+      <title>Git submodules (similar to svn:externals)</title>
+      <link>https://www.it-quicktasks.com/git-submodules/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/git-submodules/</guid>
+      <description>See https://chrisjean.com/git-submodules-adding-using-removing-and-updating/</description>
+    </item>
+    
+    <item>
+      <title>Ignore Permission Changes</title>
+      <link>https://www.it-quicktasks.com/ignore-permission-changes/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ignore-permission-changes/</guid>
+      <description>git config core.fileMode false  details in https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes</description>
+    </item>
+    
+    <item>
+      <title>Move a directory in one git repo to another (preserving history)</title>
+      <link>https://www.it-quicktasks.com/move-directory-in-git-to-another-repo/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/move-directory-in-git-to-another-repo/</guid>
+      <description>See http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/</description>
+    </item>
+    
+    <item>
+      <title>Negating contents of .gitignore</title>
+      <link>https://www.it-quicktasks.com/negating-contents-of-gitignore/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/negating-contents-of-gitignore/</guid>
+      <description>See https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder</description>
+    </item>
+    
+    <item>
+      <title>Pathspec error on tag checkout</title>
+      <link>https://www.it-quicktasks.com/pathspec-error-pn-tag-checkout/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pathspec-error-pn-tag-checkout/</guid>
+      <description>When you see error such as this
+bash-4.1$ git checkout Brick_Release_2018-06-19 error: pathspec &#39;Brick_Release_2018-06-19&#39; did not match any file(s) known to git.  &amp;lsquo;git fetch&amp;rsquo; first and retry to checkout. If it still fails, ensure you&amp;rsquo;re using the correct branch name.</description>
+    </item>
+    
+    <item>
+      <title>Pull but no push in git</title>
+      <link>https://www.it-quicktasks.com/pull-but-no-push/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/pull-but-no-push/</guid>
+      <description>$ git remote set-url --push origin no-pushing $ git push fatal: &#39;no-pushing&#39; does not appear to be a git repository fatal: The remote end hung up unexpectedly  See https://stackoverflow.com/questions/7556155/git-set-up-a-fetch-only-remote</description>
+    </item>
+    
+    <item>
+      <title>Rename git branch</title>
+      <link>https://www.it-quicktasks.com/rename-git-branch/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rename-git-branch/</guid>
+      <description>If on a branch you want renamed
+git branch -m new-name  If on a different branch
+git branch -m old-name new-name  </description>
+    </item>
+    
+    <item>
+      <title>Reverting a commit</title>
+      <link>https://www.it-quicktasks.com/reverting-a-commit/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/reverting-a-commit/</guid>
+      <description>Scenario: A PR has been merged and further tests found out that it breaks the build. What do you do?
+git checkout -b to-revert-commits git revert &amp;lt;sha-to-remove&amp;gt; git push -u origin to-revert-commits ## create a Pull Request and have it reviewed and merged by others.  </description>
+    </item>
+    
+    <item>
+      <title>Undo almost anything in git</title>
+      <link>https://www.it-quicktasks.com/undo-almost-anything-in-git/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/undo-almost-anything-in-git/</guid>
+      <description>See https://github.com/blog/2019-how-to-undo-almost-anything-with-git</description>
+    </item>
+    
+  </channel>
+</rss>

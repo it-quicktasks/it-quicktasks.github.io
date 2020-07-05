@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>optimization on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/optimization/</link>
+    <description>Recent content in optimization on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2019 23:15:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shrink Huge ibdata1</title>
+      <link>https://www.it-quicktasks.com/shrink-huge-ibdata1/</link>
+      <pubDate>Sun, 24 Nov 2019 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/shrink-huge-ibdata1/</guid>
+      <description>Best way is to make one file per table and not use default which baloons to a huge file and never shrinks when some tables are removed and unused. See https://www.thegeekstuff.com/2016/02/mysql-innodb-file-per-table</description>
+    </item>
+    
+    <item>
+      <title>Some MySQL Tweaking Tips</title>
+      <link>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</link>
+      <pubDate>Mon, 15 Oct 2018 12:39:54 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/some-mysql-tweaking-tips/</guid>
+      <description>See https://serverfault.com/questions/42789/how-to-increase-memory-usage-in-mysql-server-to-improve-speed</description>
+    </item>
+    
+  </channel>
+</rss>

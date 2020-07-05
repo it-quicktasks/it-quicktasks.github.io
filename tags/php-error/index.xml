@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php-error on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/php-error/</link>
+    <description>Recent content in php-error on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/php-error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP Fatal Error: Maximum Execution time exceeded</title>
+      <link>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</link>
+      <pubDate>Fri, 07 Feb 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/maximum-execution-time-exceeded/</guid>
+      <description>If you&amp;rsquo;re seeing an error in your log:
+PHP Fatal error: Maximum execution time of 240 seconds exceeded in &amp;lt;/path/to/any_file.php&amp;gt; on line xx  Then you may need to edit your php.ini and update the variable &amp;lsquo;maximum_execution_time&amp;rsquo;. Don&amp;rsquo;t forget to restart your web service.
+If issue persist, then overrides is being done in code. Search it as follows and fix accordingly:
+grep -Ri max_execution_time ./*  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comodo on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/comodo/</link>
+    <description>Recent content in comodo on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/comodo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cert Chain for a multi-domain Comondo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cert-chain-multidomain-comodo-positive-ssl/</guid>
+      <description>cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt &amp;gt;&amp;gt; cert-chain.pem  NOTE: This is the inverse of &amp;ldquo;Creating an SSL Bundle out of Comodo Positive SSL&amp;rdquo; which seems valid as well. Not sure if it&amp;rsquo;s valid in any order.</description>
+    </item>
+    
+    <item>
+      <title>Creating an SSL Bundle out of Comodo Positive SSL</title>
+      <link>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/creating-ssl-bundle-from-comodo-positive-ssl/</guid>
+      <description>www.example.org.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt;&amp;gt; www.example.org-bundle.crt  See details in https://helpdesk.ssls.com/hc/en-us/articles/203427642-How-to-install-a-SSL-certificate-on-a-NGINX-server</description>
+    </item>
+    
+    <item>
+      <title>Getting CA-bundle for Comodo Certificates</title>
+      <link>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-ca-bundle-for-comodo-certificates/</guid>
+      <description>Get it via chat to Comodo, one would pop-up from https://support.comodo.com/index.php?/Knowledgebase/Article/View/1145/1/how-do-i-make-my-own-bundle-file-from-crt-files.
+Make sure you edit your profile where they could send the information.</description>
+    </item>
+    
+  </channel>
+</rss>

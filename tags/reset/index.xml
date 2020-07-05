@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reset on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/reset/</link>
+    <description>Recent content in reset on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/reset/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal User Blocked in D7</title>
+      <link>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</guid>
+      <description>How to reset user after being blocked (d7 only)?
+MySQL&amp;gt; delete from flood where identifier=&amp;lt;uid&amp;gt;;  To get the uid, search as follows:
+MySQL&amp;gt; select uid, name from users where name like &#39;%NameHere%&#39;\G;  Details in https://www.drupal.org/node/1023440</description>
+    </item>
+    
+  </channel>
+</rss>

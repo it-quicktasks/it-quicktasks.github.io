@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenkins on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/jenkins/</link>
+    <description>Recent content in jenkins on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fix Jenkins Access Problem</title>
+      <link>https://www.it-quicktasks.com/fix-jenkins-access-problem/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/fix-jenkins-access-problem/</guid>
+      <description> Manage Jenkins &amp;gt; Configure Global Security In &amp;ldquo;Authorization&amp;rdquo;, change to &amp;ldquo;Logged-in users can do anything&amp;rdquo; but uncheck &amp;ldquo;Allow anonymous read access&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>Install Jenkins LTS via Ansible</title>
+      <link>https://www.it-quicktasks.com/install-jenkins-lts-via-ansible/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-jenkins-lts-via-ansible/</guid>
+      <description>Personally, I&amp;rsquo;d like to use other&amp;rsquo;s work as much as possible in its original state. With ansible roles, authors usually name their repos as &amp;lsquo;ansible-role-java&amp;rsquo; but internally, it&amp;rsquo;s something like &amp;lsquo;geerlingguy.java&amp;rsquo; which is what they put in dependencies. Now, if you simply clone as is, you will need to change the dependencies name.
+This is the case with Geerlingguy&amp;rsquo;s jenkins role, where I hit on errors in java due to the name of the dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Install Jenkins Plugin via Ansible</title>
+      <link>https://www.it-quicktasks.com/install-jenkins-plugin-via-ansible/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-jenkins-plugin-via-ansible/</guid>
+      <description>example@user:/opt/ansible-playbooks$ cat vars/jenkins.yml ## Search names from https://plugins.jenkins.io/ jenkins_plugins: - git - hipchat - log-parser - mask-passwords - ssh-agent - ssh  </description>
+    </item>
+    
+    <item>
+      <title>Jenkins Gmail SMTP</title>
+      <link>https://www.it-quicktasks.com/jenkins-gmail-smtp/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/jenkins-gmail-smtp/</guid>
+      <description>Manage Jenkins &amp;gt; Configure System &amp;gt; E-mail Notification Input your gmail address (also works for Domains with gmail backends) Check &amp;ldquo;Use SSL&amp;rdquo; SMTP Port 465  Then, you should receive an email to confirm. Configure and allow sending.</description>
+    </item>
+    
+    <item>
+      <title>Migrate Jenkins Jobs to New Server</title>
+      <link>https://www.it-quicktasks.com/migrate-jenkins-jobs-new-server/</link>
+      <pubDate>Mon, 06 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/migrate-jenkins-jobs-new-server/</guid>
+      <description>https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/</description>
+    </item>
+    
+  </channel>
+</rss>

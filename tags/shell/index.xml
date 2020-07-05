@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/shell/</link>
+    <description>Recent content in shell on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Save shell command output to ansible variable</title>
+      <link>https://www.it-quicktasks.com/save-shell-command-output-to-ansible-variable/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/save-shell-command-output-to-ansible-variable/</guid>
+      <description>Test playbook:
+[root@lampp lampp]# cat test.yml --- - name: LAMPP Dev (MySQL/CentOS7) hosts: 127.0.0.1 connection: local become: true tasks: - name: Get the mysql root default password command: awk &#39;/temporary password/ {print $NF}&#39; /var/log/mysqld.log register: command_output - set_fact: default_mysqlroot_password: &amp;quot;{{ command_output.stdout }}&amp;quot; ## NOTE: debug line below is only to show output in ansible-playbook run - debug: msg=&amp;quot;{{ default_mysqlroot_password }}&amp;quot;```  Output
+[root@lampp lampp]# ansible-playbook test.yml [WARNING]: provided hosts list is empty, only localhost is available.</description>
+    </item>
+    
+  </channel>
+</rss>

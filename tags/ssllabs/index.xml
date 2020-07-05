@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssllabs on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/ssllabs/</link>
+    <description>Recent content in ssllabs on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/ssllabs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weak Deffie-Hellman and a B rating in SSL Labs Test</title>
+      <link>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</link>
+      <pubDate>Sun, 07 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/weak-deffie-hellman-ratedb-ssllabs/</guid>
+      <description>You can fix it by creating .a &amp;lsquo;dhparam&amp;rsquo; file as follows in nginx:
+cd /etc/ssl/certs openssl dhparam -dsaparam -out ./dhparam.pem 4096  NOTE: &amp;ldquo;-dsaparam&amp;rdquo; is significant. Otherwise, it would take creation of dhparam.pem almost 24hours or more. See https://security.stackexchange.com/questions/95178/diffie-hellman-parameters-still-calculating-after-24-hours
+then add this to nginx config
+ssl_dhparam /etc/ssl/certs/dhparam.pem;  </description>
+    </item>
+    
+  </channel>
+</rss>

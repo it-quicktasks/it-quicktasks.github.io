@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>count on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/count/</link>
+    <description>Recent content in count on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 12:43:31 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/count/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Count Number of Tables in a MySQL Database</title>
+      <link>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</link>
+      <pubDate>Mon, 15 Oct 2018 12:43:31 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/count-number-of-tables-in-a-mysql-database/</guid>
+      <description>mysql&amp;gt; select distinct(TABLE_SCHEMA) from information_schema.tables; +--------------------+ | TABLE_SCHEMA | +--------------------+ | information_schema | | drcongo | | mysql | | performance_schema | | pseademo | | pseairaq | | sys | +--------------------+ mysql&amp;gt; select count(*) from information_schema.tables where TABLE_SCHEMA=&#39;drcongo&#39;; +----------+ | count(*) | +----------+ | 333 | +----------+ 1 row in set (0.00 sec)  </description>
+    </item>
+    
+  </channel>
+</rss>

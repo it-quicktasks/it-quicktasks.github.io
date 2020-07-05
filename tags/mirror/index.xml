@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mirror on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/mirror/</link>
+    <description>Recent content in mirror on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2020 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/mirror/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mirror Git Repo</title>
+      <link>https://www.it-quicktasks.com/mirror-git-repo/</link>
+      <pubDate>Thu, 05 Mar 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/mirror-git-repo/</guid>
+      <description>Get a clone of the bare repo
+git clone --bare https://github.com/example/example-repo.git  Push to remote repo
+git push --mirror https://github.com/remote/example-repo.git  </description>
+    </item>
+    
+  </channel>
+</rss>

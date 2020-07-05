@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/hugo/</link>
+    <description>Recent content in hugo on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Static Files</title>
+      <link>https://www.it-quicktasks.com/hugo-static-files/</link>
+      <pubDate>Mon, 30 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hugo-static-files/</guid>
+      <description> https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/ https://gohugo.io/content-management/static-files/  </description>
+    </item>
+    
+    <item>
+      <title>Pagination in Hugo</title>
+      <link>https://www.it-quicktasks.com/hugo-pagination/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/hugo-pagination/</guid>
+      <description>See https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/</description>
+    </item>
+    
+    <item>
+      <title>Tagcloud with Hugo</title>
+      <link>https://www.it-quicktasks.com/tag-cloud-hugo/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/tag-cloud-hugo/</guid>
+      <description>See https://www.sidorenko.io/post/2017/07/nice-tagcloud-with-hugo/</description>
+    </item>
+    
+  </channel>
+</rss>

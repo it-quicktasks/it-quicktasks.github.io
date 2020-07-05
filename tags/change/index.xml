@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>change on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/change/</link>
+    <description>Recent content in change on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/change/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress URL change</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change/</guid>
+      <description>in database/wp_options (&#39;siteurl&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>Wordpress URL change upon migration to another domain</title>
+      <link>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</link>
+      <pubDate>Sat, 28 Sep 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/wordpress-url-change-migration-to-another-domain/</guid>
+      <description>The easiest is to add it to &amp;ldquo;wp-config.php&amp;rdquo;. Something like:
+define(&#39;WP_HOME&#39;,&#39;http://NEW_DOMAIN.com/&#39;); define(&#39;WP_SITEURL&#39;,&#39;http://NEW_DOMAIN.com/&#39;);  You can test from &amp;lsquo;curl&amp;rsquo; it it works:
+curl -IL http://NEW_DOMAIN.com  </description>
+    </item>
+    
+    <item>
+      <title>Change MySQL User Credentials</title>
+      <link>https://www.it-quicktasks.com/change-mysql-user-credentials/</link>
+      <pubDate>Sun, 08 Apr 2018 23:20:10 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-mysql-user-credentials/</guid>
+      <description>For as long as you have root access to MySQL, this would work:
+UPDATE mysql.user SET Password=PASSWORD(&#39;new-password-here&#39;) WHERE USER=&#39;user-name-here&#39; AND Host=&#39;host-name-here&#39;;  more details from https://www.cyberciti.biz/faq/mysql-change-user-password/</description>
+    </item>
+    
+  </channel>
+</rss>

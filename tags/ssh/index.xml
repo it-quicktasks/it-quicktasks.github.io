@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/ssh/</link>
+    <description>Recent content in ssh on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 09:21:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rsync including hidden files</title>
+      <link>https://www.it-quicktasks.com/rsync-including-hidden/</link>
+      <pubDate>Sat, 06 Jun 2020 09:21:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-including-hidden/</guid>
+      <description>If you need to rsync those hidden directories or files starting with dot, do it something like below (not the trailing /)
+rsync -avz -e ssh --progress user@source-server:/somedirA/ somedirB/  See https://stackoverflow.com/questions/9046749/rsync-not-synchronizing-htaccess-file</description>
+    </item>
+    
+    <item>
+      <title>iptables: Allow Specific IP to Connect via SSH.</title>
+      <link>https://www.it-quicktasks.com/iptables-allow-specific-ip-to-ssh/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/iptables-allow-specific-ip-to-ssh/</guid>
+      <description>iptables -A INPUT -p tcp -s 114.191.33.88 --dport 22 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT iptables -A OUTPUT -p tcp --sport 22 -m conntrack --ctstate ESTABLISHED -j ACCEPT  </description>
+    </item>
+    
+    <item>
+      <title>Replace SSH Connectivity via Paramiko</title>
+      <link>https://www.it-quicktasks.com/replace-ssh-connectivity-with-paramiko/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/replace-ssh-connectivity-with-paramiko/</guid>
+      <description>When an issue such as &amp;ldquo;Timeout, waiting for priviledged escalation&amp;rdquo; happens
+Run the playbook as follows:
+ansible-playbook -c paramiko ansible/ansible-usermgr.yml -i &amp;quot;cool.example.com, &amp;quot; -vvv  suggested in https://github.com/ansible/ansible/issues/14426</description>
+    </item>
+    
+    <item>
+      <title>Rsync via Ssh</title>
+      <link>https://www.it-quicktasks.com/rsync-via-ssh/</link>
+      <pubDate>Thu, 25 Oct 2018 09:21:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/rsync-via-ssh/</guid>
+      <description>rsync -avz -e &amp;quot;ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null&amp;quot; \ --progress /var/www/html/example.com/docroot me@example.org:/var/www/html/example.org/  </description>
+    </item>
+    
+  </channel>
+</rss>

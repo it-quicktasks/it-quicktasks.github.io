@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dockerfile on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/dockerfile/</link>
+    <description>Recent content in dockerfile on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/dockerfile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using a Dockerfile</title>
+      <link>https://www.it-quicktasks.com/using-dockerfile/</link>
+      <pubDate>Tue, 24 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/using-dockerfile/</guid>
+      <description># Build an image using the Dockerfile at current location (specified by &#39;.&#39; at the end) # Example: docker build -t [name] . docker build -t my_mongodb .  To create a Dockerfile, see https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images</description>
+    </item>
+    
+    <item>
+      <title>Install PHP Module Inside Dockerfile</title>
+      <link>https://www.it-quicktasks.com/dockerfile-install-php-module/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/dockerfile-install-php-module/</guid>
+      <description>Add this to Dockerfile
+RUN docker-php-ext-install mysqli  See details in https://github.com/docker-library/php/issues/279</description>
+    </item>
+    
+  </channel>
+</rss>

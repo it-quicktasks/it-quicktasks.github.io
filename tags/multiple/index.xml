@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multiple on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/multiple/</link>
+    <description>Recent content in multiple on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/multiple/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ansible Multiple Conditions Using when ons Single Task.md</title>
+      <link>https://www.it-quicktasks.com/ansible-multiple-conditions-using-when/</link>
+      <pubDate>Wed, 11 Mar 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/ansible-multiple-conditions-using-when/</guid>
+      <description>There are a lot of ways on doing it. One of it is as follows:
+tasks: - name: &amp;quot;shut down CentOS 6 and Debian 7 systems&amp;quot; command: /sbin/shutdown -t now when: (ansible_facts[&#39;distribution&#39;] == &amp;quot;CentOS&amp;quot; and ansible_facts[&#39;distribution_major_version&#39;] == &amp;quot;6&amp;quot;) or (ansible_facts[&#39;distribution&#39;] == &amp;quot;Debian&amp;quot; and ansible_facts[&#39;distribution_major_version&#39;] == &amp;quot;7&amp;quot;)  Read further in Ansible Official Docs.</description>
+    </item>
+    
+  </channel>
+</rss>

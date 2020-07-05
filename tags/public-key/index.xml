@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>public-key on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/public-key/</link>
+    <description>Recent content in public-key on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2020 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/public-key/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Telling git To Use Specific Private Key</title>
+      <link>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</link>
+      <pubDate>Fri, 29 May 2020 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/telling-git-to-use-specific-private-key/</guid>
+      <description>Sometimes, you need to use specific keys. To do it, use ssh config, something like below in ~/.ssh/config
+host github.com HostName github.com IdentityFile ~/.ssh/id_rsa_github User git  See details in https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use</description>
+    </item>
+    
+  </channel>
+</rss>

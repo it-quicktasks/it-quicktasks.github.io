@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>user on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/user/</link>
+    <description>Recent content in user on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/user/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal User Blocked in D7</title>
+      <link>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-user-blocked-in-d7/</guid>
+      <description>How to reset user after being blocked (d7 only)?
+MySQL&amp;gt; delete from flood where identifier=&amp;lt;uid&amp;gt;;  To get the uid, search as follows:
+MySQL&amp;gt; select uid, name from users where name like &#39;%NameHere%&#39;\G;  Details in https://www.drupal.org/node/1023440</description>
+    </item>
+    
+    <item>
+      <title>Change drupal user credential</title>
+      <link>https://www.it-quicktasks.com/change-drupal-credential/</link>
+      <pubDate>Mon, 30 Mar 2020 00:14:45 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/change-drupal-credential/</guid>
+      <description>Go to drupal root, then:
+drush upwd --password=&amp;quot;newPassword_here&amp;quot; &amp;quot;the_user&amp;quot;  More info in https://www.drupal.org/node/44164</description>
+    </item>
+    
+    <item>
+      <title>Delete User</title>
+      <link>https://www.it-quicktasks.com/delete-user/</link>
+      <pubDate>Sun, 08 Apr 2018 23:17:11 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-user/</guid>
+      <description>DROP USER &#39;yourDBA&#39;@&#39;localhost&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Create DB with ACL</title>
+      <link>https://www.it-quicktasks.com/create-db-with-acl/</link>
+      <pubDate>Sun, 08 Apr 2018 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-db-with-acl/</guid>
+      <description>create database yourDB; CREATE USER &#39;yourDBA&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;yourPASS&#39;; GRANT ALL PRIVILEGES ON yourDB.* TO &#39;yourDBA&#39;@&#39;localhost&#39;; FLUSH PRIVILEGES;  </description>
+    </item>
+    
+  </channel>
+</rss>

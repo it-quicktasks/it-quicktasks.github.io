@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>package on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/package/</link>
+    <description>Recent content in package on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/package/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Several Packages in a Loop</title>
+      <link>https://www.it-quicktasks.com/install-several-packages-in-loop/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/install-several-packages-in-loop/</guid>
+      <description>Manual
+sudo yum install -y mod_php71w php71w-cli php71w-common php71w-gd php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-xml  In Ansible:
+- name: Install needed php7 packages yum: name={{ item }} state=present with_items: - mod_php71w - php71w-cli - php71w-common - php71w-gd - php71w-mbstring - php71w-mcrypt - php71w-mysqlnd - php71w-xml  </description>
+    </item>
+    
+  </channel>
+</rss>

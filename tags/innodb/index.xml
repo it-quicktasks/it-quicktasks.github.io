@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>innodb on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/innodb/</link>
+    <description>Recent content in innodb on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2019 23:15:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/innodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shrink Huge ibdata1</title>
+      <link>https://www.it-quicktasks.com/shrink-huge-ibdata1/</link>
+      <pubDate>Sun, 24 Nov 2019 23:15:37 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/shrink-huge-ibdata1/</guid>
+      <description>Best way is to make one file per table and not use default which baloons to a huge file and never shrinks when some tables are removed and unused. See https://www.thegeekstuff.com/2016/02/mysql-innodb-file-per-table</description>
+    </item>
+    
+    <item>
+      <title>[InnoDB] Fatal error: cannot allocate memory for the buffer pool</title>
+      <link>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</link>
+      <pubDate>Sat, 29 Dec 2018 09:47:00 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</guid>
+      <description>From /var/log/mariadb/mariadb.log, something like
+ 150515 12:10:45 InnoDB: Completed initialization of buffer pool 150515 12:10:45 InnoDB: Fatal error: cannot allocate memory for the buffer pool 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; init function returned error. 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; registration as a STORAGE ENGINE failed. 150515 12:10:45 [ERROR] Unknown/unsupported storage engine: InnoDB 150515 12:10:45 [ERROR] Aborting  Ensure to allocate 50% of max machine RAM. Assuming you have 2GB in the machine, you&amp;rsquo;ll need</description>
+    </item>
+    
+  </channel>
+</rss>

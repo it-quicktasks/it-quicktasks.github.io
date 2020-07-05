@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solr on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/solr/</link>
+    <description>Recent content in solr on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/solr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal Can&#39;t Connect to Local Solr Server</title>
+      <link>https://www.it-quicktasks.com/drupal-cant-connect-solr-server/</link>
+      <pubDate>Fri, 21 Feb 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drupal-cant-connect-solr-server/</guid>
+      <description>Solr is already up and accessible from browser and within the drupal server but when connected through proper drupal admin settings, it says cannot connect to server.
+Solution is to create solr core. See https://ismael.casimpan.com/quicktasks-solr/post/create-solr-core-with-config/ or https://ismael.casimpan.com/quicktasks-solr/post/creating-solr-core/ depending on your situation.</description>
+    </item>
+    
+    <item>
+      <title>Create Solr Core with Config</title>
+      <link>https://www.it-quicktasks.com/create-solr-core-with-config/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/create-solr-core-with-config/</guid>
+      <description>In the example below, &amp;ldquo;drupal_solr_conf&amp;rdquo; is in /var/www/sites/example.com
+sudo su solr cd /var/www/sites/example.com /opt/solr/bin/solr create_core -c upd_event -d drupal_solr_conf  </description>
+    </item>
+    
+    <item>
+      <title>Creating Solr Core</title>
+      <link>https://www.it-quicktasks.com/creating-solr-core/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/creating-solr-core/</guid>
+      <description>icasimpan@example.local:/opt/solr/bin$ sudo su solr -s /bin/bash solr@example.local:/opt/solr-6.6.2/bin$ /opt/solr/bin/solr create -c sample -p 8983 Copying configuration to new core instance directory: /var/solr/data/sample Creating new core &#39;sample&#39; using command: http://localhost:8983/solr/admin/cores?action=CREATE&amp;amp;name=cmoge&amp;amp;instanceDir=cmoge { &amp;quot;responseHeader&amp;quot;:{ &amp;quot;status&amp;quot;:0, &amp;quot;QTime&amp;quot;:686}, &amp;quot;core&amp;quot;:&amp;quot;cmoge&amp;quot;}  Then reload from the Web UI in https://example.local:8983/solr and you have the core running.</description>
+    </item>
+    
+    <item>
+      <title>Define Solr Core in settings.local.php</title>
+      <link>https://www.it-quicktasks.com/define-solr-core-in-settings/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/define-solr-core-in-settings/</guid>
+      <description>$config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_events&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_event&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_news&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_news&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_search_site&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_library&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;host&#39;] = &#39;68.193.132.102&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;port&#39;] = &#39;8983&#39;; $config[&#39;search_api.server.solr_publications&#39;][&#39;backend_config&#39;][&#39;connector_config&#39;][&#39;core&#39;] = &#39;upd_publication&#39;;  As seen above, there&amp;rsquo;s some config that hooks up drupal&amp;rsquo;s host/port to solr core.</description>
+    </item>
+    
+    <item>
+      <title>Reindex Solr in Drupal</title>
+      <link>https://www.it-quicktasks.com/reindex-solr-in-drupal/</link>
+      <pubDate>Wed, 25 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/reindex-solr-in-drupal/</guid>
+      <description>In Drupal Admin, do the following:
+Config &amp;gt; Search and Metadata &amp;gt; Search API
+Click on the index name (e.g. Events)</description>
+    </item>
+    
+    <item>
+      <title>Delete Solr Core</title>
+      <link>https://www.it-quicktasks.com/delete-solr-core/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/delete-solr-core/</guid>
+      <description>cd /opt/solr/bin ./solr delete -c &amp;lt;solr_core_name&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

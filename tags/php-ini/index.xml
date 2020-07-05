@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php-ini on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/php-ini/</link>
+    <description>Recent content in php-ini on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/php-ini/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do you know the php.ini used via CLI</title>
+      <link>https://www.it-quicktasks.com/php.ini-path-via-cli/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/php.ini-path-via-cli/</guid>
+      <description>&amp;lt;?php $inipath = php_ini_loaded_file(); if ($inipath) { echo &#39;Loaded php.ini: &#39; . $inipath; } else { echo &#39;A php.ini file is not loaded&#39;; } ?&amp;gt;  or
+[icasimpan!@example.org ~]$ php -i |grep php.ini Configuration File (php.ini) Path =&amp;gt; /etc Loaded Configuration File =&amp;gt; /etc/php.ini  But not that server and CLI used php.ini could be different. Details in https://stackoverflow.com/questions/14558150/how-to-know-which-php-ini-is-used</description>
+    </item>
+    
+    <item>
+      <title>Server used php.ini from CLI</title>
+      <link>https://www.it-quicktasks.com/server-php.ini-path/</link>
+      <pubDate>Sat, 28 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/server-php.ini-path/</guid>
+      <description>echo &#39;&amp;lt;?php phpinfo(); ?&amp;gt;&#39;|php  </description>
+    </item>
+    
+  </channel>
+</rss>

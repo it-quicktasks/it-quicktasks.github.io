@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>output on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/output/</link>
+    <description>Recent content in output on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 12:42:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/output/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>List Table Names Only for Shell Scripting Purposes</title>
+      <link>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</link>
+      <pubDate>Mon, 15 Oct 2018 12:42:34 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/list-table-names-only-for-shell-scripting-purposes/</guid>
+      <description>mysql -s --skip-column-names -ne &amp;quot;use DB_to_Use; show tables;&amp;quot;  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pid on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/pid/</link>
+    <description>Recent content in pid on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2020 23:11:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/pid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cannot write pid file</title>
+      <link>https://www.it-quicktasks.com/cannot-create-pid-file/</link>
+      <pubDate>Wed, 19 Feb 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/cannot-create-pid-file/</guid>
+      <description>MariaDB seems to have this issue and can&amp;rsquo;t start as shown in /var/log/mariadb/mariadb.log
+2020-02-19 15:18:49 0 [ERROR] mysqld: Can&#39;t create/write to file &#39;/var/run/mariadb/mariadb.pid&#39; (Errcode: 2 &amp;quot;No such file or directory&amp;quot;)  I was able to fix one instance of this issue by doing:
+sudo mkdir /var/run/mariadb sudo chown mysql.mysql /var/run/mariadb  Then afterwards, starting the mariadb service went fine.
+Some possible solutions in case my solution doesn&amp;rsquo;t work https://stackoverflow.com/questions/15408643/cant-connect-to-mysql-server-cant-create-write-the-pid-file</description>
+    </item>
+    
+  </channel>
+</rss>

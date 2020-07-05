@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>failure on IT Quicktasks</title>
+    <link>https://www.it-quicktasks.com/tags/failure/</link>
+    <description>Recent content in failure on IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 12:11:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.it-quicktasks.com/tags/failure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automysqlbackup Fails Due to Issues in Information_schema</title>
+      <link>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</link>
+      <pubDate>Mon, 15 Oct 2018 12:11:14 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/automysqlbackup-fails-due-to-issues-in-information_schema/</guid>
+      <description>In a machine &amp;lsquo;rh&amp;rsquo;, tested automysqlbackup cron job if it would work and got the issue below:
+[root@rh icasimpan]# /usr/local/bin/automysqlbackup /etc/automysqlbackup/rh.conf Parsed config file &amp;quot;/etc/automysqlbackup/automysqlbackup.conf&amp;quot; # Checking for permissions to write to folders: base folder /var/lib ... exists ... ok. backup folder /var/lib/automysqlbackup ... exists ... writable? yes. Proceeding. checking directory &amp;quot;/var/lib/automysqlbackup/daily&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/weekly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/monthly&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/latest&amp;quot; ... exists. checking directory &amp;quot;/var/lib/automysqlbackup/tmp&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>error: &#39;drush -fra -y&#39; Failed to Create Directory</title>
+      <link>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/drush-fra-failed-to-create-directory/</guid>
+      <description>bash-4.1$ /usr/local/bin/drush cc all ‘all’ cache was cleared. [success] bash-4.1$ /usr/local/bin/drush fra -y WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/ttfontdata” for print_pdf_mpdf. [error] WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/tmp” for print_pdf_mpdf. [error] The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.field_group. [ok] bash-4.1$ /usr/local/bin/drush fra -y The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.</description>
+    </item>
+    
+    <item>
+      <title>Getting Errors with Drush rr not Installed</title>
+      <link>https://www.it-quicktasks.com/getting-errors-with-drush-rr-not-installed/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://www.it-quicktasks.com/getting-errors-with-drush-rr-not-installed/</guid>
+      <description>drush @none dl registry_rebuild-7.x  See https://www.drupal.org/project/registry_rebuild or https://www.deeson.co.uk/labs/drush-registry-rebuild</description>
+    </item>
+    
+  </channel>
+</rss>
